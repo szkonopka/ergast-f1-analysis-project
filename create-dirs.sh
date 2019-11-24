@@ -7,3 +7,4 @@ hdfs dfs -mkdir Final_data Data_source New_batch_data New_incremental_data New_i
 
 echo "HDFS dir structure after structure creation"
 hdfs dfs -ls
+hdfs dfs -ls New_incremental_data
