@@ -36,7 +36,7 @@ CREATE TABLE IF NOT EXISTS ergast_results.results(
   grid int,
   driverId int,
   positionOrder int,
-  statusId,
+  statusId int,
   fastestLap int,
   fastestLatSpeed float,
   points int,
