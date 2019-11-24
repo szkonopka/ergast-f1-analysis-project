@@ -1,5 +1,8 @@
 #!/bin/sh
 
+echo "Clearing whole HDFS dir structure"
+hdfs dfs -rm -r "*"
+
 echo "Current HDFS dir structure"
 hdfs dfs -ls
 
