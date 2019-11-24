@@ -1,8 +1,10 @@
 set hive.vectorized.execution.enabled = true;
 set hive.vectorized.execution.reduce.enabled = true;
 set hive.execution.engine=tez;
+set hive.tez.java.opts="-server -Xmx512m -Djava.net.preferIPv4Stack=true";
+set hive.tez.container.size=512;
 
-CREATE TABLE IF NOT EXISTS driver_race(
+CREATE TABLE IF NOT EXISTS ergast_results.driver_race(
   driverRaceID int,
   driverName varchar(50),
   constructor varchar(20),
@@ -19,7 +21,7 @@ CREATE TABLE IF NOT EXISTS driver_race(
   raceSeasonID int
 ) STORED AS ORC;
 
-CREATE TABLE IF NOT EXISTS race_season(
+CREATE TABLE IF NOT EXISTS ergast_results.race_season(
   raceSeasonID int,
   year Date,
   circuit varchar(100),
