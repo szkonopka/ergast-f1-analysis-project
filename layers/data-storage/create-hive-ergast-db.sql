@@ -1,4 +1,3 @@
 CREATE DATABASE ergast_results;
-CREATE DATABASE ergast_origin;
 
 SHOW DATABASES;
