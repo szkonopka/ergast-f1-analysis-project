@@ -1,0 +1,1 @@
+25.11.2019 12:05: Pobranie pliku csv /home/f1db_csv/batch_data/driver.csv i zapisanie w HDFS jako New_batch_data/driver.csv

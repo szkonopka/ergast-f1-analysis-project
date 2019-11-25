@@ -1,0 +1,1 @@
+25.11.2019 12:08: Pobranie pliku json /home/f1db_csv/incremental_data/lapTimes.json i zapisanie w HDFS jako Incremental_data/lapTimes202019.json

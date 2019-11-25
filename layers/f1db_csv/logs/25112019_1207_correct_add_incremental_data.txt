@@ -1,0 +1,1 @@
+25.11.2019 12:07: Pobranie pliku json /home/f1db_csv/incremental_data/results.json i zapisanie w HDFS jako Incremental_data/results202019.json

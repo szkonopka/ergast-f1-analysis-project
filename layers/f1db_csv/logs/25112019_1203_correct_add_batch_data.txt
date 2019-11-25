@@ -1,0 +1,1 @@
+25.11.2019 12:03: Pobranie pliku csv /home/f1db_csv/batch_data/lapTimes.csv i zapisanie w HDFS jako New_batch_data/lapTimes.csv
