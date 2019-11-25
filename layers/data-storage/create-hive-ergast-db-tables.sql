@@ -5,26 +5,25 @@ set hive.tez.java.opts="-server -Xmx512m -Djava.net.preferIPv4Stack=true";
 set hive.tez.container.size=512;
 
 CREATE TABLE IF NOT EXISTS ergast_results.circuits(
-  circuitId int,
+  circuitId varchar(50),
   name varchar(100)
 ) STORED AS ORC;
 
 CREATE TABLE IF NOT EXISTS ergast_results.races(
   raceId int,
-  circuitId int,
-  year Date
+  circuitId varchar(50),
+  year int
 ) STORED AS ORC;
 
 CREATE TABLE IF NOT EXISTS ergast_results.lapTimes(
   raceId int,
-  driverId int,
+  driverId varchar(50),
   lap int,
   position int
 ) STORED AS ORC;
 
 CREATE TABLE IF NOT EXISTS ergast_results.drivers(
-  driverId int,
-  driverRef varchar(4),
+  driverId varchar(50),
   forename varchar(50),
   surname varchar(50),
   nationality varchar(20)
@@ -34,7 +33,7 @@ CREATE TABLE IF NOT EXISTS ergast_results.results(
   resultId int,
   raceId int,
   grid int,
-  driverId int,
+  driverId varchar(50),
   positionOrder int,
   statusId int,
   fastestLap int,
@@ -42,7 +41,7 @@ CREATE TABLE IF NOT EXISTS ergast_results.results(
   points int,
   laps int,
   rank int,
-  constructorId int,
+  constructorId varchar(50),
   time float
 ) STORED AS ORC;
 
@@ -52,8 +51,7 @@ CREATE TABLE IF NOT EXISTS ergast_results.status(
 ) STORED AS ORC;
 
 CREATE TABLE IF NOT EXISTS ergast_results.constructors(
-  constructorId int,
-  constructorRef varchar(10),
+  constructorId varchar(50),
   name varchar(50),
   nationality varchar(20)
 ) STORED AS ORC;
@@ -77,7 +75,7 @@ CREATE TABLE IF NOT EXISTS ergast_results.driver_race(
 
 CREATE TABLE IF NOT EXISTS ergast_results.race_season(
   raceSeasonID int,
-  year Date,
+  year int,
   circuit varchar(100),
   winnerDriverExperience int,
   gapWinnerDriver int,
