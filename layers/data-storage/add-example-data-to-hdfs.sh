@@ -10,17 +10,17 @@ sudo hdfs dfs -put /home/f1db_csv/batch_data/driver.csv New_batch_data
 sudo hdfs dfs -put /home/f1db_csv/batch_data/constructors.csv New_batch_data
 
 echo "Add incremental data"
-sudo hdfs dfs -put /home/f1db_csv/incremental_data/results202019.json Incremental_data/Results
-sudo hdfs dfs -put /home/f1db_csv/incremental_data/lapTimes202019.json Incremental_data
+sudo hdfs dfs -put /home/f1db_csv/incremental_data/results202019.json New_incremental_data/Results
+sudo hdfs dfs -put /home/f1db_csv/incremental_data/lapTimes202019.json New_incremental_data/Lap_times
 
 echo "Add data source"
 sudo hdfs dfs -put /home/f1db_csv/data_source/status.csv Data_source
 sudo hdfs dfs -put /home/f1db_csv/data_source/races.csv Data_source
 sudo hdfs dfs -put /home/f1db_csv/data_source/circuits.csv Data_source
-sudo hdfs dfs -put /home/f1db_csv/data_source/lapTimes.csv Data_source
+sudo hdfs dfs -put /home/f1db_csv/data_source/lap_times.csv Data_source
 sudo hdfs dfs -put /home/f1db_csv/data_source/results.csv Data_source
 sudo hdfs dfs -put /home/f1db_csv/data_source/driver.csv Data_source
-sudo hdfs dfs -put /home/f1db_csv/data_source/constructor.csv Data_source
+sudo hdfs dfs -put /home/f1db_csv/data_source/constructors.csv Data_source
 
 echo "Add final data"
 sudo hdfs dfs -put /home/f1db_csv/final_data/driver_race.csv Final_data
@@ -34,7 +34,6 @@ sudo hdfs dfs -put /home/f1db_csv/logs/25112019_1203_correct_add_batch_data.txt 
 sudo hdfs dfs -put /home/f1db_csv/logs/25112019_1204_correct_add_batch_data.txt Logs
 sudo hdfs dfs -put /home/f1db_csv/logs/25112019_1205_correct_add_batch_data.txt Logs
 sudo hdfs dfs -put /home/f1db_csv/logs/25112019_1206_correct_add_batch_data.txt Logs
-sudo hdfs dfs -put /home/f1db_csv/logs/25112019_1207_correct_add_batch_data.txt Logs
+sudo hdfs dfs -put /home/f1db_csv/logs/25112019_1207_correct_add_incremental_data.txt Logs
 sudo hdfs dfs -put /home/f1db_csv/logs/25112019_1208_correct_add_incremental_data.txt Logs
-sudo hdfs dfs -put /home/f1db_csv/logs/25112019_1209_correct_add_incremental_data.txt Logs
 sudo hdfs dfs -put /home/f1db_csv/logs/register.txt Logs
