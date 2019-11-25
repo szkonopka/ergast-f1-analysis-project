@@ -21,3 +21,25 @@ INSERT INTO TABLE lapTimes
 	(1, 'vettel', 1, 4), (1, 'vettel', 2, 4),(1, 'vettel', 3, 4),(1, 'vettel', 4, 4),(1, 'vettel', 5, 4),(1, 'vettel', 6, 3),(1, 'vettel', 7, 3),(1, 'vettel', 8, 3),(1, 'vettel', 9, 3),(1, 'vettel', 10, 3),(1, 'vettel', 11, 4),(1, 'vettel', 12, 4),(1, 'vettel', 13, 4),(1, 'vettel', 14, 4),(1, 'vettel', 15, 4),(1, 'vettel', 16, 4),(1, 'vettel', 17, 4),(1, 'vettel', 18, 4),(1, 'vettel', 19, 4),(1, 'vettel', 20, 4),(1, 'vettel', 21, 5),(1, 'vettel', 22, 5),(1, 'vettel', 23, 5),(1, 'vettel', 24, 5),(1, 'vettel', 25, 5),(1, 'vettel', 26, 5),(1, 'vettel', 27, 5),(1, 'vettel', 28, 5),(1, 'vettel', 29, 5),(1, 'vettel', 30, 5),
 	(1, 'max_verstappen', 1, 5), (1, 'max_verstappen', 2, 5),(1, 'max_verstappen', 3, 5),(1, 'max_verstappen', 4, 5),(1, 'max_verstappen', 5, 5),(1, 'max_verstappen', 6, 4),(1, 'max_verstappen', 7, 4),(1, 'max_verstappen', 8, 4),(1, 'max_verstappen', 9, 4),(1, 'max_verstappen', 10, 4),(1, 'max_verstappen', 11, 3),(1, 'max_verstappen', 12, 3),(1, 'max_verstappen', 13, 3),(1, 'max_verstappen', 14, 3),(1, 'max_verstappen', 15, 3),(1, 'max_verstappen', 16, 3),(1, 'max_verstappen', 17, 3),(1, 'max_verstappen', 18, 3),(1, 'max_verstappen', 19, 3),(1, 'max_verstappen', 20, 3),(1, 'max_verstappen', 21, 2),(1, 'max_verstappen', 22, 2),(1, 'max_verstappen', 23, 2),(1, 'max_verstappen', 24, 2),(1, 'max_verstappen', 25, 2),(1, 'max_verstappen', 26, 2),(1, 'max_verstappen', 27, 2),(1, 'max_verstappen', 28, 2),(1, 'max_verstappen', 29, 2),(1, 'max_verstappen', 30, 2),
 	(1, 'grosjean', 1, 6), (1, 'grosjean', 2, 6),(1, 'grosjean', 3, 6),(1, 'grosjean', 4, 6),(1, 'grosjean', 5, 6),(1, 'grosjean', 6, 6),(1, 'grosjean', 7, 6),(1, 'grosjean', 8, 6),(1, 'grosjean', 9, 6),(1, 'grosjean', 10, 6),(1, 'grosjean', 11, 6),(1, 'grosjean', 12, 6),(1, 'grosjean', 13, 6),(1, 'grosjean', 14, 6),(1, 'grosjean', 15, 6),(1, 'grosjean', 16, 6),(1, 'grosjean', 17, 6),(1, 'grosjean', 18, 6),(1, 'grosjean', 19, 6),(1, 'grosjean', 20, 6),(1, 'grosjean', 21, 6),(1, 'grosjean', 22, 6),(1, 'grosjean', 23,6),(1, 'grosjean', 24, 6),(1, 'grosjean', 25, 6),(1, 'grosjean', 26, 6),(1, 'grosjean', 27, 6),(1, 'grosjean', 28, 6),(1, 'grosjean', 29, 6),(1, 'grosjean', 30, 6);
+	
+INSERT INTO TABLE results
+	VALUES
+	(1,1,1,'kubica',1,1,2,218.3,25,30,1,6300),
+	(2,1,2,'rosberg',4,1,3,217.5,18,30,2,6305),
+	(3,1,3,'hamilton',3,1,1,216.7,15,30,3,6310),
+	(4,1,4,'vettel',5,1,4,215.4,13,30,4,6313),
+	(5,1,5,'max_verstappen',2,1,11,218.3,12,30,5,6317),
+	(6,1,6,'grosjean',6,1,29,214.3,11,30,14,6,6320);
+	
+INSERT INTO TABLE driver_race
+	VALUES
+	(1,'Robert Kubica','Williams',0,1,'Finished','Polish',91.34,218.3,6300,1,25,30,1),
+	(1,'Nico Rosberg','Mercedes',3,2,'Finished','German',91.66,217.3,6305,2,18,30,1),
+	(1,'Lewis Hamilton','Mercedes',2,3,'Finished','British',92.77,216.3,6310,3,15,30,1),
+	(1,'Sebastian Vettel','Ferrari',1,4,'Finished','German',91.94,215.3,6313,4,13,30,1),
+	(1,'Max Verstappen','Renault',2,5,'Finished','Dutch',91.34,218.3,6317,5,12,30,1),
+	(1,'Romain Grosjean','Haas',0,6,'Finished','French',92.74,214.3,6320,6,11,30,1);
+	
+INSERT INTO TABLE race_season
+	VALUES
+	(1,2019,'monaco',11,0,0);
