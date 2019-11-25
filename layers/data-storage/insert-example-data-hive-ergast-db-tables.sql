@@ -24,12 +24,12 @@ INSERT INTO TABLE lapTimes
 	
 INSERT INTO TABLE results
 	VALUES
-	(1,1,1,'kubica',1,1,2,218.3,25,30,1,6300),
-	(2,1,2,'rosberg',4,1,3,217.5,18,30,2,6305),
-	(3,1,3,'hamilton',3,1,1,216.7,15,30,3,6310),
-	(4,1,4,'vettel',5,1,4,215.4,13,30,4,6313),
-	(5,1,5,'max_verstappen',2,1,11,218.3,12,30,5,6317),
-	(6,1,6,'grosjean',6,1,29,214.3,11,30,14,6,6320);
+	(1,1,1,'kubica',1,1,2,218.3,25,30,1,'Williams',6300),
+	(2,1,2,'rosberg',4,1,3,217.5,18,30,2,'Mercedes',6305),
+	(3,1,3,'hamilton',3,1,1,216.7,15,30,3,'Mercedes',6310),
+	(4,1,4,'vettel',5,1,4,215.4,13,30,4,'Ferrari',6313),
+	(5,1,5,'max_verstappen',2,1,11,218.3,12,30,5,'Renault',6317),
+	(6,1,6,'grosjean',6,1,29,214.3,11,30,14,6,'Haas',6320);
 	
 INSERT INTO TABLE driver_race
 	VALUES
