@@ -10,3 +10,6 @@ INSERT INTO TABLE constructors
 	
 INSERT INTO TABLE races
 	VALUES (1, 'monaco', 2019), (2,'hockenheimring', 2019), (3,'bahrain',2019), (4,'monza',2019), (5,'suzuka',2019), (6,'sochi',2019), (7,'red_bull_ring',2019), (8,'hungaroring',2019), (9,'silverstone',2019), (10,'albert_park',2019);
+	
+INSERT INTO TABLE drivers
+	VALUES ('hamilton','Lewis','Hamilton','British'), ('rosberg','Nico','Rosberg','German'), ('raikkonen','Kimi','Raikkonen','Finnish'), ('kubica','Robert','Kubica','Polish'), ('vettel','Sebastian','Vettel','German'), ('max_verstappen','Max','Verstappen','Dutch'), ('grosjean','Romain','Grosjean','French'), ('stroll','Lance','Stroll','Canadian'), ('giovinazzi','Antonio','Giovinazzi','Italian'), ('leclerc','Charles','Leclerc','Monegasque'), ('norris','Lando','Norris','British'), ('russell','George','Russell','British'), ('albon','Alexander','Albon','Thai'), ('sainz','Carlos','Sainz','Spanish');
