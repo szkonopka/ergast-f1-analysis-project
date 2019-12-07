@@ -1,0 +1,5 @@
+hdfs dfs -rm /user/cloudera/New_batch_data/*
+
+hdfs dfs -ls /user/cloudera/New_batch_data
+
+cp -a /home/cloudera/ergast-repo/layers/f1db_csv/data_source/. /home/ergast/input_csv/
