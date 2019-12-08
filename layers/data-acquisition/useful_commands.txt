@@ -3,3 +3,10 @@ hdfs dfs -rm /user/cloudera/New_batch_data/*
 hdfs dfs -ls /user/cloudera/New_batch_data
 
 cp -a /home/cloudera/ergast-repo/layers/f1db_csv/data_source/. /home/ergast/input_csv/
+
+# Incremental data schedule
+crontab -e
+# Every week on Monday at 12:00
+0 12 * * 1 python3.7 /home/cloudera/ergast-f1-analysis-project/layers/data-acquisition/handle_api.py
+# 2 times per month
+0 12 1,15 * * python3.7 /home/cloudera/ergast-f1-analysis-project/layers/data-acquisition/handle_api.py
