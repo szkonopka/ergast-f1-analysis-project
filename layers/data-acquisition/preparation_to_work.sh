@@ -14,6 +14,8 @@ cp start_flume_agentID.sh /home/
 chmod +x /home/start_flume_agentBD.sh
 chmod +x /home/start_flume_agentID.sh
 
+hdfs dfs -copyFromLocal -f last_fetched_race.dist Logs/last_fetched_race
+
 # starts scripts must run in different terminals 
 
 # sample tests of the operation of the acquisition layer after run flume agents 
