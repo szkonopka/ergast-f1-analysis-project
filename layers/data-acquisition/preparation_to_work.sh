@@ -5,6 +5,8 @@
 # create spooling directory
 mkdir /home/ergast
 mkdir /home/ergast/input_files
+mkdir /home/ergast/entry
+mkdir /home/ergast/trash
 
 cp flumeAgentBDConfig.properties /home/
 cp flumeAgentIDConfig.properties /home/

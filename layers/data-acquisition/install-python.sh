@@ -12,6 +12,7 @@ sudo make altinstall
 
 sudo python3.6 -m pip install --upgrade pip
 python3.6 -m pip install --user hdfs
+pyhton3.6 -m pip install --user pandas
 
 python3.6 -m pip freeze
 python3.6 --version
