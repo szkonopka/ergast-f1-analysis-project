@@ -3,19 +3,9 @@ import json
 import logging
 import sys
 import os
+import prepare_logger
 
-# Configure logging
-logger = logging.getLogger('ergast_handle_api')
-logger.setLevel(logging.DEBUG)
-fh = logging.FileHandler('ergast_handle_api.log')
-fh.setLevel(logging.INFO)
-ch = logging.StreamHandler()
-ch.setLevel(logging.DEBUG)
-formatter = logging.Formatter('%(asctime)s: %(message)s')
-fh.setFormatter(formatter)
-ch.setFormatter(formatter)
-logger.addHandler(fh)
-logger.addHandler(ch)
+logger = prepare_logger.get_configured('ergast_handle_api', 'ergast_handle_api.log')
 
 # Constants
 ENDPOINT = 'http://ergast.com/api/f1/{}/{}/{}.json?limit=10000&offset=0'
