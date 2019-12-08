@@ -46,10 +46,10 @@ try:
 		j = fetch('results', last_year+1, 1)
 		total = int(j['MRData']['total'])
 		if total == 0:
-			logger.info('There is no new race')
+			logger.info(f'There is no new race. You asked for a round {last_round+1} in {last_year} and round 1 in {last_year+1}.')
 			sys.exit()
 		else:
-			current_year = last_year
+			current_year = last_year+1
 			current_round = 1
 	else:
 		current_year = last_year
@@ -104,11 +104,11 @@ try:
 	filename = os.path.join(FLUME_INPUT_DIR, f'results_{current_round}_{current_year}.json')
 	with open(filename, 'w+') as f:
 		json.dump(results, f)
-	logger.info(f'Successfuly saved results to {filename}')
+	logger.info(f'Successfuly saved results of round {current_round} in {current_year} to {filename}')
 
 	filename = os.path.join(FLUME_INPUT_DIR, f'laps_{current_round}_{current_year}.json')
 	with open(filename, 'w+') as f:
 		json.dump(laps, f)
-	logger.info(f'Successfuly saved laps to {filename}')
+	logger.info(f'Successfuly saved laps of round {current_round} in {current_year} to {filename}')
 except Exception as e:
 	logger.error(f'Cannot save valid JSON to Flume input dir: {e}')
