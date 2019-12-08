@@ -5,7 +5,6 @@ import os
 import time
 from hdfs import InsecureClient
 
-
 # Constants
 #ERGAST_ENDPOINT = 'http://ergast.com/api/f1/{}/{}/{}.json?limit=10000&offset=0'
 ERGAST_ENDPOINT = 'file:/home/cloudera/ergast-f1-analysis-project/layers/data-acquisition/mock-endpoint/{}/{}/{}.json'
