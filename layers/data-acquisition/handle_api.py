@@ -107,11 +107,11 @@ except Exception as e:
 try:
 	assert 'MRData' in laps 
 	assert 'RaceTable' in laps['MRData']
-	assert int(laps['MRData']['total']) > 0
-	assert len(laps['MRData']['RaceTable']['Races']) == 1
-	assert len(laps['MRData']['RaceTable']['Races'][0]['Laps']) > 0
-	assert 'driverId' in laps['MRData']['RaceTable']['Races'][0]['Laps'][0]['Timings'][0]
-	assert 'position' in laps['MRData']['RaceTable']['Races'][0]['Laps'][0]['Timings'][0]
+	if int(laps['MRData']['total']) > 0:
+		assert len(laps['MRData']['RaceTable']['Races']) == 1
+		assert len(laps['MRData']['RaceTable']['Races'][0]['Laps']) > 0
+		assert 'driverId' in laps['MRData']['RaceTable']['Races'][0]['Laps'][0]['Timings'][0]
+		assert 'position' in laps['MRData']['RaceTable']['Races'][0]['Laps'][0]['Timings'][0]
 	print(f'Laps validated successfully')
 except Exception as e:
 	log(f'Invalid JSON received from API (laps, {current_year}, {current_round}): {e}')
