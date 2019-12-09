@@ -5,6 +5,7 @@ import os
 import posixpath as path
 import pandas as pd
 import time
+from hdfs import InsecureClient
 
 ENTRY_CSV_DIR = '/home/ergast/entry'
 TRASH_CSV_DIR = '/home/ergast/trash'
