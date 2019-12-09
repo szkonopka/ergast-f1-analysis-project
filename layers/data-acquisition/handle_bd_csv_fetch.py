@@ -54,18 +54,20 @@ csv_files = []
 
 log("Step 2 - fetch only csv files, move non-csv files to trash")
 for file in files:
-    if file[-4:] != CSV_EXT:
-        log("File {} is non-csv file, move it to trash".format(file))
-        move_file_to_dir(file, ENTRY_CSV_DIR, TRASH_CSV_DIR)
-    else:
-        log("File {} is csv file, it will be validate".format(file))
+    try:
+        assert file[-4:] == CSV_EXT
+        log("File {} is a csv file, it will be validated".format(file))
         csv_files.append(file)
+    except Exception as e:
+        log("File {} is a non-csv file, move it to trash, {}".format(file, e))
+        move_file_to_dir(file, ENTRY_CSV_DIR, TRASH_CSV_DIR)
 
 log("Step 3 - validate all fetched csv files")
 for file in csv_files:
-    if (validate_csv(file)):
-        log("File {} has proper column size".format(file))
+    try:
+        assert validate_csv(file)
+        log("File {} has a proper column size".format(file))
         move_file_to_dir(file, ENTRY_CSV_DIR, INPUT_FILES_DIR)
-    else:
-        log("File {} has not proper column size, move it to {}".format(file))
+    except Exception as e:
+        log("File {} has not a proper column size, move it to trash, {}".format(file, e))
         move_file_to_dir(file, ENTRY_CSV_DIR, TRASH_CSV_DIR)
