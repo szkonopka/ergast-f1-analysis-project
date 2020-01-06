@@ -26,7 +26,7 @@ INSERT INTO TABLE partial_numberaccident
     SELECT 
         res.raceid AS raceid,
         SUM(IF(s.status IN (
-            'Accident', 'Disqualified', 'Collision', 'Engine', 
+            'Accident', 'Collision', 'Engine', 
             'Gearbox', 'Transmission', 'Clutch', 'Electrics', 
             'Hydraulics', 'Electrical', 'Spun off', 'Radiator', 
             'Suspension', 'Differential', 'Overheating', 'Mechanical', 
