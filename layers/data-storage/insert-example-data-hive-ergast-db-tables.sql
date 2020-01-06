@@ -30,16 +30,3 @@ INSERT INTO TABLE results
 	(4,1,4,'vettel',5,1,4,215.4,13,30,4,'Ferrari',6313),
 	(5,1,5,'max_verstappen',2,1,11,218.3,12,30,5,'Renault',6317),
 	(6,1,6,'grosjean',6,1,29,214.3,11,30,14,6,'Haas',6320);
-	
-INSERT INTO TABLE driver_race
-	VALUES
-	(1,'Robert Kubica','Williams',0,1,'Finished','Polish',91.34,218.3,6300,1,25,30,1),
-	(1,'Nico Rosberg','Mercedes',3,2,'Finished','German',91.66,217.3,6305,2,18,30,1),
-	(1,'Lewis Hamilton','Mercedes',2,3,'Finished','British',92.77,216.3,6310,3,15,30,1),
-	(1,'Sebastian Vettel','Ferrari',1,4,'Finished','German',91.94,215.3,6313,4,13,30,1),
-	(1,'Max Verstappen','Renault',2,5,'Finished','Dutch',91.34,218.3,6317,5,12,30,1),
-	(1,'Romain Grosjean','Haas',0,6,'Finished','French',92.74,214.3,6320,6,11,30,1);
-	
-INSERT INTO TABLE race_season
-	VALUES
-	(1,2019,'monaco',11,0,0);

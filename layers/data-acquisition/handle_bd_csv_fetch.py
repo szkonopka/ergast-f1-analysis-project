@@ -34,7 +34,7 @@ def log(message):
 EXPECTED_FILES_COL_LENGTH = {
     'circuits': 9,
     'constructors': 5,
-    'driver': 5,
+    'driver': 9,
     'lap_times': 6,
     'races': 8,
     'results': 18,
@@ -43,7 +43,11 @@ EXPECTED_FILES_COL_LENGTH = {
 
 def validate_csv(file):
 	df = pd.read_csv(path.join(ENTRY_CSV_DIR, file), header=None)
-	return len(df.columns) == EXPECTED_FILES_COL_LENGTH[file[:-4]]
+	if len(df.columns) == EXPECTED_FILES_COL_LENGTH[file[:-4]]:
+		return True
+	else:
+		log("Expected {} column size, but it is {}".format(EXPECTED_FILES_COL_LENGTH[file[:-4]], len(df.columns)))
+		return False
 
 def move_file_to_dir(file, source_dir_path, target_dir_path):
 	log("Send file {} from {} to {}".format(file, source_dir_path, target_dir_path))
