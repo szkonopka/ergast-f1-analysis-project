@@ -1,0 +1,19 @@
+Uruchamianie jar-ow 
+
+Na ten moment dziala lokalnie czyli csv powinny byc w folderze batch_data/ a wyniki trafiaja do folderu outputs
+
+
+spark-submit --class Test --master local circuitsTransform.jar batch_data/circuits.csv outputs/circuits.csv 
+
+spark-submit --class Test --master local constructorsTransform.jar batch_data/constructors.csv outputs/constructors.csv 
+
+spark-submit --class Test --master local lapTimesTransform.jar batch_data/lapTimes.csv batch_data/races.csv batch_data/driver.csv outputs/lapTimes.csv 
+
+spark-submit --class Test --master local racesTransform.jar batch_data/races.csv batch_data/circuits.csv outputs/races.csv 
+
+spark-submit --class Test --master local resultsTransform.jar batch_data/results.csv batch_data/races.csv batch_data/driver.csv batch_data/constructors.csv outputs/results.csv 
+
+spark-submit --class Test --master local statusTransform.jar batch_data/status.csv outputs/status.csv 
+
+spark-submit --class Test --master local driverTransform.jar batch_data/driver.csv outputs/drivers.csv 
+

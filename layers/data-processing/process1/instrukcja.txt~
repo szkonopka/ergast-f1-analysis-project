@@ -1,0 +1,4 @@
+Uruchamianie jar-ow 
+
+spark-submit --class Test --master local circuitsTransform.jar batch_data/circuits.csv outputs/output9.csv 
+
