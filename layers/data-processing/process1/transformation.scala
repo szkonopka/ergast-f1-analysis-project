@@ -1,31 +1,23 @@
 import org.apache.spark.SparkContext._ 
 import org.apache.spark.{SparkConf, SparkContext}
 
-object Test {  
-	def bigDecimal_standarization (value: String) : BigDecimal ={
-	   if(value == "\\N" || value == "\\n")
-		return BigDecimal(0)
-	   else 
-		return BigDecimal(value)
-	}
+object Transformation {  
 	def time_standarization (value: String) : Double = {
 	   if(value == "\\N" || value == "\\n")
 		return 0.toDouble
 	   else 
 		return value.toInt/1000.toDouble
 	}
-	def fastestTime_standarization (value: String) : String = {
-	   if(value == "\\N" || value == "\\n")
-		return "0"
-	   else 
-		return value
+	def removeQuotes(value: String): String ={
+	    return value.replaceAll("\"", "")
 	}
 	def fastestTime_standarization (value:String):Double  = {
-	  if(value == "\\N" || value == "\\n")
+	  val newValue = removeQuotes(value)
+	  if(newValue == "\\N" || newValue == "\\n")
 		return 0.toDouble
 	  
-	  var time = value
-	  if(value.startsWith("+"))
+	  var time = newValue
+	  if(newValue.startsWith("+"))
 		time = value.substring(1)
 	  
 	  val firstSplit = time.split(":")
@@ -34,7 +26,10 @@ object Test {
 		val secondSplit = firstSplit(1).split("\\.")
 		val seconds = secondSplit(0)
 		var miliseconds = 0
-		if(secondSplit.length > 1) miliseconds += secondSplit(1).toInt
+		if(secondSplit.length > 1){
+		  println(secondSplit(1))
+		  miliseconds += secondSplit(1).toInt
+		}	
 		return minutes.toInt * 60 + seconds.toInt + miliseconds/1000.toDouble
 	  }else{
 		val secondSplit = firstSplit(0).split("\\.")
@@ -46,17 +41,18 @@ object Test {
 	}
 
 	def speed_standarization (value:String):Double  = {
-	  if(value == "\\N" || value == "\\n")
+	  val newValue = removeQuotes(value)
+	  if(newValue == "\\N" || newValue == "\\n")
 		return 0.toDouble
-	  return value.toDouble
+	  return newValue.toDouble
 	}
 	def main(args: Array[String]) {    
-		val conf = new SparkConf().setAppName("Test")    
+		val conf = new SparkConf().setAppName("Transformation")    
 		val sc = new SparkContext(conf)
 
 
 		val races = sc.textFile(args(1))      
-				.map(_.split(";"))    
+				.map(_.split(","))    
 				.map(rec => (rec(0).toInt, (rec(2).toInt + rec(1).toInt * 100).toString)) 
 
 		val drivers = sc.textFile(args(2))      
@@ -64,7 +60,7 @@ object Test {
 			.map(rec => (rec(0).toInt, rec(1)))  
 
 		val constructors = sc.textFile(args(3))      
-			.map(_.split(";"))    
+			.map(_.split(","))    
 			.map(rec => (rec(0).toInt, rec(1))) 
 
 		val manipulated_races = races.keyBy(t => t._1)
@@ -86,12 +82,12 @@ object Test {
 			.map(t => (t._2._1._1, t._2._1._2, t._2._2._2, t._2._1._4.toInt, t._2._1._5, t._2._1._6, t._2._1._7, t._2._1._8, t._2._1._9, t._2._1._10, t._2._1._11, t._2._1._12))
 			.keyBy(t => t._4)
 			.join(manipulated_constructors)
-			.map(t => t._2._1._1 + ";" + t._2._1._2 + ";" + t._2._1._5 + ";" + t._2._1._6 + ";" + t._2._1._7 + ";" + t._2._1._8 + ";" + fastestTime_standarization(t._2._1._9.toString) + ";" + speed_standarization(t._2._1._10) + ";" + t._2._1._11 + ";" + time_standarization(t._2._1._12.toString) + ";" + t._2._1._3 + ";" + t._2._2._2)
+			.map(t => t._2._1._1 + "," + t._2._1._2 + "," + t._2._1._5 + "," + t._2._1._6 + "," + t._2._1._7 + "," + t._2._1._8 + "," + fastestTime_standarization(t._2._1._9.toString) + "," + speed_standarization(t._2._1._10) + "," + t._2._1._11 + "," + time_standarization(t._2._1._12.toString) + "," + t._2._1._3 + "," + t._2._2._2)
 			.saveAsTextFile(args(4))
 
 		/* Lap times
 		val races = sc.textFile(args(1))      
-				.map(_.split(";"))    
+				.map(_.split(","))    
 				.map(rec => (rec(0).toInt, (rec(2).toInt + rec(1).toInt * 100).toString)) 
 
 		val drivers = sc.textFile(args(2))      
@@ -112,7 +108,7 @@ object Test {
 			.map(t => (t._2._2._2, t._2._1._2.toInt, t._2._1._3, t._2._1._4))
 			.keyBy(t => t._2)
 			.join(manipulated_drivers)
-			.map(t => t._2._1._1 + ";" + t._2._1._3 + ";" + t._2._2._2 + ";" + t._2._1._4)
+			.map(t => t._2._1._1 + "," + t._2._1._3 + "," + t._2._2._2 + "," + t._2._1._4)
 			.saveAsTextFile(args(3))*/
 
 		/* Races
@@ -121,7 +117,7 @@ object Test {
 					.map(rec => (rec(0).toInt, rec(1))) 
 
 		val races = sc.textFile(args(0))      
-				.map(_.split(";"))    
+				.map(_.split(","))    
 				.map(rec => ((rec(2).toInt + rec(1).toInt * 100).toString, rec(1), rec(3).toInt)) 
 
 		val manipulated_circuits = circuits.keyBy(t => t._1)
@@ -129,31 +125,31 @@ object Test {
 
 		manipulated_races
 			.join(manipulated_circuits)
-			.map(t => t._2._1._1 + ";" + t._2._1._2 + ";" + t._2._2._2)
+			.map(t => t._2._1._1 + "," + t._2._1._2 + "," + t._2._2._2)
 			.saveAsTextFile(args(2))*/
 
 		/* Status
 		sc.textFile(args(0))      
 			.map(_.split(","))    
-			.map(rec => if (rec(1).contains("Laps")) rec(0) + ";" + "Finished" else rec(0) + ";" + rec(1))     
+			.map(rec => if (rec(1).contains("Laps")) rec(0) + "," + "Finished" else rec(0) + "," + rec(1))     
 			.saveAsTextFile(args(1))*/
 
 		/* Circuits
 		sc.textFile(args(0))      
 			.map(_.split(","))    
-			.map(rec => rec(1) + ";" + rec(2))     
+			.map(rec => rec(1) + "," + rec(2))     
 			.saveAsTextFile(args(1))*/
 
 		/* Drivers
 		sc.textFile(args(0))      
 			.map(_.split(","))    
-			.map(rec => rec(1) + ";" + rec(4) + ";" + rec(5) + ";" + rec(7))     
+			.map(rec => rec(1) + "," + rec(4) + "," + rec(5) + "," + rec(7))     
 			.saveAsTextFile(args(1))*/
 
 		/* Constructors
 		sc.textFile(args(0))      
-			.map(_.split(";"))    
-			.map(rec => rec(1) + ";" + rec(2) + ";" + rec(3))     
+			.map(_.split(","))    
+			.map(rec => rec(1) + "," + rec(2) + "," + rec(3))     
 			.saveAsTextFile(args(1))*/
 
 		/*sc.textFile(args(0))      
