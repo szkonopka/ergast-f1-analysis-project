@@ -1,10 +1,21 @@
 --
--- Initialize tables
+-- Initialize final tables
 --
 
 set hive.execution.engine=tez;
 
--- Result table
+
+CREATE TABLE IF NOT EXISTS race_season(
+  raceSeasonID int,
+  year int,
+  circuit varchar(100),
+  winnerDriverExperience int,
+  gapWinnerDriver int,
+  numberAccident int
+) STORED AS ORC;
+
+TRUNCATE TABLE race_season;
+
 
 CREATE TABLE IF NOT EXISTS driver_race(
   driverRaceID int,
@@ -23,12 +34,3 @@ CREATE TABLE IF NOT EXISTS driver_race(
 ) STORED AS ORC;
 
 TRUNCATE TABLE driver_race;
-
--- Partial (helper) table
-
-CREATE TABLE IF NOT EXISTS partial_overtakecount(
-    driverraceid int,
-    overtakecount int
-);
-TRUNCATE TABLE partial_overtakecount;
-
