@@ -14,7 +14,7 @@ INSERT INTO TABLE ergast_results.circuits SELECT * FROM ergast_results.circuits_
 -- Load races.csv to temporary races_csv table with proper config, then to original races table
 
 CREATE EXTERNAL TABLE IF NOT EXISTS ergast_results.races_csv
-(raceId int, circuitId varchar(50), year int)
+(raceId int, year int, circuitId varchar(50))
 ROW FORMAT DELIMITED
 FIELDS TERMINATED BY ','
 STORED AS TEXTFILE;
@@ -25,12 +25,12 @@ INSERT INTO TABLE ergast_results.races SELECT * FROM ergast_results.races_csv;
 -- Load lapTimes.csv to temporary lapTimes_csv table with proper config, then to original lapTimes table
 
 CREATE EXTERNAL TABLE IF NOT EXISTS ergast_results.lapTimes_csv
-(raceId int, driverId varchar(50), lap int, position int)
+(raceId int, lap int, driverId varchar(50), position int)
 ROW FORMAT DELIMITED
 FIELDS TERMINATED BY ','
 STORED AS TEXTFILE;
 
-LOAD DATA INPATH '/user/cloudera/Data_source/lapTimes.csv' INTO TABLE ergast_results.lapTimes_csv;
+LOAD DATA INPATH '/user/cloudera/Data_source/lap_times.csv' INTO TABLE ergast_results.lapTimes_csv;
 INSERT INTO TABLE ergast_results.lapTimes SELECT * FROM ergast_results.lapTimes_csv;
 
 -- Load drivers.csv to temporary drivers_csv table with proper config, then to original drivers table
@@ -41,14 +41,14 @@ ROW FORMAT DELIMITED
 FIELDS TERMINATED BY ','
 STORED AS TEXTFILE;
 
-LOAD DATA INPATH '/user/cloudera/Data_source/drivers.csv' INTO TABLE ergast_results.drivers_csv;
+LOAD DATA INPATH '/user/cloudera/Data_source/driver.csv' INTO TABLE ergast_results.drivers_csv;
 INSERT INTO TABLE ergast_results.drivers SELECT * FROM ergast_results.drivers_csv;
 
 -- Load results.csv to temporary results_csv table with proper config, then to original results table
 
 CREATE EXTERNAL TABLE IF NOT EXISTS ergast_results.results_csv
-(resultId int, raceId int, grid int, driverId varchar(50), positionOrder int, statusId int, 
- fastestLap int, fastestLatSpeed float, points int, laps int, rank int, constructorId varchar(50), time float)
+(resultId int, raceId int, grid int, positionOrder int, statusId int, 
+ points int, fastestLap float, fastestLapSpeed float, laps int, time float, driverId varchar(50), constructorId varchar(50))
 ROW FORMAT DELIMITED
 FIELDS TERMINATED BY ','
 STORED AS TEXTFILE;
