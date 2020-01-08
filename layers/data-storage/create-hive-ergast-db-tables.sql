@@ -11,14 +11,14 @@ CREATE TABLE IF NOT EXISTS ergast_results.circuits(
 
 CREATE TABLE IF NOT EXISTS ergast_results.races(
   raceId int,
+  year int,
   circuitId varchar(50),
-  year int
 ) STORED AS ORC;
 
 CREATE TABLE IF NOT EXISTS ergast_results.lapTimes(
   raceId int,
-  driverId varchar(50),
   lap int,
+  driverId varchar(50),
   position int
 ) STORED AS ORC;
 
@@ -33,16 +33,15 @@ CREATE TABLE IF NOT EXISTS ergast_results.results(
   resultId int,
   raceId int,
   grid int,
-  driverId varchar(50),
   positionOrder int,
   statusId int,
-  fastestLap int,
-  fastestLatSpeed float,
   points int,
+  fastestLap float,
+  fastestLatSpeed float,
   laps int,
-  rank int,
-  constructorId varchar(50),
-  time float
+  time float,
+  driverId varchar(50),
+  constructorId varchar(50)
 ) STORED AS ORC;
 
 CREATE TABLE IF NOT EXISTS ergast_results.status(
