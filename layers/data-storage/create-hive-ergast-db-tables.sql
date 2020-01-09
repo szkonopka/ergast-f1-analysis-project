@@ -12,7 +12,7 @@ CREATE TABLE IF NOT EXISTS ergast_results.circuits(
 CREATE TABLE IF NOT EXISTS ergast_results.races(
   raceId int,
   year int,
-  circuitId varchar(50),
+  circuitId varchar(50)
 ) STORED AS ORC;
 
 CREATE TABLE IF NOT EXISTS ergast_results.lapTimes(
