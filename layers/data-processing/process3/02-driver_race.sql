@@ -7,7 +7,7 @@ set hive.auto.convert.join=false;
 
 CREATE TABLE IF NOT EXISTS helper_lap_positions(
     raceid int,
-    driverid int,
+    driverid varchar(50),
     lap int,
     position int
 );
@@ -16,7 +16,7 @@ TRUNCATE TABLE helper_lap_positions;
 
 CREATE TABLE IF NOT EXISTS helper_overtake_counts(
     raceid int,
-    driverid int,
+    driverid varchar(50),
     overtake_count int
 );
 
@@ -51,22 +51,23 @@ INSERT INTO TABLE driver_race
     SELECT
         res.resultid AS driverRaceID,
         CONCAT(d.forename, ' ', d.surname) AS driverName,
-        res.constructorid AS constructor,
-        oc.overtake_count AS overtakeCount,
-        res.positionorder AS positionOrder,
-        s.status AS status,
-        d.nationality AS nationality,
-        res.fastestlap AS fastestLapTime,
-        res.fastestlatspeed AS fastestLapSpeed,
-        res.time AS time,
-        res.points AS points,
-        res.laps AS laps,
+        MAX(res.constructorid) AS constructor,
+        MAX(oc.overtake_count) AS overtakeCount,
+        MAX(res.positionorder) AS positionOrder,
+        MAX(s.status) AS status,
+        MAX(d.nationality) AS nationality,
+        MAX(res.fastestlap) AS fastestLapTime,
+        MAX(res.fastestlatspeed) AS fastestLapSpeed,
+        MAX(res.time) AS time,
+        MAX(res.points) AS points,
+        MAX(res.laps) AS laps,
         rs.raceseasonid AS raceSeasonID
     FROM results res
-    LEFT JOIN drivers d ON res.driverid = d.driverid
-    LEFT JOIN status s ON res.statusid = s.statusid
-    LEFT JOIN helper_overtake_counts oc ON res.driverid = oc.driverid AND res.raceid = oc.raceid
-    LEFT JOIN race_season rs ON res.raceid = rs.raceseasonid;
+    JOIN drivers d ON res.driverid = d.driverid
+    JOIN status s ON res.statusid = s.statusid
+    JOIN helper_overtake_counts oc ON res.driverid = oc.driverid AND res.raceid = oc.raceid
+    JOIN race_season rs ON res.raceid = rs.raceseasonid
+    GROUP BY res.resultid, CONCAT(d.forename, ' ', d.surname), rs.raceseasonid;
 
 --
 -- Clean up helper tables
