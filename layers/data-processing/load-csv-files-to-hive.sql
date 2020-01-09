@@ -18,7 +18,7 @@ FROM ergast_results.circuits_csv st
 WHERE NOT EXISTS (SELECT 1
     FROM ergast_results.circuits tt
     WHERE tt.circuitid = st.circuitid
-    AND tt.name = st.name)
+    AND tt.name = st.name);
 
 -- Load races.csv to temporary races_csv table with proper config, then to original races table
 
@@ -67,8 +67,11 @@ WHERE NOT EXISTS (SELECT 1
 
 CREATE EXTERNAL TABLE IF NOT EXISTS ergast_results.drivers_csv
 (driverId varchar(50), forename varchar(50), surname varchar(50), nationality varchar(20))
-ROW FORMAT DELIMITED
-FIELDS TERMINATED BY ','
+ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
+WITH SERDEPROPERTIES (
+   "separatorChar" = ",",
+   "quoteChar"     = "\""
+)
 STORED AS TEXTFILE;
 
 LOAD DATA INPATH '/user/cloudera/Data_source/driver.csv' INTO TABLE ergast_results.drivers_csv;
@@ -132,7 +135,7 @@ WHERE NOT EXISTS (SELECT 1
 
 -- Load constructors.csv to temporary constructors_csv table with proper config, then to original constructors table
 
-CREATE EXTERNAL TABLE IF NOT EXISTS ergast_results.constructors 
+CREATE EXTERNAL TABLE IF NOT EXISTS ergast_results.constructors_csv 
 (constructorId varchar(50), name varchar(50), nationality varchar(20))
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES (
