@@ -1,5 +1,6 @@
 import org.apache.spark.{SparkConf, SparkContext}
 import org.apache.spark.sql.SQLContext
+import org.apache.spark.SparkContext._ 
 
 object ProcessingTarget extends Enumeration {
   type ProcessingTarget = Value
@@ -10,7 +11,7 @@ object TransformationJson {
   val NEW_INCREMENTAL_DATA_DIR = "hdfs://quickstart.cloudera:8020/user/cloudera/New_incremental_data/"
   val DATA_SOURCE_DIR = "hdfs://quickstart.cloudera:8020/user/cloudera/Data_source/status/"
 
-  def main(args: Array[String]): Unit = {
+  def main(args: Array[String]) {
     println("######## JSON TRANSFORMATION ########")
    
     val filename = args(0)
@@ -35,14 +36,14 @@ object TransformationJson {
   def resultsTransformation(target: String, sqlContext: SQLContext, sc: SparkContext): Unit = {
     println("Processing... " + NEW_INCREMENTAL_DATA_DIR + target)
     val path: String = NEW_INCREMENTAL_DATA_DIR + target
-    val jsonContent = sqlContext.read.json(path)
+    val jsonContent = sqlContext.read.option("multiline",true).json(path)
     println(jsonContent)
   }
 
   def lapsTransformation(target: String, sqlContext: SQLContext, sc: SparkContext): Unit = {
     println("Processing..." + NEW_INCREMENTAL_DATA_DIR + target)
     val path: String = NEW_INCREMENTAL_DATA_DIR + target
-    val jsonContent = sqlContext.read.json(path)
+    val jsonContent = sqlContext.read.option("multiline",true).json(path)
     println(jsonContent)
   }
 }
