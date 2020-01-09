@@ -1,1015 +1,1015 @@
-rs.raceseasonid,rs.year,rs.circuit,rs.winnerdriverexperience,rs.gapwinnerdriver,rs.numberaccident
-201917,2019,Suzuka Circuit,5,2,0
-201916,2019,Sochi Autodrom,81,1,4
-201915,2019,Marina Bay Street Circuit,52,2,12
-201914,2019,Autodromo Nazionale di Monza,1,0,8
-201913,2019,Circuit de Spa-Francorchamps,0,0,8
-201912,2019,Hungaroring,80,2,0
-201911,2019,Hockenheimring,6,1,20
-201910,2019,Silverstone Circuit,79,1,12
-201909,2019,Red Bull Ring,5,1,0
-201908,2019,Circuit Paul Ricard,78,0,0
-201907,2019,Circuit Gilles Villeneuve,77,1,4
-201906,2019,Circuit de Monaco,76,0,4
-201905,2019,Circuit de Barcelona-Catalunya,75,1,8
-201904,2019,Baku City Circuit,4,0,8
-201903,2019,Shanghai International Circuit,74,1,8
-201902,2019,Bahrain International Circuit,73,2,4
-201901,2019,Albert Park Grand Prix Circuit,3,1,4
-201821,2018,Yas Marina Circuit,72,0,8
-201820,2018,Autódromo José Carlos Pace,71,0,8
-201819,2018,Autódromo Hermanos Rodríguez,4,1,12
-201818,2018,Circuit of the Americas,20,1,4
-201817,2018,Suzuka Circuit,70,0,8
-201816,2018,Sochi Autodrom,69,1,0
-201815,2018,Marina Bay Street Circuit,68,0,0
-201814,2018,Autodromo Nazionale di Monza,67,2,8
-201813,2018,Circuit de Spa-Francorchamps,51,1,0
-201812,2018,Hungaroring,66,0,4
-201811,2018,Hockenheimring,65,13,16
-201810,2018,Silverstone Circuit,50,1,16
-201809,2018,Red Bull Ring,3,3,12
-201808,2018,Circuit Paul Ricard,64,0,8
-201807,2018,Circuit Gilles Villeneuve,49,0,0
-201806,2018,Circuit de Monaco,6,0,12
-201805,2018,Circuit de Barcelona-Catalunya,63,0,4
-201804,2018,Baku City Circuit,62,1,20
-201803,2018,Shanghai International Circuit,5,5,0
-201802,2018,Bahrain International Circuit,48,0,8
-201801,2018,Albert Park Grand Prix Circuit,47,2,4
-201720,2017,Yas Marina Circuit,2,0,4
-201719,2017,Autódromo José Carlos Pace,46,1,4
-201718,2017,Autódromo Hermanos Rodríguez,2,1,20
-201717,2017,Circuit of the Americas,61,0,16
-201716,2017,Suzuka Circuit,60,0,4
-201715,2017,Sepang International Circuit,1,2,4
-201714,2017,Marina Bay Street Circuit,59,4,16
-201713,2017,Autodromo Nazionale di Monza,58,0,16
-201712,2017,Circuit de Spa-Francorchamps,57,0,16
-201711,2017,Hungaroring,45,0,0
-201710,2017,Silverstone Circuit,56,0,0
-201709,2017,Red Bull Ring,1,0,8
-201708,2017,Baku City Circuit,4,9,8
-201707,2017,Circuit Gilles Villeneuve,55,0,4
-201706,2017,Circuit de Monaco,44,1,16
-201705,2017,Circuit de Barcelona-Catalunya,54,0,4
-201704,2017,Sochi Autodrom,0,2,0
-201703,2017,Bahrain International Circuit,43,2,16
-201702,2017,Shanghai International Circuit,53,0,12
-201701,2017,Albert Park Grand Prix Circuit,42,1,8
-201621,2016,Yas Marina Circuit,52,0,16
-201620,2016,Autódromo José Carlos Pace,51,0,12
-201619,2016,Autódromo Hermanos Rodríguez,50,0,0
-201618,2016,Circuit of the Americas,49,0,8
-201617,2016,Suzuka Circuit,22,0,0
-201616,2016,Sepang International Circuit,3,3,4
-201615,2016,Marina Bay Street Circuit,21,0,4
-201614,2016,Autodromo Nazionale di Monza,20,1,0
-201613,2016,Circuit de Spa-Francorchamps,19,0,12
-201612,2016,Hockenheimring,48,1,4
-201611,2016,Hungaroring,47,1,0
-201610,2016,Silverstone Circuit,46,0,16
-201609,2016,Red Bull Ring,45,0,4
-201608,2016,Baku City Circuit,18,0,12
-201607,2016,Circuit Gilles Villeneuve,44,0,0
-201606,2016,Circuit de Monaco,43,2,16
-201605,2016,Circuit de Barcelona-Catalunya,0,3,12
-201604,2016,Sochi Autodrom,17,0,0
-201603,2016,Shanghai International Circuit,16,0,0
-201602,2016,Bahrain International Circuit,15,1,0
-201601,2016,Albert Park Grand Prix Circuit,14,1,20
-201519,2015,Yas Marina Circuit,13,0,0
-201518,2015,Autódromo José Carlos Pace,12,0,0
-201517,2015,Autódromo Hermanos Rodríguez,11,0,8
-201516,2015,Circuit of the Americas,42,1,8
-201515,2015,Sochi Autodrom,41,1,12
-201514,2015,Suzuka Circuit,40,1,0
-201513,2015,Marina Bay Street Circuit,41,0,20
-201512,2015,Autodromo Nazionale di Monza,39,0,0
-201511,2015,Circuit de Spa-Francorchamps,38,0,8
-201510,2015,Hungaroring,40,2,8
-201509,2015,Silverstone Circuit,37,0,12
-201508,2015,Red Bull Ring,10,1,4
-201507,2015,Circuit Gilles Villeneuve,36,0,4
-201506,2015,Circuit de Monaco,9,1,8
-201505,2015,Circuit de Barcelona-Catalunya,8,0,4
-201504,2015,Bahrain International Circuit,35,0,8
-201503,2015,Shanghai International Circuit,34,0,8
-201502,2015,Sepang International Circuit,39,1,4
-201501,2015,Albert Park Grand Prix Circuit,33,0,4
-201419,2014,Yas Marina Circuit,32,1,0
-201418,2014,Autódromo José Carlos Pace,7,0,4
-201417,2014,Circuit of the Americas,31,1,4
-201416,2014,Sochi Autodrom,30,0,4
-201415,2014,Suzuka Circuit,29,1,8
-201414,2014,Marina Bay Street Circuit,28,0,8
-201413,2014,Autodromo Nazionale di Monza,27,0,8
-201412,2014,Circuit de Spa-Francorchamps,2,4,8
-201411,2014,Hungaroring,1,3,16
-201410,2014,Hockenheimring,6,0,0
-201409,2014,Silverstone Circuit,26,5,12
-201408,2014,Red Bull Ring,5,2,8
-201407,2014,Circuit Gilles Villeneuve,0,5,12
-201406,2014,Circuit de Monaco,4,0,20
-201405,2014,Circuit de Barcelona-Catalunya,25,0,0
-201404,2014,Shanghai International Circuit,24,0,8
-201403,2014,Bahrain International Circuit,23,1,16
-201402,2014,Sepang International Circuit,22,0,12
-201401,2014,Albert Park Grand Prix Circuit,3,2,8
-201319,2013,Autódromo José Carlos Pace,38,0,12
-201318,2013,Circuit of the Americas,37,0,0
-201317,2013,Yas Marina Circuit,36,1,0
-201316,2013,Buddh International Circuit,35,0,12
-201315,2013,Suzuka Circuit,34,1,4
-201314,2013,Korean International Circuit,33,0,12
-201313,2013,Marina Bay Street Circuit,32,0,8
-201312,2013,Autodromo Nazionale di Monza,31,0,4
-201311,2013,Circuit de Spa-Francorchamps,30,1,4
-201310,2013,Hungaroring,21,0,20
-201309,2013,Nürburgring,29,1,12
-201308,2013,Silverstone Circuit,2,1,8
-201307,2013,Circuit Gilles Villeneuve,28,0,12
-201306,2013,Circuit de Monaco,1,0,24
-201305,2013,Circuit de Barcelona-Catalunya,31,4,8
-201304,2013,Bahrain International Circuit,27,1,4
-201303,2013,Shanghai International Circuit,30,2,12
-201302,2013,Sepang International Circuit,26,0,4
-201301,2013,Albert Park Grand Prix Circuit,19,6,12
-201220,2012,Autódromo José Carlos Pace,14,1,16
-201219,2012,Circuit of the Americas,20,1,4
-201218,2012,Yas Marina Circuit,18,3,20
-201217,2012,Buddh International Circuit,25,0,8
-201216,2012,Korean International Circuit,24,1,4
-201215,2012,Suzuka Circuit,23,0,8
-201214,2012,Marina Bay Street Circuit,22,2,20
-201213,2012,Autodromo Nazionale di Monza,19,0,4
-201212,2012,Circuit de Spa-Francorchamps,13,0,8
-201211,2012,Hungaroring,18,0,4
-201210,2012,Hockenheimring,29,0,0
-201209,2012,Silverstone Circuit,8,1,8
-201208,2012,Valencia Street Circuit,28,10,16
-201207,2012,Circuit Gilles Villeneuve,17,1,8
-201206,2012,Circuit de Monaco,7,0,12
-201205,2012,Circuit de Barcelona-Catalunya,0,0,16
-201204,2012,Bahrain International Circuit,21,0,8
-201203,2012,Shanghai International Circuit,0,0,0
-201202,2012,Sepang International Circuit,27,7,8
-201201,2012,Albert Park Grand Prix Circuit,12,1,24
-201119,2011,Autódromo José Carlos Pace,6,1,4
-201118,2011,Yas Marina Circuit,16,1,12
-201117,2011,Buddh International Circuit,20,0,16
-201116,2011,Korean International Circuit,19,1,12
-201115,2011,Suzuka Circuit,11,1,0
-201114,2011,Marina Bay Street Circuit,18,0,16
-201113,2011,Autodromo Nazionale di Monza,17,0,20
-201112,2011,Circuit de Spa-Francorchamps,16,0,12
-201111,2011,Hungaroring,10,2,4
-201110,2011,Nürburgring,15,1,12
-201109,2011,Silverstone Circuit,26,2,12
-201108,2011,Valencia Street Circuit,15,0,0
-201107,2011,Circuit Gilles Villeneuve,9,6,24
-201106,2011,Circuit de Monaco,14,0,24
-201105,2011,Circuit de Barcelona-Catalunya,13,1,12
-201104,2011,Istanbul Park,12,0,0
-201103,2011,Shanghai International Circuit,14,2,0
-201102,2011,Sepang International Circuit,11,0,20
-201101,2011,Albert Park Grand Prix Circuit,10,0,16
-201019,2010,Yas Marina Circuit,9,0,4
-201018,2010,Autódromo José Carlos Pace,8,1,4
-201017,2010,Korean International Circuit,25,2,36
-201016,2010,Suzuka Circuit,7,0,4
-201015,2010,Marina Bay Street Circuit,24,0,36
-201014,2010,Autodromo Nazionale di Monza,23,0,4
-201013,2010,Circuit de Spa-Francorchamps,13,1,8
-201012,2010,Hungaroring,5,1,12
-201011,2010,Hockenheimring,22,1,20
-201010,2010,Silverstone Circuit,4,1,12
-201009,2010,Valencia Street Circuit,6,0,8
-201008,2010,Circuit Gilles Villeneuve,12,0,16
-201007,2010,Istanbul Park,11,1,12
-201006,2010,Circuit de Monaco,3,0,28
-201005,2010,Circuit de Barcelona-Catalunya,2,0,20
-201004,2010,Shanghai International Circuit,8,4,8
-201003,2010,Sepang International Circuit,5,2,16
-201002,2010,Albert Park Grand Prix Circuit,7,3,20
-201001,2010,Bahrain International Circuit,21,2,36
-200917,2009,Yas Marina Circuit,4,1,4
-200916,2009,Autódromo José Carlos Pace,1,1,8
-200915,2009,Suzuka Circuit,3,0,8
-200914,2009,Marina Bay Street Circuit,10,0,12
-200913,2009,Autodromo Nazionale di Monza,10,4,8
-200912,2009,Circuit de Spa-Francorchamps,17,5,0
-200911,2009,Valencia Street Circuit,9,2,4
-200910,2009,Hungaroring,9,3,8
-200909,2009,Nürburgring,0,0,8
-200908,2009,Silverstone Circuit,2,0,8
-200907,2009,Istanbul Park,6,1,4
-200906,2009,Circuit de Monaco,5,0,20
-200905,2009,Circuit de Barcelona-Catalunya,4,0,8
-200904,2009,Bahrain International Circuit,3,3,0
-200903,2009,Shanghai International Circuit,1,0,8
-200902,2009,Sepang International Circuit,2,0,16
-200901,2009,Albert Park Grand Prix Circuit,1,0,24
-200818,2008,Autódromo José Carlos Pace,10,0,0
-200817,2008,Shanghai International Circuit,8,0,12
-200816,2008,Fuji Speedway,20,3,16
-200815,2008,Marina Bay Street Circuit,19,14,24
-200814,2008,Autodromo Nazionale di Monza,0,0,4
-200813,2008,Circuit de Spa-Francorchamps,9,1,16
-200812,2008,Valencia Street Circuit,8,0,8
-200811,2008,Hungaroring,0,1,8
-200810,2008,Hockenheimring,7,0,12
-200809,2008,Silverstone Circuit,6,3,20
-200808,2008,Circuit de Nevers Magny-Cours,7,1,4
-200807,2008,Circuit Gilles Villeneuve,0,1,24
-200806,2008,Circuit de Monaco,5,2,24
-200805,2008,Istanbul Park,6,0,8
-200804,2008,Circuit de Barcelona-Catalunya,16,0,28
-200803,2008,Bahrain International Circuit,5,1,8
-200802,2008,Sepang International Circuit,15,1,16
-200801,2008,Albert Park Grand Prix Circuit,4,0,40
-200717,2007,Autódromo José Carlos Pace,14,2,28
-200716,2007,Shanghai International Circuit,13,1,16
-200715,2007,Fuji Speedway,3,0,28
-200714,2007,Circuit de Spa-Francorchamps,12,0,12
-200713,2007,Autodromo Nazionale di Monza,18,0,8
-200712,2007,Istanbul Park,4,0,4
-200711,2007,Hungaroring,2,0,12
-200710,2007,Nürburgring,17,1,32
-200709,2007,Silverstone Circuit,11,1,20
-200708,2007,Circuit de Nevers Magny-Cours,10,2,12
-200707,2007,Indianapolis Motor Speedway,1,0,12
-200706,2007,Circuit Gilles Villeneuve,0,0,24
-200705,2007,Circuit de Monaco,16,0,20
-200704,2007,Circuit de Barcelona-Catalunya,3,0,24
-200703,2007,Bahrain International Circuit,2,0,20
-200702,2007,Sepang International Circuit,15,1,8
-200701,2007,Albert Park Grand Prix Circuit,9,0,20
-200618,2006,Autódromo José Carlos Pace,1,0,20
-200617,2006,Suzuka Circuit,14,4,16
-200616,2006,Shanghai International Circuit,90,5,8
-200615,2006,Autodromo Nazionale di Monza,89,1,16
-200614,2006,Istanbul Park,0,0,20
-200613,2006,Hungaroring,0,13,32
-200612,2006,Hockenheimring,88,1,16
-200611,2006,Circuit de Nevers Magny-Cours,87,0,8
-200610,2006,Indianapolis Motor Speedway,86,0,20
-200609,2006,Circuit Gilles Villeneuve,13,0,24
-200608,2006,Silverstone Circuit,12,0,4
-200607,2006,Circuit de Monaco,11,0,16
-200606,2006,Circuit de Barcelona-Catalunya,10,0,16
-200605,2006,Nürburgring,85,1,32
-200604,2006,Autodromo Enzo e Dino Ferrari,84,0,16
-200603,2006,Albert Park Grand Prix Circuit,9,2,24
-200602,2006,Sepang International Circuit,2,0,28
-200601,2006,Bahrain International Circuit,8,3,12
-200519,2005,Shanghai International Circuit,7,0,16
-200518,2005,Suzuka Circuit,8,16,8
-200517,2005,Autódromo José Carlos Pace,6,1,8
-200516,2005,Circuit de Spa-Francorchamps,7,1,28
-200515,2005,Autodromo Nazionale di Monza,5,0,0
-200514,2005,Istanbul Park,6,0,12
-200513,2005,Hungaroring,5,3,8
-200512,2005,Hockenheimring,6,2,4
-200511,2005,Silverstone Circuit,4,2,4
-200510,2005,Circuit de Nevers Magny-Cours,5,0,16
-200509,2005,Indianapolis Motor Speedway,83,4,0
-200508,2005,Circuit Gilles Villeneuve,4,6,24
-200507,2005,Nürburgring,4,5,8
-200506,2005,Circuit de Monaco,3,0,16
-200505,2005,Circuit de Barcelona-Catalunya,2,0,20
-200504,2005,Autodromo Enzo e Dino Ferrari,3,1,20
-200503,2005,Bahrain International Circuit,2,0,24
-200502,2005,Sepang International Circuit,1,0,28
-200501,2005,Albert Park Grand Prix Circuit,1,0,12
-200418,2004,Autódromo José Carlos Pace,3,1,12
-200417,2004,Suzuka Circuit,82,0,16
-200416,2004,Shanghai International Circuit,8,0,12
-200415,2004,Autodromo Nazionale di Monza,7,0,12
-200414,2004,Circuit de Spa-Francorchamps,1,9,24
-200413,2004,Hungaroring,81,0,12
-200412,2004,Hockenheimring,80,0,4
-200411,2004,Silverstone Circuit,79,3,16
-200410,2004,Circuit de Nevers Magny-Cours,78,1,8
-200409,2004,Indianapolis Motor Speedway,77,1,24
-200408,2004,Circuit Gilles Villeneuve,76,5,20
-200407,2004,Nürburgring,75,0,12
-200406,2004,Circuit de Monaco,0,0,36
-200405,2004,Circuit de Barcelona-Catalunya,74,0,16
-200404,2004,Autodromo Enzo e Dino Ferrari,73,1,16
-200403,2004,Bahrain International Circuit,72,0,8
-200402,2004,Sepang International Circuit,71,0,16
-200401,2004,Albert Park Grand Prix Circuit,70,0,20
-200316,2003,Suzuka Circuit,6,0,12
-200315,2003,Indianapolis Motor Speedway,69,6,36
-200314,2003,Autodromo Nazionale di Monza,68,0,12
-200313,2003,Hungaroring,0,0,24
-200312,2003,Hockenheimring,2,0,24
-200311,2003,Silverstone Circuit,5,0,12
-200310,2003,Circuit de Nevers Magny-Cours,5,0,12
-200309,2003,Nürburgring,4,2,16
-200308,2003,Circuit Gilles Villeneuve,67,2,28
-200307,2003,Circuit de Monaco,1,2,12
-200306,2003,A1-Ring,66,0,16
-200305,2003,Circuit de Barcelona-Catalunya,65,0,20
-200304,2003,Autodromo Enzo e Dino Ferrari,64,0,12
-200303,2003,Autódromo José Carlos Pace,0,7,40
-200302,2003,Sepang International Circuit,0,6,16
-200301,2003,Albert Park Grand Prix Circuit,12,10,32
-200217,2002,Suzuka Circuit,63,0,32
-200216,2002,Indianapolis Motor Speedway,4,1,12
-200215,2002,Autodromo Nazionale di Monza,3,3,24
-200214,2002,Circuit de Spa-Francorchamps,62,0,36
-200213,2002,Hungaroring,2,0,16
-200212,2002,Hockenheimring,61,0,40
-200211,2002,Circuit de Nevers Magny-Cours,60,1,28
-200210,2002,Silverstone Circuit,59,2,24
-200209,2002,Nürburgring,1,3,24
-200208,2002,Circuit Gilles Villeneuve,58,1,28
-200207,2002,Circuit de Monaco,11,1,36
-200206,2002,A1-Ring,57,2,32
-200205,2002,Circuit de Barcelona-Catalunya,56,0,32
-200204,2002,Autodromo Enzo e Dino Ferrari,55,0,20
-200203,2002,Autódromo José Carlos Pace,54,1,36
-200202,2002,Sepang International Circuit,3,3,32
-200201,2002,Albert Park Grand Prix Circuit,53,1,12
-200117,2001,Suzuka Circuit,52,0,12
-200116,2001,Indianapolis Motor Speedway,19,3,32
-200115,2001,Autodromo Nazionale di Monza,0,0,24
-200114,2001,Circuit de Spa-Francorchamps,51,2,16
-200113,2001,Hungaroring,50,0,28
-200112,2001,Hockenheimring,2,1,28
-200111,2001,Silverstone Circuit,18,1,12
-200110,2001,Circuit de Nevers Magny-Cours,49,1,20
-200109,2001,Nürburgring,48,0,32
-200108,2001,Circuit Gilles Villeneuve,1,1,28
-200107,2001,Circuit de Monaco,47,1,36
-200106,2001,A1-Ring,10,6,32
-200105,2001,Circuit de Barcelona-Catalunya,46,0,20
-200104,2001,Autodromo Enzo e Dino Ferrari,0,2,28
-200103,2001,Autódromo José Carlos Pace,9,4,44
-200102,2001,Sepang International Circuit,45,0,16
-200101,2001,Albert Park Grand Prix Circuit,44,0,28
-200017,2000,Sepang International Circuit,43,0,24
-200016,2000,Suzuka Circuit,42,0,28
-200015,2000,Indianapolis Motor Speedway,41,0,36
-200014,2000,Autodromo Nazionale di Monza,40,0,16
-200013,2000,Circuit de Spa-Francorchamps,17,0,12
-200012,2000,Hungaroring,16,2,20
-200011,2000,Hockenheimring,0,17,32
-200010,2000,A1-Ring,15,0,20
-200009,2000,Circuit de Nevers Magny-Cours,8,1,28
-200008,2000,Circuit Gilles Villeneuve,39,0,32
-200007,2000,Circuit de Monaco,7,2,48
-200006,2000,Nürburgring,38,1,36
-200005,2000,Circuit de Barcelona-Catalunya,14,1,20
-200004,2000,Silverstone Circuit,6,3,20
-200003,2000,Autodromo Enzo e Dino Ferrari,37,1,28
-200002,2000,Autódromo José Carlos Pace,36,2,32
-200001,2000,Albert Park Grand Prix Circuit,35,2,48
-199916,1999,Suzuka Circuit,13,1,24
-199915,1999,Sepang International Circuit,3,1,32
-199914,1999,Nürburgring,2,13,32
-199913,1999,Autodromo Nazionale di Monza,2,1,36
-199912,1999,Circuit de Spa-Francorchamps,5,1,16
-199911,1999,Hungaroring,12,0,20
-199910,1999,Hockenheimring,2,4,36
-199909,1999,A1-Ring,1,2,24
-199908,1999,Silverstone Circuit,4,2,8
-199907,1999,Circuit de Nevers Magny-Cours,1,4,40
-199906,1999,Circuit Gilles Villeneuve,11,1,24
-199905,1999,Circuit de Barcelona-Catalunya,10,0,28
-199904,1999,Circuit de Monaco,34,1,48
-199903,1999,Autodromo Enzo e Dino Ferrari,33,2,32
-199902,1999,Autódromo José Carlos Pace,9,0,48
-199901,1999,Albert Park Grand Prix Circuit,0,5,32
-199816,1998,Suzuka Circuit,8,1,32
-199815,1998,Nürburgring,7,2,20
-199814,1998,Autodromo Nazionale di Monza,32,0,28
-199813,1998,Circuit de Spa-Francorchamps,21,2,28
-199812,1998,Hungaroring,31,2,24
-199811,1998,Hockenheimring,6,0,16
-199810,1998,A1-Ring,5,2,28
-199809,1998,Silverstone Circuit,30,1,48
-199808,1998,Circuit de Nevers Magny-Cours,29,1,28
-199807,1998,Circuit Gilles Villeneuve,28,2,24
-199806,1998,Circuit de Monaco,4,0,32
-199805,1998,Circuit de Barcelona-Catalunya,3,0,20
-199804,1998,Autodromo Enzo e Dino Ferrari,3,0,40
-199803,1998,Autódromo Juan y Oscar Gálvez,27,1,32
-199802,1998,Autódromo José Carlos Pace,2,0,28
-199801,1998,Albert Park Grand Prix Circuit,1,0,40
-199717,1997,Circuito de Jerez,0,4,16
-199716,1997,Suzuka Circuit,26,1,28
-199715,1997,Nürburgring,10,1,36
-199714,1997,A1-Ring,9,0,32
-199713,1997,Autodromo Nazionale di Monza,2,5,32
-199712,1997,Circuit de Spa-Francorchamps,25,2,20
-199711,1997,Hungaroring,8,1,36
-199710,1997,Hockenheimring,9,0,36
-199709,1997,Silverstone Circuit,7,0,32
-199708,1997,Circuit de Nevers Magny-Cours,24,0,40
-199707,1997,Circuit Gilles Villeneuve,23,0,36
-199706,1997,Circuit de Barcelona-Catalunya,6,0,28
-199705,1997,Circuit de Monaco,22,1,44
-199704,1997,Autodromo Enzo e Dino Ferrari,0,1,40
-199703,1997,Autódromo Juan y Oscar Gálvez,5,0,44
-199702,1997,Autódromo José Carlos Pace,4,0,16
-199701,1997,Albert Park Grand Prix Circuit,1,3,28
-199616,1996,Suzuka Circuit,20,1,16
-199615,1996,Autódromo do Estoril,3,1,16
-199614,1996,Autodromo Nazionale di Monza,21,2,44
-199613,1996,Circuit de Spa-Francorchamps,20,2,24
-199612,1996,Hungaroring,2,2,40
-199611,1996,Hockenheimring,19,0,20
-199610,1996,Silverstone Circuit,1,1,24
-199609,1996,Circuit de Nevers Magny-Cours,18,1,16
-199608,1996,Circuit Gilles Villeneuve,17,0,52
-199607,1996,Circuit de Barcelona-Catalunya,19,2,40
-199606,1996,Circuit de Monaco,0,13,48
-199605,1996,Autodromo Enzo e Dino Ferrari,16,1,44
-199604,1996,Nürburgring,0,1,16
-199603,1996,Autódromo Juan y Oscar Gálvez,15,0,28
-199602,1996,Autódromo José Carlos Pace,14,0,40
-199601,1996,Albert Park Grand Prix Circuit,13,1,20
-199517,1995,Adelaide Street Circuit,12,0,52
-199516,1995,Suzuka Circuit,18,0,36
-199515,1995,Okayama International Circuit,17,2,28
-199514,1995,Nürburgring,16,2,24
-199513,1995,Autódromo do Estoril,0,0,16
-199512,1995,Autodromo Nazionale di Monza,1,7,40
-199511,1995,Circuit de Spa-Francorchamps,15,15,32
-199510,1995,Hungaroring,11,0,36
-199509,1995,Hockenheimring,14,1,36
-199508,1995,Silverstone Circuit,0,4,44
-199507,1995,Circuit de Nevers Magny-Cours,13,1,16
-199506,1995,Circuit Gilles Villeneuve,0,4,40
-199505,1995,Circuit de Monaco,12,1,44
-199504,1995,Circuit de Barcelona-Catalunya,11,0,28
-199503,1995,Autodromo Enzo e Dino Ferrari,10,3,36
-199502,1995,Autódromo Juan y Oscar Gálvez,9,1,36
-199501,1995,Autódromo José Carlos Pace,10,1,52
-199416,1994,Adelaide Street Circuit,30,0,44
-199415,1994,Suzuka Circuit,8,1,40
-199414,1994,Circuito de Jerez,9,0,20
-199413,1994,Autódromo do Estoril,7,1,36
-199412,1994,Autodromo Nazionale di Monza,6,2,48
-199411,1994,Circuit de Spa-Francorchamps,5,2,36
-199410,1994,Hungaroring,8,0,40
-199409,1994,Hockenheimring,8,0,24
-199408,1994,Silverstone Circuit,4,0,28
-199407,1994,Circuit de Nevers Magny-Cours,7,2,64
-199406,1994,Circuit Gilles Villeneuve,6,0,36
-199405,1994,Circuit de Barcelona-Catalunya,3,1,52
-199404,1994,Circuit de Monaco,5,0,32
-199403,1994,Autodromo Enzo e Dino Ferrari,4,1,36
-199402,1994,Okayama International Circuit,3,1,44
-199401,1994,Autódromo José Carlos Pace,2,1,56
-199316,1993,Adelaide Street Circuit,40,0,28
-199315,1993,Suzuka Circuit,39,1,44
-199314,1993,Autódromo do Estoril,1,5,48
-199313,1993,Autodromo Nazionale di Monza,2,1,36
-199312,1993,Circuit de Spa-Francorchamps,1,1,36
-199311,1993,Hungaroring,0,1,40
-199310,1993,Hockenheimring,50,0,28
-199309,1993,Silverstone Circuit,49,0,32
-199308,1993,Circuit de Nevers Magny-Cours,48,1,40
-199307,1993,Circuit Gilles Villeneuve,47,0,28
-199306,1993,Circuit de Monaco,38,2,44
-199305,1993,Circuit de Barcelona-Catalunya,46,0,40
-199304,1993,Autodromo Enzo e Dino Ferrari,45,0,56
-199303,1993,Donington Park,37,3,40
-199302,1993,Autódromo José Carlos Pace,36,2,32
-199301,1993,Kyalami,44,0,76
-199216,1992,Adelaide Street Circuit,7,3,36
-199215,1992,Suzuka Circuit,5,1,44
-199214,1992,Autódromo do Estoril,29,0,44
-199213,1992,Autodromo Nazionale di Monza,35,1,56
-199212,1992,Circuit de Spa-Francorchamps,0,2,32
-199211,1992,Hungaroring,34,2,40
-199210,1992,Hockenheimring,28,0,44
-199209,1992,Silverstone Circuit,27,0,36
-199208,1992,Circuit de Nevers Magny-Cours,26,0,40
-199207,1992,Circuit Gilles Villeneuve,6,3,40
-199206,1992,Circuit de Monaco,33,2,52
-199205,1992,Autodromo Enzo e Dino Ferrari,25,0,52
-199204,1992,Circuit de Barcelona-Catalunya,24,0,60
-199203,1992,Autódromo José Carlos Pace,23,0,64
-199202,1992,Autódromo Hermanos Rodríguez,22,0,36
-199201,1992,Kyalami,21,0,40
-199116,1991,Adelaide Street Circuit,32,0,24
-199115,1991,Suzuka Circuit,5,0,48
-199114,1991,Circuit de Barcelona-Catalunya,20,1,32
-199113,1991,Autódromo do Estoril,4,0,36
-199112,1991,Autodromo Nazionale di Monza,19,1,36
-199111,1991,Circuit de Spa-Francorchamps,31,0,44
-199110,1991,Hungaroring,30,0,36
-199109,1991,Hockenheimring,18,0,48
-199108,1991,Silverstone Circuit,17,0,40
-199107,1991,Circuit de Nevers Magny-Cours,16,3,44
-199106,1991,Autódromo Hermanos Rodríguez,3,0,44
-199105,1991,Circuit Gilles Villeneuve,22,7,48
-199104,1991,Circuit de Monaco,29,0,36
-199103,1991,Autodromo Enzo e Dino Ferrari,28,0,52
-199102,1991,Autódromo José Carlos Pace,27,0,40
-199101,1991,Phoenix street circuit,26,0,64
-199016,1990,Adelaide Street Circuit,21,6,44
-199015,1990,Suzuka Circuit,20,5,40
-199014,1990,Circuito de Jerez,43,1,40
-199013,1990,Autódromo do Estoril,15,0,32
-199012,1990,Autodromo Nazionale di Monza,25,0,48
-199011,1990,Circuit de Spa-Francorchamps,24,0,24
-199010,1990,Hungaroring,2,0,40
-199009,1990,Hockenheimring,23,0,40
-199008,1990,Silverstone Circuit,42,4,28
-199007,1990,Circuit Paul Ricard,41,3,32
-199006,1990,Autódromo Hermanos Rodríguez,40,12,24
-199005,1990,Circuit Gilles Villeneuve,22,0,44
-199004,1990,Circuit de Monaco,21,0,52
-199003,1990,Autodromo Enzo e Dino Ferrari,2,2,28
-199002,1990,Autódromo José Carlos Pace,39,5,48
-199001,1990,Phoenix street circuit,20,4,28
-198916,1989,Adelaide Street Circuit,1,4,64
-198915,1989,Suzuka Circuit,0,5,44
-198914,1989,Circuito de Jerez,19,0,56
-198913,1989,Autódromo do Estoril,4,1,44
-198912,1989,Autodromo Nazionale di Monza,38,3,48
-198911,1989,Circuit de Spa-Francorchamps,18,0,32
-198910,1989,Hungaroring,14,11,40
-198909,1989,Hockenheimring,17,0,48
-198908,1989,Silverstone Circuit,37,1,48
-198907,1989,Circuit Paul Ricard,36,0,48
-198906,1989,Circuit Gilles Villeneuve,0,5,52
-198905,1989,Phoenix street circuit,35,1,44
-198904,1989,Autódromo Hermanos Rodríguez,16,0,36
-198903,1989,Circuit de Monaco,15,0,44
-198902,1989,Autodromo Enzo e Dino Ferrari,14,0,40
-198901,1989,Autódromo Internacional Nelson Piquet,13,5,16
-198816,1988,Adelaide Street Circuit,34,1,48
-198815,1988,Suzuka Circuit,13,0,20
-198814,1988,Circuito de Jerez,33,1,28
-198813,1988,Autódromo do Estoril,32,0,40
-198812,1988,Autodromo Nazionale di Monza,3,2,52
-198811,1988,Circuit de Spa-Francorchamps,12,0,36
-198810,1988,Hungaroring,11,0,32
-198809,1988,Hockenheimring,10,0,28
-198808,1988,Silverstone Circuit,9,2,12
-198807,1988,Circuit Paul Ricard,31,0,28
-198806,1988,Detroit Street Circuit,8,0,68
-198805,1988,Circuit Gilles Villeneuve,7,0,40
-198804,1988,Autódromo Hermanos Rodríguez,30,1,32
-198803,1988,Circuit de Monaco,29,1,44
-198802,1988,Autodromo Enzo e Dino Ferrari,6,0,28
-198801,1988,Autódromo Internacional Nelson Piquet,28,2,44
-198716,1987,Adelaide Street Circuit,2,0,36
-198715,1987,Suzuka Circuit,1,0,36
-198714,1987,Autódromo Hermanos Rodríguez,12,0,44
-198713,1987,Circuito de Jerez,11,1,36
-198712,1987,Autódromo do Estoril,27,2,32
-198711,1987,Autodromo Nazionale di Monza,19,0,28
-198710,1987,A1-Ring,10,1,24
-198709,1987,Hungaroring,18,2,40
-198708,1987,Hockenheimring,17,3,44
-198707,1987,Silverstone Circuit,9,1,48
-198706,1987,Circuit Paul Ricard,8,0,36
-198705,1987,Detroit Street Circuit,5,1,40
-198704,1987,Circuit de Monaco,4,1,44
-198703,1987,Circuit de Spa-Francorchamps,26,5,36
-198702,1987,Autodromo Enzo e Dino Ferrari,7,1,36
-198701,1987,Autódromo Internacional Nelson Piquet,25,4,28
-198616,1986,Adelaide Street Circuit,24,3,48
-198615,1986,Autódromo Hermanos Rodríguez,0,3,28
-198614,1986,Autódromo do Estoril,6,1,44
-198613,1986,Autodromo Nazionale di Monza,16,5,56
-198612,1986,A1-Ring,23,4,48
-198611,1986,Hungaroring,15,1,60
-198610,1986,Hockenheimring,14,4,40
-198609,1986,Brands Hatch,5,1,32
-198608,1986,Circuit Paul Ricard,4,1,36
-198607,1986,Detroit Street Circuit,3,0,44
-198606,1986,Circuit Gilles Villeneuve,3,0,28
-198605,1986,Circuit de Spa-Francorchamps,2,4,36
-198604,1986,Circuit de Monaco,22,0,16
-198603,1986,Autodromo Enzo e Dino Ferrari,21,3,36
-198602,1986,Circuito de Jerez,2,0,36
-198601,1986,Autódromo Internacional Nelson Piquet,13,1,28
-198516,1985,Adelaide Street Circuit,4,2,48
-198515,1985,Kyalami,1,0,36
-198514,1985,Brands Hatch,0,2,40
-198513,1985,Circuit de Spa-Francorchamps,1,1,36
-198512,1985,Autodromo Nazionale di Monza,20,4,44
-198511,1985,Circuit Park Zandvoort,24,9,40
-198510,1985,A1-Ring,19,0,44
-198509,1985,Nürburgring,4,7,36
-198508,1985,Silverstone Circuit,18,2,32
-198507,1985,Circuit Paul Ricard,12,4,24
-198506,1985,Detroit Street Circuit,3,4,36
-198505,1985,Circuit Gilles Villeneuve,3,2,24
-198504,1985,Circuit de Monaco,17,4,20
-198503,1985,Autodromo Enzo e Dino Ferrari,1,2,40
-198502,1985,Autódromo do Estoril,0,0,64
-198501,1985,Autódromo Internacional Nelson Piquet,16,5,32
-198416,1984,Autódromo do Estoril,15,1,40
-198415,1984,Nürburgring,14,1,20
-198414,1984,Autodromo Nazionale di Monza,23,3,40
-198413,1984,Circuit Park Zandvoort,13,0,36
-198412,1984,A1-Ring,22,3,40
-198411,1984,Hockenheimring,12,0,40
-198410,1984,Brands Hatch,21,2,32
-198409,1984,Fair Park,2,7,60
-198408,1984,Detroit Street Circuit,11,0,64
-198407,1984,Circuit Gilles Villeneuve,10,0,20
-198406,1984,Circuit de Monaco,11,0,28
-198405,1984,Dijon-Prenois,20,8,32
-198404,1984,Autodromo Enzo e Dino Ferrari,10,1,24
-198403,1984,Zolder,2,0,44
-198402,1984,Kyalami,19,7,24
-198401,1984,Autódromo Internacional Nelson Piquet,9,3,36
-198315,1983,Kyalami,1,2,36
-198314,1983,Brands Hatch,9,3,28
-198313,1983,Autodromo Nazionale di Monza,8,3,32
-198312,1983,Circuit Park Zandvoort,6,9,44
-198311,1983,A1-Ring,8,4,16
-198310,1983,Hockenheimring,5,1,24
-198309,1983,Silverstone Circuit,7,2,16
-198308,1983,Circuit Gilles Villeneuve,4,0,36
-198307,1983,Detroit Street Circuit,1,5,32
-198306,1983,Circuit de Spa-Francorchamps,6,0,28
-198305,1983,Circuit de Monaco,1,4,40
-198304,1983,Autodromo Enzo e Dino Ferrari,1,2,52
-198303,1983,Circuit Paul Ricard,5,0,40
-198302,1983,Long Beach,4,21,40
-198301,1983,Autódromo Internacional Nelson Piquet,7,3,28
-198216,1982,Las Vegas Street Circuit,0,2,28
-198215,1982,Autodromo Nazionale di Monza,3,5,16
-198214,1982,Dijon-Prenois,0,7,20
-198213,1982,A1-Ring,0,6,52
-198212,1982,Hockenheimring,0,4,32
-198211,1982,Circuit Paul Ricard,2,0,28
-198210,1982,Brands Hatch,18,4,36
-198209,1982,Circuit Park Zandvoort,2,3,24
-198208,1982,Circuit Gilles Villeneuve,6,3,40
-198207,1982,Detroit Street Circuit,3,16,40
-198206,1982,Circuit de Monaco,0,1,36
-198205,1982,Zolder,2,9,36
-198204,1982,Autodromo Enzo e Dino Ferrari,1,3,16
-198203,1982,Long Beach,17,1,60
-198202,1982,Autódromo Internacional Nelson Piquet,4,0,40
-198201,1982,Kyalami,3,4,8
-198115,1981,Las Vegas Street Circuit,11,1,28
-198114,1981,Circuit Gilles Villeneuve,5,9,40
-198113,1981,Autodromo Nazionale di Monza,2,2,64
-198112,1981,Circuit Park Zandvoort,1,0,52
-198111,1981,A1-Ring,4,3,36
-198110,1981,Hockenheimring,5,5,32
-198109,1981,Silverstone Circuit,1,4,40
-198108,1981,Dijon-Prenois,0,2,24
-198107,1981,Jarama,5,6,16
-198106,1981,Circuit de Monaco,4,1,40
-198105,1981,Zolder,11,0,36
-198104,1981,Autodromo Enzo e Dino Ferrari,4,4,36
-198103,1981,Autódromo Juan y Oscar Gálvez,3,0,32
-198102,1981,Autódromo Internacional Nelson Piquet,10,1,20
-198101,1981,Long Beach,10,1,32
-198014,1980,Watkins Glen,9,4,40
-198013,1980,Circuit Gilles Villeneuve,8,1,28
-198012,1980,Autodromo Enzo e Dino Ferrari,2,4,40
-198011,1980,Circuit Park Zandvoort,1,4,36
-198010,1980,A1-Ring,1,1,16
-198009,1980,Hockenheimring,3,4,24
-198008,1980,Brands Hatch,7,2,44
-198007,1980,Circuit Paul Ricard,6,3,28
-198006,1980,Circuit de Monaco,9,1,24
-198005,1980,Zolder,0,1,48
-198004,1980,Long Beach,0,0,44
-198003,1980,Kyalami,1,1,44
-198002,1980,Autódromo José Carlos Pace,0,5,24
-198001,1980,Autódromo Juan y Oscar Gálvez,5,0,52
-197915,1979,Watkins Glen,3,2,60
-197914,1979,Circuit Gilles Villeneuve,4,0,40
-197913,1979,Autodromo Nazionale di Monza,9,2,44
-197912,1979,Circuit Park Zandvoort,3,1,56
-197911,1979,A1-Ring,2,1,44
-197910,1979,Hockenheimring,1,1,44
-197909,1979,Silverstone Circuit,4,3,20
-197908,1979,Dijon-Prenois,0,0,20
-197907,1979,Circuit de Monaco,8,0,48
-197906,1979,Zolder,7,6,40
-197905,1979,Jarama,1,1,24
-197904,1979,Long Beach,2,0,28
-197903,1979,Kyalami,1,2,36
-197902,1979,Autódromo José Carlos Pace,2,0,16
-197901,1979,Autódromo Juan y Oscar Gálvez,1,0,28
-197816,1978,Circuit Gilles Villeneuve,0,2,20
-197815,1978,Watkins Glen,8,1,24
-197814,1978,Autodromo Nazionale di Monza,16,3,12
-197813,1978,Circuit Park Zandvoort,11,0,36
-197812,1978,A1-Ring,9,0,48
-197811,1978,Hockenheimring,10,0,32
-197810,1978,Brands Hatch,7,7,44
-197809,1978,Circuit Paul Ricard,9,1,32
-197808,1978,Scandinavian Raceway,15,2,28
-197807,1978,Jarama,8,0,28
-197806,1978,Zolder,7,0,36
-197805,1978,Circuit de Monaco,0,4,20
-197804,1978,Long Beach,6,0,32
-197803,1978,Kyalami,8,11,48
-197802,1978,Autódromo Internacional Nelson Piquet,5,3,32
-197801,1978,Autódromo Juan y Oscar Gálvez,6,0,20
-197717,1977,Fuji Speedway,9,1,44
-197716,1977,Mosport International Raceway,6,8,60
-197715,1977,Watkins Glen,8,0,20
-197714,1977,Autodromo Nazionale di Monza,5,3,60
-197713,1977,Circuit Park Zandvoort,14,3,36
-197712,1977,A1-Ring,0,13,32
-197711,1977,Hockenheimring,13,2,48
-197710,1977,Silverstone Circuit,7,0,24
-197709,1977,Dijon-Prenois,4,0,32
-197708,1977,Scandinavian Raceway,0,7,8
-197707,1977,Zolder,0,2,36
-197706,1977,Circuit de Monaco,5,1,24
-197705,1977,Jarama,3,0,36
-197704,1977,Long Beach,2,1,28
-197703,1977,Kyalami,12,2,24
-197702,1977,Autódromo José Carlos Pace,4,1,56
-197701,1977,Autódromo Juan y Oscar Gálvez,4,10,40
-197616,1976,Fuji Speedway,1,0,28
-197615,1976,Watkins Glen,6,0,40
-197614,1976,Mosport International Raceway,5,0,4
-197613,1976,Autodromo Nazionale di Monza,7,7,20
-197612,1976,Circuit Park Zandvoort,4,1,40
-197611,1976,A1-Ring,0,1,32
-197610,1976,Nürburgring,3,0,4
-197609,1976,Brands Hatch,11,0,32
-197608,1976,Circuit Paul Ricard,2,0,24
-197607,1976,Scandinavian Raceway,3,0,40
-197606,1976,Circuit de Monaco,10,0,28
-197605,1976,Zolder,9,0,44
-197604,1976,Jarama,1,0,44
-197603,1976,Long Beach,3,0,12
-197602,1976,Kyalami,8,1,24
-197601,1976,Autódromo José Carlos Pace,7,1,20
-197514,1975,Watkins Glen,6,0,32
-197513,1975,Autodromo Nazionale di Monza,2,1,36
-197512,1975,A1-Ring,0,7,24
-197511,1975,Nürburgring,3,9,48
-197510,1975,Silverstone Circuit,13,6,80
-197509,1975,Circuit Paul Ricard,5,0,20
-197508,1975,Circuit Park Zandvoort,0,2,28
-197507,1975,Scandinavian Raceway,4,4,28
-197506,1975,Zolder,3,0,32
-197505,1975,Circuit de Monaco,2,0,24
-197504,1975,Montjuïc,0,10,44
-197503,1975,Kyalami,2,2,24
-197502,1975,Autódromo José Carlos Pace,0,5,16
-197501,1975,Autódromo Juan y Oscar Gálvez,12,4,28
-197415,1974,Watkins Glen,2,0,24
-197414,1974,Mosport International Raceway,11,0,20
-197413,1974,Autodromo Nazionale di Monza,6,6,44
-197412,1974,A1-Ring,1,1,36
-197411,1974,Nürburgring,1,1,32
-197410,1974,Brands Hatch,1,2,32
-197409,1974,Dijon-Prenois,5,1,16
-197408,1974,Circuit Park Zandvoort,1,0,28
-197407,1974,Scandinavian Raceway,0,1,40
-197406,1974,Circuit de Monaco,4,2,28
-197405,1974,Nivelles-Baulers,10,3,44
-197404,1974,Jarama,0,0,32
-197403,1974,Kyalami,0,3,16
-197402,1974,Autódromo José Carlos Pace,9,0,16
-197401,1974,Autódromo Juan y Oscar Gálvez,7,9,40
-197315,1973,Watkins Glen,3,0,24
-197314,1973,Mosport International Raceway,1,1,20
-197313,1973,Autodromo Nazionale di Monza,2,0,24
-197312,1973,A1-Ring,1,1,16
-197311,1973,Nürburgring,26,0,20
-197310,1973,Circuit Park Zandvoort,25,1,32
-197309,1973,Silverstone Circuit,0,2,4
-197308,1973,Circuit Paul Ricard,0,4,16
-197307,1973,Scandinavian Raceway,6,5,16
-197306,1973,Circuit de Monaco,24,0,32
-197305,1973,Zolder,23,5,44
-197304,1973,Montjuïc,8,6,12
-197303,1973,Kyalami,22,15,44
-197302,1973,Autódromo José Carlos Pace,7,1,28
-197301,1973,Autódromo Juan y Oscar Gálvez,6,1,20
-197212,1972,Watkins Glen,21,0,48
-197211,1972,Mosport International Raceway,20,4,28
-197210,1972,Autodromo Nazionale di Monza,5,3,32
-197209,1972,A1-Ring,4,0,12
-197208,1972,Nürburgring,7,0,36
-197207,1972,Brands Hatch,3,1,56
-197206,1972,Charade Circuit,19,2,8
-197205,1972,Nivelles-Baulers,2,0,28
-197204,1972,Circuit de Monaco,0,3,28
-197203,1972,Jarama,1,2,44
-197202,1972,Kyalami,5,4,20
-197201,1972,Autódromo Juan y Oscar Gálvez,18,1,20
-197111,1971,Watkins Glen,0,4,28
-197110,1971,Mosport International Raceway,17,0,16
-197109,1971,Autodromo Nazionale di Monza,0,10,48
-197108,1971,A1-Ring,1,0,20
-197107,1971,Nürburgring,16,0,20
-197106,1971,Silverstone Circuit,15,1,28
-197105,1971,Circuit Paul Ricard,14,0,20
-197104,1971,Circuit Park Zandvoort,6,0,20
-197103,1971,Circuit de Monaco,13,0,24
-197102,1971,Montjuïc,12,3,24
-197101,1971,Kyalami,0,3,40
-197013,1970,Autódromo Hermanos Rodríguez,5,2,28
-197012,1970,Watkins Glen,0,2,20
-197011,1970,Circuit Mont-Tremblant,4,1,12
-197010,1970,Autodromo Nazionale di Monza,0,2,36
-197009,1970,A1-Ring,3,2,24
-197008,1970,Hockenheimring,5,1,40
-197007,1970,Brands Hatch,4,0,32
-197006,1970,Charade Circuit,3,5,20
-197005,1970,Circuit Park Zandvoort,2,0,28
-197004,1970,Circuit de Spa-Francorchamps,1,5,32
-197003,1970,Circuit de Monaco,1,7,20
-197002,1970,Jarama,11,2,24
-197001,1970,Kyalami,13,2,48
-196911,1969,Autódromo Hermanos Rodríguez,4,3,16
-196910,1969,Watkins Glen,0,0,32
-196909,1969,Mosport International Raceway,2,0,20
-196908,1969,Autodromo Nazionale di Monza,10,2,8
-196907,1969,Nürburgring,1,0,16
-196906,1969,Silverstone Circuit,9,1,24
-196905,1969,Charade Circuit,8,0,4
-196904,1969,Circuit Park Zandvoort,7,1,12
-196903,1969,Circuit de Monaco,13,3,20
-196902,1969,Montjuïc,6,3,24
-196901,1969,Kyalami,5,3,12
-196812,1968,Autódromo Hermanos Rodríguez,12,2,28
-196811,1968,Watkins Glen,4,1,36
-196810,1968,Circuit Mont-Tremblant,3,5,32
-196809,1968,Autodromo Nazionale di Monza,2,6,40
-196808,1968,Nürburgring,3,5,8
-196807,1968,Brands Hatch,0,3,24
-196806,1968,Rouen-Les-Essarts,0,2,8
-196805,1968,Circuit Park Zandvoort,2,4,24
-196804,1968,Circuit de Spa-Francorchamps,3,5,24
-196803,1968,Circuit de Monaco,11,0,28
-196802,1968,Jarama,10,5,12
-196801,1968,Kyalami,24,0,28
-196711,1967,Autódromo Hermanos Rodríguez,23,0,16
-196710,1967,Watkins Glen,22,1,28
-196709,1967,Autodromo Nazionale di Monza,5,8,40
-196708,1967,Mosport International Raceway,12,6,4
-196707,1967,Nürburgring,1,1,36
-196706,1967,Silverstone Circuit,21,0,28
-196705,1967,Le Mans,11,1,16
-196704,1967,Circuit de Spa-Francorchamps,3,1,28
-196703,1967,Circuit Park Zandvoort,20,7,16
-196702,1967,Circuit de Monaco,0,3,24
-196701,1967,Kyalami,0,3,32
-196609,1966,Autódromo Hermanos Rodríguez,4,0,32
-196608,1966,Watkins Glen,19,1,28
-196607,1966,Autodromo Nazionale di Monza,0,1,20
-196606,1966,Nürburgring,10,4,32
-196605,1966,Circuit Park Zandvoort,9,0,20
-196604,1966,Brands Hatch,8,0,20
-196603,1966,Reims-Gueux,7,3,12
-196602,1966,Circuit de Spa-Francorchamps,3,0,0
-196601,1966,Circuit de Monaco,1,2,36
-196510,1965,Autódromo Hermanos Rodríguez,0,2,24
-196509,1965,Watkins Glen,9,0,12
-196508,1965,Autodromo Nazionale di Monza,0,2,36
-196507,1965,Nürburgring,18,0,24
-196506,1965,Circuit Park Zandvoort,17,1,8
-196505,1965,Silverstone Circuit,16,0,16
-196504,1965,Charade Circuit,15,0,20
-196503,1965,Circuit de Spa-Francorchamps,14,1,12
-196502,1965,Circuit de Monaco,8,0,20
-196501,1965,Prince George Circuit,13,0,8
-196410,1964,Autódromo Hermanos Rodríguez,2,1,28
-196409,1964,Watkins Glen,7,3,24
-196408,1964,Autodromo Nazionale di Monza,2,0,12
-196407,1964,Zeltweg,0,6,28
-196406,1964,Nürburgring,1,0,36
-196405,1964,Brands Hatch,12,0,20
-196404,1964,Rouen-Les-Essarts,1,1,20
-196403,1964,Circuit de Spa-Francorchamps,11,5,28
-196402,1964,Circuit Park Zandvoort,10,1,8
-196401,1964,Circuit de Monaco,6,2,28
-196310,1963,Prince George Circuit,9,0,16
-196309,1963,Autódromo Hermanos Rodríguez,8,0,36
-196308,1963,Watkins Glen,5,0,28
-196307,1963,Autodromo Nazionale di Monza,7,2,20
-196306,1963,Nürburgring,0,1,40
-196305,1963,Silverstone Circuit,6,0,20
-196304,1963,Reims-Gueux,5,0,12
-196303,1963,Circuit Park Zandvoort,4,0,24
-196302,1963,Circuit de Spa-Francorchamps,3,7,36
-196301,1963,Circuit de Monaco,4,1,32
-196209,1962,Prince George Circuit,3,1,12
-196208,1962,Watkins Glen,2,0,12
-196207,1962,Autodromo Nazionale di Monza,2,1,32
-196206,1962,Nürburgring,1,1,28
-196205,1962,Aintree,1,0,12
-196204,1962,Rouen-Les-Essarts,0,5,24
-196203,1962,Circuit de Spa-Francorchamps,0,12,20
-196202,1962,Circuit de Monaco,2,2,20
-196201,1962,Circuit Park Zandvoort,0,1,32
-196108,1961,Watkins Glen,0,7,20
-196107,1961,Autodromo Nazionale di Monza,2,3,64
-196106,1961,Nürburgring,15,2,24
-196105,1961,Aintree,1,3,24
-196104,1961,Reims-Gueux,0,11,36
-196103,1961,Circuit de Spa-Francorchamps,1,0,12
+race_season.raceseasonid,race_season.year,race_season.circuit,race_season.winnerdriverexperience,race_season.gapwinnerdriver,race_season.numberaccident
+195001,1950,Silverstone Circuit,0,0,6
+195002,1950,Circuit de Monaco,0,0,1
+195003,1950,Indianapolis Motor Speedway,0,4,3
+195004,1950,Circuit Bremgarten,4,1,5
+195005,1950,Circuit de Spa-Francorchamps,2,1,1
+195006,1950,Reims-Gueux,6,0,10
+195007,1950,Autodromo Nazionale di Monza,8,2,13
+195101,1951,Circuit Bremgarten,10,0,3
+195102,1951,Indianapolis Motor Speedway,0,1,14
+195103,1951,Circuit de Spa-Francorchamps,12,1,3
+195104,1951,Reims-Gueux,7,6,12
+195105,1951,Silverstone Circuit,0,0,4
+195106,1951,Nürburgring,0,0,8
+195107,1951,Autodromo Nazionale di Monza,4,2,6
+195108,1951,Circuit de Pedralbes,16,1,6
+195201,1952,Circuit Bremgarten,0,1,5
+195202,1952,Indianapolis Motor Speedway,0,6,3
+195203,1952,Circuit de Spa-Francorchamps,8,0,5
+195204,1952,Rouen-Les-Essarts,6,0,5
+195205,1952,Silverstone Circuit,7,1,6
+195206,1952,Nürburgring,16,0,7
+195207,1952,Circuit Park Zandvoort,10,0,5
+195208,1952,Autodromo Nazionale di Monza,22,0,7
+195301,1953,Autódromo Juan y Oscar Gálvez,26,0,5
+195302,1953,Indianapolis Motor Speedway,0,0,15
+195303,1953,Circuit Park Zandvoort,30,0,4
+195304,1953,Circuit de Spa-Francorchamps,34,1,8
+195305,1953,Reims-Gueux,0,6,7
+195306,1953,Silverstone Circuit,38,0,9
+195307,1953,Nürburgring,8,2,9
+195308,1953,Circuit Bremgarten,42,1,8
+195309,1953,Autodromo Nazionale di Monza,20,1,8
+195401,1954,Autódromo Juan y Oscar Gálvez,24,2,3
+195402,1954,Indianapolis Motor Speedway,4,18,14
+195403,1954,Circuit de Spa-Francorchamps,28,0,5
+195404,1954,Reims-Gueux,32,0,12
+195405,1954,Silverstone Circuit,4,1,14
+195406,1954,Nürburgring,36,0,3
+195407,1954,Circuit Bremgarten,20,1,3
+195408,1954,Autodromo Nazionale di Monza,42,0,9
+195409,1954,Circuit de Pedralbes,4,2,8
+195501,1955,Autódromo Juan y Oscar Gálvez,46,2,13
+195502,1955,Circuit de Monaco,0,8,10
+195503,1955,Indianapolis Motor Speedway,0,13,12
+195504,1955,Circuit de Spa-Francorchamps,25,1,3
+195505,1955,Circuit Park Zandvoort,52,0,4
+195506,1955,Aintree,0,0,10
+195507,1955,Autodromo Nazionale di Monza,56,0,9
+195601,1956,Autódromo Juan y Oscar Gálvez,60,2,5
+195602,1956,Circuit de Monaco,4,1,6
+195603,1956,Indianapolis Motor Speedway,0,0,11
+195604,1956,Circuit de Spa-Francorchamps,0,2,4
+195605,1956,Reims-Gueux,4,2,6
+195606,1956,Silverstone Circuit,32,1,9
+195607,1956,Nürburgring,66,0,7
+195608,1956,Autodromo Nazionale di Monza,8,5,9
+195701,1957,Autódromo Juan y Oscar Gálvez,70,1,3
+195702,1957,Circuit de Monaco,74,0,9
+195703,1957,Indianapolis Motor Speedway,0,12,7
+195704,1957,Rouen-Les-Essarts,78,0,6
+195705,1957,Aintree,12,2,9
+195706,1957,Nürburgring,82,0,4
+195707,1957,Pescara Circuit,16,1,5
+195708,1957,Autodromo Nazionale di Monza,20,1,6
+195801,1958,Autódromo Juan y Oscar Gálvez,24,6,0
+195802,1958,Circuit de Monaco,4,4,7
+195803,1958,Circuit Park Zandvoort,28,1,3
+195804,1958,Indianapolis Motor Speedway,0,6,5
+195805,1958,Circuit de Spa-Francorchamps,4,4,5
+195806,1958,Reims-Gueux,8,0,9
+195807,1958,Silverstone Circuit,8,5,10
+195808,1958,Nürburgring,4,1,9
+195809,1958,Circuito da Boavista,32,0,4
+195810,1958,Autodromo Nazionale di Monza,10,1,10
+195811,1958,Ain Diab,36,1,9
+195901,1959,Circuit de Monaco,0,2,8
+195902,1959,Indianapolis Motor Speedway,0,5,12
+195903,1959,Circuit Park Zandvoort,0,0,4
+195904,1959,Reims-Gueux,7,0,6
+195905,1959,Aintree,4,0,8
+195906,1959,AVUS,16,0,8
+195907,1959,Monsanto Park Circuit,40,0,6
+195908,1959,Autodromo Nazionale di Monza,44,0,4
+195909,1959,Sebring International Raceway,0,9,9
+196001,1960,Autódromo Juan y Oscar Gálvez,2,12,4
+196002,1960,Circuit de Monaco,24,0,7
+196003,1960,Indianapolis Motor Speedway,0,1,9
+196004,1960,Circuit Park Zandvoort,8,1,9
+196005,1960,Circuit de Spa-Francorchamps,12,0,11
+196006,1960,Reims-Gueux,16,0,8
+196007,1960,Silverstone Circuit,20,0,6
+196008,1960,Circuito da Boavista,24,2,7
+196009,1960,Autodromo Nazionale di Monza,0,0,5
+196010,1960,Riverside International Raceway,50,0,6
+196101,1961,Circuit de Monaco,54,0,3
 196102,1961,Circuit Park Zandvoort,0,1,0
-196101,1961,Circuit de Monaco,14,0,12
-196010,1960,Riverside International Raceway,13,0,24
-196009,1960,Autodromo Nazionale di Monza,0,0,20
-196008,1960,Circuito da Boavista,6,2,28
-196007,1960,Silverstone Circuit,5,0,24
-196006,1960,Reims-Gueux,4,0,32
-196005,1960,Circuit de Spa-Francorchamps,3,0,44
-196004,1960,Circuit Park Zandvoort,2,1,36
-196003,1960,Indianapolis Motor Speedway,0,1,36
-196002,1960,Circuit de Monaco,12,0,28
-196001,1960,Autódromo Juan y Oscar Gálvez,1,12,16
-195909,1959,Sebring International Raceway,0,9,36
-195908,1959,Autodromo Nazionale di Monza,11,0,16
-195907,1959,Monsanto Park Circuit,10,0,24
-195906,1959,AVUS,5,0,32
-195905,1959,Aintree,1,0,32
-195904,1959,Reims-Gueux,4,0,24
-195903,1959,Circuit Park Zandvoort,0,0,16
-195902,1959,Indianapolis Motor Speedway,0,5,48
-195901,1959,Circuit de Monaco,0,2,32
-195811,1958,Ain Diab,9,1,36
-195810,1958,Autodromo Nazionale di Monza,3,1,40
-195809,1958,Circuito da Boavista,8,0,16
-195808,1958,Nürburgring,2,1,36
-195807,1958,Silverstone Circuit,2,5,40
-195806,1958,Reims-Gueux,2,0,36
-195805,1958,Circuit de Spa-Francorchamps,1,4,20
-195804,1958,Indianapolis Motor Speedway,0,6,20
-195803,1958,Circuit Park Zandvoort,7,1,12
-195802,1958,Circuit de Monaco,1,4,28
-195801,1958,Autódromo Juan y Oscar Gálvez,6,6,0
-195708,1957,Autodromo Nazionale di Monza,5,1,24
-195707,1957,Pescara Circuit,4,1,20
-195706,1957,Nürburgring,23,0,16
-195705,1957,Aintree,3,2,36
-195704,1957,Rouen-Les-Essarts,22,0,24
-195703,1957,Indianapolis Motor Speedway,0,12,28
-195702,1957,Circuit de Monaco,21,0,36
-195701,1957,Autódromo Juan y Oscar Gálvez,20,1,12
-195608,1956,Autodromo Nazionale di Monza,2,5,36
-195607,1956,Nürburgring,19,0,28
-195606,1956,Silverstone Circuit,18,1,36
-195605,1956,Reims-Gueux,1,2,24
-195604,1956,Circuit de Spa-Francorchamps,0,2,16
-195603,1956,Indianapolis Motor Speedway,0,0,44
-195602,1956,Circuit de Monaco,1,1,24
-195601,1956,Autódromo Juan y Oscar Gálvez,17,2,20
-195507,1955,Autodromo Nazionale di Monza,16,0,36
-195506,1955,Aintree,0,0,40
-195505,1955,Circuit Park Zandvoort,15,0,16
-195504,1955,Circuit de Spa-Francorchamps,14,1,12
-195503,1955,Indianapolis Motor Speedway,0,13,48
-195502,1955,Circuit de Monaco,0,8,40
-195501,1955,Autódromo Juan y Oscar Gálvez,13,2,52
-195409,1954,Circuit de Pedralbes,1,2,32
-195408,1954,Autodromo Nazionale di Monza,12,0,36
-195407,1954,Circuit Bremgarten,11,1,12
-195406,1954,Nürburgring,10,0,12
-195405,1954,Silverstone Circuit,1,1,56
-195404,1954,Reims-Gueux,9,0,48
-195403,1954,Circuit de Spa-Francorchamps,8,0,20
-195402,1954,Indianapolis Motor Speedway,1,18,56
-195401,1954,Autódromo Juan y Oscar Gálvez,7,2,12
-195309,1953,Autodromo Nazionale di Monza,6,1,32
-195308,1953,Circuit Bremgarten,12,1,32
-195307,1953,Nürburgring,4,2,36
-195306,1953,Silverstone Circuit,11,0,36
-195305,1953,Reims-Gueux,0,6,28
-195304,1953,Circuit de Spa-Francorchamps,10,1,32
-195303,1953,Circuit Park Zandvoort,9,0,16
-195302,1953,Indianapolis Motor Speedway,0,0,60
-195301,1953,Autódromo Juan y Oscar Gálvez,8,0,20
-195208,1952,Autodromo Nazionale di Monza,7,0,28
-195207,1952,Circuit Park Zandvoort,6,0,20
-195206,1952,Nürburgring,5,0,28
-195205,1952,Silverstone Circuit,4,1,24
-195204,1952,Rouen-Les-Essarts,3,0,20
-195203,1952,Circuit de Spa-Francorchamps,2,0,20
-195202,1952,Indianapolis Motor Speedway,0,6,12
-195201,1952,Circuit Bremgarten,0,1,20
-195108,1951,Circuit de Pedralbes,5,1,24
-195107,1951,Autodromo Nazionale di Monza,1,2,24
-195106,1951,Nürburgring,0,0,32
-195105,1951,Silverstone Circuit,0,0,16
-195104,1951,Reims-Gueux,4,6,48
-195103,1951,Circuit de Spa-Francorchamps,3,1,12
-195102,1951,Indianapolis Motor Speedway,0,1,56
-195101,1951,Circuit Bremgarten,3,0,12
-195007,1950,Autodromo Nazionale di Monza,2,2,52
-195006,1950,Reims-Gueux,2,0,40
-195005,1950,Circuit de Spa-Francorchamps,1,1,4
-195004,1950,Circuit Bremgarten,1,1,20
-195003,1950,Indianapolis Motor Speedway,0,4,12
-195002,1950,Circuit de Monaco,0,0,4
-195001,1950,Silverstone Circuit,0,0,24
+196103,1961,Circuit de Spa-Francorchamps,4,0,3
+196104,1961,Reims-Gueux,0,11,9
+196105,1961,Aintree,4,3,6
+196106,1961,Nürburgring,58,2,6
+196107,1961,Autodromo Nazionale di Monza,4,3,16
+196108,1961,Watkins Glen,0,7,5
+196201,1962,Circuit Park Zandvoort,0,1,8
+196202,1962,Circuit de Monaco,6,2,5
+196203,1962,Circuit de Spa-Francorchamps,0,12,5
+196204,1962,Rouen-Les-Essarts,0,5,6
+196205,1962,Aintree,4,0,3
+196206,1962,Nürburgring,4,1,7
+196207,1962,Autodromo Nazionale di Monza,8,1,8
+196208,1962,Watkins Glen,4,0,3
+196209,1962,Prince George Circuit,12,1,3
+196301,1963,Circuit de Monaco,16,1,8
+196302,1963,Circuit de Spa-Francorchamps,10,7,9
+196303,1963,Circuit Park Zandvoort,14,0,6
+196304,1963,Reims-Gueux,18,0,3
+196305,1963,Silverstone Circuit,22,0,5
+196306,1963,Nürburgring,0,1,10
+196307,1963,Autodromo Nazionale di Monza,26,2,5
+196308,1963,Watkins Glen,20,0,7
+196309,1963,Autódromo Hermanos Rodríguez,30,0,9
+196310,1963,Prince George Circuit,34,0,4
+196401,1964,Circuit de Monaco,12,2,7
+196402,1964,Circuit Park Zandvoort,38,1,2
+196403,1964,Circuit de Spa-Francorchamps,21,5,7
+196404,1964,Rouen-Les-Essarts,2,1,5
+196405,1964,Brands Hatch,22,0,5
+196406,1964,Nürburgring,4,0,9
+196407,1964,Zeltweg,0,6,7
+196408,1964,Autodromo Nazionale di Monza,8,0,3
+196409,1964,Watkins Glen,13,3,6
+196410,1964,Autódromo Hermanos Rodríguez,6,1,7
+196501,1965,Prince George Circuit,23,0,2
+196502,1965,Circuit de Monaco,28,0,5
+196503,1965,Circuit de Spa-Francorchamps,48,1,3
+196504,1965,Charade Circuit,52,0,5
+196505,1965,Silverstone Circuit,56,0,4
+196506,1965,Circuit Park Zandvoort,60,1,2
+196507,1965,Nürburgring,64,0,6
+196508,1965,Autodromo Nazionale di Monza,0,2,9
+196509,1965,Watkins Glen,32,0,3
+196510,1965,Autódromo Hermanos Rodríguez,0,2,6
+196601,1966,Circuit de Monaco,2,2,9
+196602,1966,Circuit de Spa-Francorchamps,12,0,0
+196603,1966,Reims-Gueux,28,3,3
+196604,1966,Brands Hatch,32,0,5
+196605,1966,Circuit Park Zandvoort,18,0,5
+196606,1966,Nürburgring,19,4,8
+196607,1966,Autodromo Nazionale di Monza,0,1,5
+196608,1966,Watkins Glen,68,1,7
+196609,1966,Autódromo Hermanos Rodríguez,16,0,8
+196701,1967,Kyalami,0,3,8
+196702,1967,Circuit de Monaco,0,3,6
+196703,1967,Circuit Park Zandvoort,72,7,4
+196704,1967,Circuit de Spa-Francorchamps,10,1,7
+196705,1967,Le Mans,40,1,4
+196706,1967,Silverstone Circuit,76,0,7
+196707,1967,Nürburgring,4,1,9
+196708,1967,Mosport International Raceway,22,6,1
+196709,1967,Autodromo Nazionale di Monza,10,8,10
+196710,1967,Watkins Glen,80,1,7
+196711,1967,Autódromo Hermanos Rodríguez,84,0,4
+196801,1968,Kyalami,88,0,7
+196802,1968,Jarama,36,5,3
+196803,1968,Circuit de Monaco,40,0,7
+196804,1968,Circuit de Spa-Francorchamps,10,5,6
+196805,1968,Circuit Park Zandvoort,6,4,6
+196806,1968,Rouen-Les-Essarts,0,2,2
+196807,1968,Brands Hatch,0,3,6
+196808,1968,Nürburgring,10,5,2
+196809,1968,Autodromo Nazionale di Monza,8,6,10
+196810,1968,Circuit Mont-Tremblant,12,5,8
+196811,1968,Watkins Glen,14,1,9
+196812,1968,Autódromo Hermanos Rodríguez,44,2,7
+196901,1969,Kyalami,18,3,3
+196902,1969,Montjuïc,11,3,6
+196903,1969,Circuit de Monaco,48,3,5
+196904,1969,Circuit Park Zandvoort,24,1,3
+196905,1969,Charade Circuit,28,0,1
+196906,1969,Silverstone Circuit,32,1,6
+196907,1969,Nürburgring,4,0,4
+196908,1969,Autodromo Nazionale di Monza,36,2,2
+196909,1969,Mosport International Raceway,8,0,5
+196910,1969,Watkins Glen,0,0,8
+196911,1969,Autódromo Hermanos Rodríguez,16,3,4
+197001,1970,Kyalami,46,2,12
+197002,1970,Jarama,40,2,6
+197003,1970,Circuit de Monaco,4,7,5
+197004,1970,Circuit de Spa-Francorchamps,4,5,8
+197005,1970,Circuit Park Zandvoort,8,0,7
+197006,1970,Charade Circuit,6,5,5
+197007,1970,Brands Hatch,7,0,8
+197008,1970,Hockenheimring,16,1,10
+197009,1970,A1-Ring,12,2,6
+197010,1970,Autodromo Nazionale di Monza,0,2,9
+197011,1970,Circuit Mont-Tremblant,16,1,3
+197012,1970,Watkins Glen,0,2,5
+197013,1970,Autódromo Hermanos Rodríguez,20,2,7
+197101,1971,Kyalami,0,3,10
+197102,1971,Montjuïc,44,3,6
+197103,1971,Circuit de Monaco,48,0,6
+197104,1971,Circuit Park Zandvoort,12,0,5
+197105,1971,Circuit Paul Ricard,52,0,5
+197106,1971,Silverstone Circuit,28,1,7
+197107,1971,Nürburgring,58,0,5
+197108,1971,A1-Ring,4,0,5
+197109,1971,Autodromo Nazionale di Monza,0,10,12
+197110,1971,Mosport International Raceway,62,0,4
+197111,1971,Watkins Glen,0,4,7
+197201,1972,Autódromo Juan y Oscar Gálvez,66,1,5
+197202,1972,Kyalami,20,4,5
+197203,1972,Jarama,4,2,11
+197204,1972,Circuit de Monaco,0,3,7
+197205,1972,Nivelles-Baulers,8,0,7
+197206,1972,Charade Circuit,35,2,2
+197207,1972,Brands Hatch,12,1,14
+197208,1972,Nürburgring,26,0,9
+197209,1972,A1-Ring,16,0,3
+197210,1972,Autodromo Nazionale di Monza,20,3,8
+197211,1972,Mosport International Raceway,72,4,7
+197212,1972,Watkins Glen,76,0,12
+197301,1973,Autódromo Juan y Oscar Gálvez,24,1,5
+197302,1973,Autódromo José Carlos Pace,28,1,7
+197303,1973,Kyalami,80,15,11
+197304,1973,Montjuïc,32,6,3
+197305,1973,Zolder,84,5,11
+197306,1973,Circuit de Monaco,88,0,8
+197307,1973,Scandinavian Raceway,24,5,4
+197308,1973,Circuit Paul Ricard,0,4,4
+197309,1973,Silverstone Circuit,0,2,1
+197310,1973,Circuit Park Zandvoort,92,1,8
+197311,1973,Nürburgring,48,0,5
+197312,1973,A1-Ring,4,1,4
+197313,1973,Autodromo Nazionale di Monza,4,0,6
+197314,1973,Mosport International Raceway,2,1,5
+197315,1973,Watkins Glen,10,0,6
+197401,1974,Autódromo Juan y Oscar Gálvez,28,9,10
+197402,1974,Autódromo José Carlos Pace,36,0,4
+197403,1974,Kyalami,0,3,4
+197404,1974,Jarama,0,0,8
+197405,1974,Nivelles-Baulers,40,3,11
+197406,1974,Circuit de Monaco,14,2,7
+197407,1974,Scandinavian Raceway,0,1,10
+197408,1974,Circuit Park Zandvoort,4,0,7
+197409,1974,Dijon-Prenois,18,1,4
+197410,1974,Brands Hatch,4,2,8
+197411,1974,Nürburgring,2,1,8
+197412,1974,A1-Ring,4,1,9
+197413,1974,Autodromo Nazionale di Monza,22,6,11
+197414,1974,Mosport International Raceway,44,0,5
+197415,1974,Watkins Glen,8,0,6
+197501,1975,Autódromo Juan y Oscar Gálvez,48,4,7
+197502,1975,Autódromo José Carlos Pace,0,5,4
+197503,1975,Kyalami,8,2,6
+197504,1975,Montjuïc,0,10,11
+197505,1975,Circuit de Monaco,8,0,6
+197506,1975,Zolder,12,0,8
+197507,1975,Scandinavian Raceway,16,4,7
+197508,1975,Circuit Park Zandvoort,0,2,7
+197509,1975,Circuit Paul Ricard,20,0,5
+197510,1975,Silverstone Circuit,26,6,20
+197511,1975,Nürburgring,12,9,12
+197512,1975,A1-Ring,0,7,6
+197513,1975,Autodromo Nazionale di Monza,6,1,9
+197514,1975,Watkins Glen,24,0,8
+197601,1976,Autódromo José Carlos Pace,28,1,5
+197602,1976,Kyalami,32,1,6
+197603,1976,Long Beach,10,0,3
+197604,1976,Jarama,4,0,11
+197605,1976,Zolder,36,0,11
+197606,1976,Circuit de Monaco,40,0,7
+197607,1976,Scandinavian Raceway,12,0,10
+197608,1976,Circuit Paul Ricard,8,0,6
+197609,1976,Brands Hatch,44,0,8
+197610,1976,Nürburgring,12,0,1
+197611,1976,A1-Ring,0,1,8
+197612,1976,Circuit Park Zandvoort,16,1,10
+197613,1976,Autodromo Nazionale di Monza,26,7,5
+197614,1976,Mosport International Raceway,20,0,1
+197615,1976,Watkins Glen,24,0,10
+197616,1976,Fuji Speedway,2,0,7
+197701,1977,Autódromo Juan y Oscar Gálvez,16,10,10
+197702,1977,Autódromo José Carlos Pace,16,1,14
+197703,1977,Kyalami,48,2,6
+197704,1977,Long Beach,6,1,7
+197705,1977,Jarama,10,0,9
+197706,1977,Circuit de Monaco,20,1,6
+197707,1977,Zolder,0,2,9
+197708,1977,Scandinavian Raceway,0,7,2
+197709,1977,Dijon-Prenois,14,0,8
+197710,1977,Silverstone Circuit,28,0,6
+197711,1977,Hockenheimring,52,2,12
+197712,1977,A1-Ring,0,13,8
+197713,1977,Circuit Park Zandvoort,56,3,9
+197714,1977,Autodromo Nazionale di Monza,18,3,15
+197715,1977,Watkins Glen,32,0,5
+197716,1977,Mosport International Raceway,12,8,15
+197717,1977,Fuji Speedway,36,1,11
+197801,1978,Autódromo Juan y Oscar Gálvez,22,0,5
+197802,1978,Autódromo Internacional Nelson Piquet,20,3,8
+197803,1978,Kyalami,30,11,12
+197804,1978,Long Beach,24,0,8
+197805,1978,Circuit de Monaco,0,4,5
+197806,1978,Zolder,26,0,9
+197807,1978,Jarama,30,0,7
+197808,1978,Scandinavian Raceway,60,2,7
+197809,1978,Circuit Paul Ricard,34,1,8
+197810,1978,Brands Hatch,28,7,11
+197811,1978,Hockenheimring,38,0,8
+197812,1978,A1-Ring,34,0,12
+197813,1978,Circuit Park Zandvoort,42,0,9
+197814,1978,Autodromo Nazionale di Monza,64,3,3
+197815,1978,Watkins Glen,32,1,6
+197816,1978,Circuit Gilles Villeneuve,0,2,5
+197901,1979,Autódromo Juan y Oscar Gálvez,4,0,7
+197902,1979,Autódromo José Carlos Pace,8,0,4
+197903,1979,Kyalami,4,2,9
+197904,1979,Long Beach,8,0,7
+197905,1979,Jarama,4,1,6
+197906,1979,Zolder,26,6,10
+197907,1979,Circuit de Monaco,30,0,12
+197908,1979,Dijon-Prenois,0,0,5
+197909,1979,Silverstone Circuit,14,3,5
+197910,1979,Hockenheimring,4,1,11
+197911,1979,A1-Ring,8,1,11
+197912,1979,Circuit Park Zandvoort,12,1,14
+197913,1979,Autodromo Nazionale di Monza,34,2,11
+197914,1979,Circuit Gilles Villeneuve,16,0,10
+197915,1979,Watkins Glen,12,2,15
+198001,1980,Autódromo Juan y Oscar Gálvez,20,0,13
+198002,1980,Autódromo José Carlos Pace,0,5,6
+198003,1980,Kyalami,4,1,11
+198004,1980,Long Beach,0,0,11
+198005,1980,Zolder,0,1,12
+198006,1980,Circuit de Monaco,36,1,6
+198007,1980,Circuit Paul Ricard,24,3,7
+198008,1980,Brands Hatch,28,2,11
+198009,1980,Hockenheimring,12,4,6
+198010,1980,A1-Ring,4,1,4
+198011,1980,Circuit Park Zandvoort,4,4,9
+198012,1980,Autodromo Enzo e Dino Ferrari,8,4,10
+198013,1980,Circuit Gilles Villeneuve,32,1,7
+198014,1980,Watkins Glen,36,4,10
+198101,1981,Long Beach,40,1,8
+198102,1981,Autódromo Internacional Nelson Piquet,40,1,5
+198103,1981,Autódromo Juan y Oscar Gálvez,12,0,8
+198104,1981,Autodromo Enzo e Dino Ferrari,16,4,9
+198105,1981,Zolder,44,0,9
+198106,1981,Circuit de Monaco,16,1,10
+198107,1981,Jarama,20,6,4
+198108,1981,Dijon-Prenois,0,2,6
+198109,1981,Silverstone Circuit,4,4,10
+198110,1981,Hockenheimring,20,5,8
+198111,1981,A1-Ring,16,3,9
+198112,1981,Circuit Park Zandvoort,4,0,13
+198113,1981,Autodromo Nazionale di Monza,8,2,16
+198114,1981,Circuit Gilles Villeneuve,20,9,10
+198115,1981,Las Vegas Street Circuit,44,1,7
+198201,1982,Kyalami,12,4,2
+198202,1982,Autódromo Internacional Nelson Piquet,16,0,10
+198203,1982,Long Beach,68,1,15
+198204,1982,Autodromo Enzo e Dino Ferrari,4,3,4
+198205,1982,Zolder,8,9,9
+198206,1982,Circuit de Monaco,0,1,9
+198207,1982,Detroit Street Circuit,12,16,10
+198208,1982,Circuit Gilles Villeneuve,24,3,10
+198209,1982,Circuit Park Zandvoort,8,3,6
+198210,1982,Brands Hatch,72,4,9
+198211,1982,Circuit Paul Ricard,8,0,7
+198212,1982,Hockenheimring,0,4,8
+198213,1982,A1-Ring,0,6,13
+198214,1982,Dijon-Prenois,0,7,5
+198215,1982,Autodromo Nazionale di Monza,12,5,4
+198216,1982,Las Vegas Street Circuit,0,2,7
+198301,1983,Autódromo Internacional Nelson Piquet,28,3,7
+198302,1983,Long Beach,16,21,10
+198303,1983,Circuit Paul Ricard,20,0,10
+198304,1983,Autodromo Enzo e Dino Ferrari,4,2,13
+198305,1983,Circuit de Monaco,4,4,10
+198306,1983,Circuit de Spa-Francorchamps,24,0,7
+198307,1983,Detroit Street Circuit,4,5,8
+198308,1983,Circuit Gilles Villeneuve,16,0,9
+198309,1983,Silverstone Circuit,28,2,4
+198310,1983,Hockenheimring,20,1,6
+198311,1983,A1-Ring,32,4,4
+198312,1983,Circuit Park Zandvoort,24,9,11
+198313,1983,Autodromo Nazionale di Monza,32,3,8
+198314,1983,Brands Hatch,36,3,7
+198315,1983,Kyalami,4,2,9
+198401,1984,Autódromo Internacional Nelson Piquet,36,3,9
+198402,1984,Kyalami,76,7,6
+198403,1984,Zolder,8,0,11
+198404,1984,Autodromo Enzo e Dino Ferrari,40,1,6
+198405,1984,Dijon-Prenois,80,8,8
+198406,1984,Circuit de Monaco,44,0,7
+198407,1984,Circuit Gilles Villeneuve,40,0,5
+198408,1984,Detroit Street Circuit,44,0,16
+198409,1984,Fair Park,8,7,15
+198410,1984,Brands Hatch,84,2,8
+198411,1984,Hockenheimring,48,0,10
+198412,1984,A1-Ring,88,3,10
+198413,1984,Circuit Park Zandvoort,52,0,9
+198414,1984,Autodromo Nazionale di Monza,92,3,10
+198415,1984,Nürburgring,56,1,5
+198416,1984,Autódromo do Estoril,60,1,10
+198501,1985,Autódromo Internacional Nelson Piquet,64,5,8
+198502,1985,Autódromo do Estoril,0,0,16
+198503,1985,Autodromo Enzo e Dino Ferrari,4,2,10
+198504,1985,Circuit de Monaco,68,4,5
+198505,1985,Circuit Gilles Villeneuve,12,2,6
+198506,1985,Detroit Street Circuit,12,4,9
+198507,1985,Circuit Paul Ricard,48,4,6
+198508,1985,Silverstone Circuit,72,2,8
+198509,1985,Nürburgring,16,7,9
+198510,1985,A1-Ring,76,0,11
+198511,1985,Circuit Park Zandvoort,96,9,10
+198512,1985,Autodromo Nazionale di Monza,80,4,11
+198513,1985,Circuit de Spa-Francorchamps,4,1,9
+198514,1985,Brands Hatch,0,2,10
+198515,1985,Kyalami,4,0,9
+198516,1985,Adelaide Street Circuit,16,2,12
+198601,1986,Autódromo Internacional Nelson Piquet,52,1,7
+198602,1986,Circuito de Jerez,8,0,9
+198603,1986,Autodromo Enzo e Dino Ferrari,84,3,9
+198604,1986,Circuit de Monaco,88,0,4
+198605,1986,Circuit de Spa-Francorchamps,8,4,9
+198606,1986,Circuit Gilles Villeneuve,12,0,7
+198607,1986,Detroit Street Circuit,12,0,11
+198608,1986,Circuit Paul Ricard,16,1,9
+198609,1986,Brands Hatch,20,1,8
+198610,1986,Hockenheimring,56,4,10
+198611,1986,Hungaroring,60,1,15
+198612,1986,A1-Ring,92,4,12
+198613,1986,Autodromo Nazionale di Monza,64,5,14
+198614,1986,Autódromo do Estoril,24,1,11
+198615,1986,Autódromo Hermanos Rodríguez,0,3,7
+198616,1986,Adelaide Street Circuit,96,3,12
+198701,1987,Autódromo Internacional Nelson Piquet,100,4,7
+198702,1987,Autodromo Enzo e Dino Ferrari,28,1,9
+198703,1987,Circuit de Spa-Francorchamps,104,5,9
+198704,1987,Circuit de Monaco,16,1,11
+198705,1987,Detroit Street Circuit,20,1,10
+198706,1987,Circuit Paul Ricard,32,0,9
+198707,1987,Silverstone Circuit,36,1,12
+198708,1987,Hockenheimring,68,3,11
+198709,1987,Hungaroring,72,2,10
+198710,1987,A1-Ring,40,1,6
+198711,1987,Autodromo Nazionale di Monza,76,0,7
+198712,1987,Autódromo do Estoril,108,2,8
+198713,1987,Circuito de Jerez,44,1,9
+198714,1987,Autódromo Hermanos Rodríguez,48,0,11
+198715,1987,Suzuka Circuit,4,0,9
+198716,1987,Adelaide Street Circuit,8,0,9
+198801,1988,Autódromo Internacional Nelson Piquet,112,2,11
+198802,1988,Autodromo Enzo e Dino Ferrari,24,0,7
+198803,1988,Circuit de Monaco,116,1,11
+198804,1988,Autódromo Hermanos Rodríguez,120,1,8
+198805,1988,Circuit Gilles Villeneuve,28,0,10
+198806,1988,Detroit Street Circuit,32,0,17
+198807,1988,Circuit Paul Ricard,124,0,7
+198808,1988,Silverstone Circuit,36,2,3
+198809,1988,Hockenheimring,40,0,7
+198810,1988,Hungaroring,44,0,8
+198811,1988,Circuit de Spa-Francorchamps,48,0,9
+198812,1988,Autodromo Nazionale di Monza,12,2,13
+198813,1988,Autódromo do Estoril,128,0,10
+198814,1988,Circuito de Jerez,132,1,7
+198815,1988,Suzuka Circuit,52,0,5
+198816,1988,Adelaide Street Circuit,136,1,12
+198901,1989,Autódromo Internacional Nelson Piquet,52,5,4
+198902,1989,Autodromo Enzo e Dino Ferrari,56,0,10
+198903,1989,Circuit de Monaco,60,0,11
+198904,1989,Autódromo Hermanos Rodríguez,64,0,9
+198905,1989,Phoenix street circuit,140,1,11
+198906,1989,Circuit Gilles Villeneuve,0,5,13
+198907,1989,Circuit Paul Ricard,144,0,12
+198908,1989,Silverstone Circuit,148,1,12
+198909,1989,Hockenheimring,68,0,12
+198910,1989,Hungaroring,56,11,10
+198911,1989,Circuit de Spa-Francorchamps,72,0,8
+198912,1989,Autodromo Nazionale di Monza,152,3,12
+198913,1989,Autódromo do Estoril,16,1,11
+198914,1989,Circuito de Jerez,76,0,14
+198915,1989,Suzuka Circuit,0,5,11
+198916,1989,Adelaide Street Circuit,4,4,16
+199001,1990,Phoenix street circuit,80,4,7
+199002,1990,Autódromo José Carlos Pace,156,5,12
+199003,1990,Autodromo Enzo e Dino Ferrari,8,2,7
+199004,1990,Circuit de Monaco,84,0,13
+199005,1990,Circuit Gilles Villeneuve,88,0,11
+199006,1990,Autódromo Hermanos Rodríguez,160,12,6
+199007,1990,Circuit Paul Ricard,164,3,8
+199008,1990,Silverstone Circuit,168,4,7
+199009,1990,Hockenheimring,92,0,10
+199010,1990,Hungaroring,8,0,10
+199011,1990,Circuit de Spa-Francorchamps,96,0,6
+199012,1990,Autodromo Nazionale di Monza,100,0,12
+199013,1990,Autódromo do Estoril,60,0,8
+199014,1990,Circuito de Jerez,172,1,10
+199015,1990,Suzuka Circuit,80,5,10
+199016,1990,Adelaide Street Circuit,84,6,11
+199101,1991,Phoenix street circuit,104,0,16
+199102,1991,Autódromo José Carlos Pace,108,0,10
+199103,1991,Autodromo Enzo e Dino Ferrari,56,0,13
+199104,1991,Circuit de Monaco,114,0,9
+199105,1991,Circuit Gilles Villeneuve,88,7,12
+199106,1991,Autódromo Hermanos Rodríguez,12,0,11
+199107,1991,Circuit de Nevers Magny-Cours,64,3,11
+199108,1991,Silverstone Circuit,68,0,10
+199109,1991,Hockenheimring,72,0,12
+199110,1991,Hungaroring,118,0,9
+199111,1991,Circuit de Spa-Francorchamps,122,0,11
+199112,1991,Autodromo Nazionale di Monza,76,1,9
+199113,1991,Autódromo do Estoril,16,0,9
+199114,1991,Circuit de Barcelona-Catalunya,80,1,8
+199115,1991,Suzuka Circuit,20,0,12
+199116,1991,Adelaide Street Circuit,126,0,6
+199201,1992,Kyalami,84,0,10
+199202,1992,Autódromo Hermanos Rodríguez,88,0,9
+199203,1992,Autódromo José Carlos Pace,92,0,16
+199204,1992,Circuit de Barcelona-Catalunya,96,0,15
+199205,1992,Autodromo Enzo e Dino Ferrari,100,0,13
+199206,1992,Circuit de Monaco,130,2,13
+199207,1992,Circuit Gilles Villeneuve,24,3,10
+199208,1992,Circuit de Nevers Magny-Cours,104,0,10
+199209,1992,Silverstone Circuit,108,0,9
+199210,1992,Hockenheimring,112,0,11
+199211,1992,Hungaroring,134,2,10
+199212,1992,Circuit de Spa-Francorchamps,0,2,8
+199213,1992,Autodromo Nazionale di Monza,138,1,14
+199214,1992,Autódromo do Estoril,116,0,11
+199215,1992,Suzuka Circuit,20,1,11
+199216,1992,Adelaide Street Circuit,28,3,9
+199301,1993,Kyalami,176,0,19
+199302,1993,Autódromo José Carlos Pace,142,2,8
+199303,1993,Donington Park,146,3,10
+199304,1993,Autodromo Enzo e Dino Ferrari,180,0,14
+199305,1993,Circuit de Barcelona-Catalunya,184,0,10
+199306,1993,Circuit de Monaco,150,2,11
+199307,1993,Circuit Gilles Villeneuve,188,0,7
+199308,1993,Circuit de Nevers Magny-Cours,192,1,10
+199309,1993,Silverstone Circuit,196,0,8
+199310,1993,Hockenheimring,200,0,7
+199311,1993,Hungaroring,0,1,10
+199312,1993,Circuit de Spa-Francorchamps,4,1,9
+199313,1993,Autodromo Nazionale di Monza,8,1,9
+199314,1993,Autódromo do Estoril,4,5,12
+199315,1993,Suzuka Circuit,154,1,11
+199316,1993,Adelaide Street Circuit,158,0,7
+199401,1994,Autódromo José Carlos Pace,8,1,14
+199402,1994,Okayama International Circuit,12,1,11
+199403,1994,Autodromo Enzo e Dino Ferrari,16,1,9
+199404,1994,Circuit de Monaco,20,0,8
+199405,1994,Circuit de Barcelona-Catalunya,12,1,13
+199406,1994,Circuit Gilles Villeneuve,24,0,9
+199407,1994,Circuit de Nevers Magny-Cours,28,2,16
+199408,1994,Silverstone Circuit,16,0,7
+199409,1994,Hockenheimring,32,0,6
+199410,1994,Hungaroring,32,0,10
+199411,1994,Circuit de Spa-Francorchamps,20,2,9
+199412,1994,Autodromo Nazionale di Monza,24,2,12
+199413,1994,Autódromo do Estoril,28,1,9
+199414,1994,Circuito de Jerez,36,0,5
+199415,1994,Suzuka Circuit,32,1,10
+199416,1994,Adelaide Street Circuit,120,0,11
+199501,1995,Autódromo José Carlos Pace,40,1,13
+199502,1995,Autódromo Juan y Oscar Gálvez,36,1,9
+199503,1995,Autodromo Enzo e Dino Ferrari,40,3,9
+199504,1995,Circuit de Barcelona-Catalunya,44,0,7
+199505,1995,Circuit de Monaco,48,1,11
+199506,1995,Circuit Gilles Villeneuve,0,4,10
+199507,1995,Circuit de Nevers Magny-Cours,52,1,4
+199508,1995,Silverstone Circuit,0,4,11
+199509,1995,Hockenheimring,56,1,9
+199510,1995,Hungaroring,44,0,9
+199511,1995,Circuit de Spa-Francorchamps,30,15,8
+199512,1995,Autodromo Nazionale di Monza,4,7,10
+199513,1995,Autódromo do Estoril,0,0,4
+199514,1995,Nürburgring,62,2,6
+199515,1995,Okayama International Circuit,66,2,7
+199516,1995,Suzuka Circuit,70,0,9
+199517,1995,Adelaide Street Circuit,48,0,13
+199601,1996,Albert Park Grand Prix Circuit,52,1,5
+199602,1996,Autódromo José Carlos Pace,56,0,10
+199603,1996,Autódromo Juan y Oscar Gálvez,60,0,7
+199604,1996,Nürburgring,0,1,4
+199605,1996,Autodromo Enzo e Dino Ferrari,64,1,11
+199606,1996,Circuit de Monaco,0,13,12
+199607,1996,Circuit de Barcelona-Catalunya,74,2,10
+199608,1996,Circuit Gilles Villeneuve,68,0,13
+199609,1996,Circuit de Nevers Magny-Cours,72,1,4
+199610,1996,Silverstone Circuit,4,1,6
+199611,1996,Hockenheimring,76,0,5
+199612,1996,Hungaroring,8,2,10
+199613,1996,Circuit de Spa-Francorchamps,39,2,6
+199614,1996,Autodromo Nazionale di Monza,80,2,11
+199615,1996,Autódromo do Estoril,12,1,4
+199616,1996,Suzuka Circuit,80,1,4
+199701,1997,Albert Park Grand Prix Circuit,4,3,7
+199702,1997,Autódromo José Carlos Pace,16,0,4
+199703,1997,Autódromo Juan y Oscar Gálvez,20,0,11
+199704,1997,Autodromo Enzo e Dino Ferrari,0,1,10
+199705,1997,Circuit de Monaco,84,1,11
+199706,1997,Circuit de Barcelona-Catalunya,24,0,7
+199707,1997,Circuit Gilles Villeneuve,88,0,9
+199708,1997,Circuit de Nevers Magny-Cours,92,0,10
+199709,1997,Silverstone Circuit,28,0,8
+199710,1997,Hockenheimring,36,0,9
+199711,1997,Hungaroring,32,1,9
+199712,1997,Circuit de Spa-Francorchamps,96,2,5
+199713,1997,Autodromo Nazionale di Monza,8,5,8
+199714,1997,A1-Ring,36,0,8
+199715,1997,Nürburgring,40,1,9
+199716,1997,Suzuka Circuit,100,1,7
+199717,1997,Circuito de Jerez,0,4,4
+199801,1998,Albert Park Grand Prix Circuit,2,0,10
+199802,1998,Autódromo José Carlos Pace,6,0,7
+199803,1998,Autódromo Juan y Oscar Gálvez,104,1,8
+199804,1998,Autodromo Enzo e Dino Ferrari,12,0,10
+199805,1998,Circuit de Barcelona-Catalunya,10,0,5
+199806,1998,Circuit de Monaco,14,0,8
+199807,1998,Circuit Gilles Villeneuve,108,2,6
+199808,1998,Circuit de Nevers Magny-Cours,56,1,7
+199809,1998,Silverstone Circuit,114,1,12
+199810,1998,A1-Ring,9,2,7
+199811,1998,Hockenheimring,10,0,4
+199812,1998,Hungaroring,118,2,6
+199813,1998,Circuit de Spa-Francorchamps,84,2,7
+199814,1998,Autodromo Nazionale di Monza,122,0,7
+199815,1998,Nürburgring,22,2,5
+199816,1998,Suzuka Circuit,26,1,8
+199901,1999,Albert Park Grand Prix Circuit,0,5,8
+199902,1999,Autódromo José Carlos Pace,30,0,12
+199903,1999,Autodromo Enzo e Dino Ferrari,126,2,8
+199904,1999,Circuit de Monaco,130,1,12
+199905,1999,Circuit de Barcelona-Catalunya,34,0,7
+199906,1999,Circuit Gilles Villeneuve,38,1,6
+199907,1999,Circuit de Nevers Magny-Cours,4,4,10
+199908,1999,Silverstone Circuit,16,2,2
+199909,1999,A1-Ring,4,2,6
+199910,1999,Hockenheimring,8,4,9
+199911,1999,Hungaroring,42,0,5
+199912,1999,Circuit de Spa-Francorchamps,20,1,4
+199913,1999,Autodromo Nazionale di Monza,8,1,9
+199914,1999,Nürburgring,8,13,8
+199915,1999,Sepang International Circuit,12,1,8
+199916,1999,Suzuka Circuit,46,1,6
+200001,2000,Albert Park Grand Prix Circuit,134,2,12
+200002,2000,Autódromo José Carlos Pace,138,2,8
+200003,2000,Autodromo Enzo e Dino Ferrari,142,1,7
+200004,2000,Silverstone Circuit,24,3,5
+200005,2000,Circuit de Barcelona-Catalunya,50,1,5
+200006,2000,Nürburgring,146,1,9
+200007,2000,Circuit de Monaco,28,2,12
+200008,2000,Circuit Gilles Villeneuve,150,0,8
+200009,2000,Circuit de Nevers Magny-Cours,32,1,7
+200010,2000,A1-Ring,54,0,5
+200011,2000,Hockenheimring,0,17,8
+200012,2000,Hungaroring,58,2,5
+200013,2000,Circuit de Spa-Francorchamps,62,0,3
+200014,2000,Autodromo Nazionale di Monza,154,0,4
+200015,2000,Indianapolis Motor Speedway,158,0,9
+200016,2000,Suzuka Circuit,162,0,7
+200017,2000,Sepang International Circuit,166,0,6
+200101,2001,Albert Park Grand Prix Circuit,170,0,7
+200102,2001,Sepang International Circuit,174,0,4
+200103,2001,Autódromo José Carlos Pace,36,4,11
+200104,2001,Autodromo Enzo e Dino Ferrari,0,2,7
+200105,2001,Circuit de Barcelona-Catalunya,178,0,5
+200106,2001,A1-Ring,40,6,8
+200107,2001,Circuit de Monaco,182,1,9
+200108,2001,Circuit Gilles Villeneuve,4,1,7
+200109,2001,Nürburgring,186,0,8
+200110,2001,Circuit de Nevers Magny-Cours,190,1,5
+200111,2001,Silverstone Circuit,66,1,3
+200112,2001,Hockenheimring,8,1,7
+200113,2001,Hungaroring,194,0,7
+200114,2001,Circuit de Spa-Francorchamps,198,2,4
+200115,2001,Autodromo Nazionale di Monza,0,0,6
+200116,2001,Indianapolis Motor Speedway,70,3,8
+200117,2001,Suzuka Circuit,202,0,3
+200201,2002,Albert Park Grand Prix Circuit,206,1,3
+200202,2002,Sepang International Circuit,12,3,8
+200203,2002,Autódromo José Carlos Pace,210,1,9
+200204,2002,Autodromo Enzo e Dino Ferrari,214,0,5
+200205,2002,Circuit de Barcelona-Catalunya,218,0,8
+200206,2002,A1-Ring,222,2,8
+200207,2002,Circuit de Monaco,44,1,9
+200208,2002,Circuit Gilles Villeneuve,226,1,7
+200209,2002,Nürburgring,4,3,6
+200210,2002,Silverstone Circuit,230,2,6
+200211,2002,Circuit de Nevers Magny-Cours,234,1,7
+200212,2002,Hockenheimring,238,0,10
+200213,2002,Hungaroring,8,0,4
+200214,2002,Circuit de Spa-Francorchamps,242,0,9
+200215,2002,Autodromo Nazionale di Monza,12,3,6
+200216,2002,Indianapolis Motor Speedway,8,1,3
+200217,2002,Suzuka Circuit,246,0,8
+200301,2003,Albert Park Grand Prix Circuit,48,10,8
+200302,2003,Sepang International Circuit,0,6,4
+200303,2003,Autódromo José Carlos Pace,0,7,10
+200304,2003,Autodromo Enzo e Dino Ferrari,250,0,3
+200305,2003,Circuit de Barcelona-Catalunya,254,0,5
+200306,2003,A1-Ring,258,0,4
+200307,2003,Circuit de Monaco,4,2,3
+200308,2003,Circuit Gilles Villeneuve,262,2,7
+200309,2003,Nürburgring,16,2,4
+200310,2003,Circuit de Nevers Magny-Cours,20,0,3
+200311,2003,Silverstone Circuit,18,0,3
+200312,2003,Hockenheimring,8,0,6
+200313,2003,Hungaroring,0,0,6
+200314,2003,Autodromo Nazionale di Monza,266,0,3
+200315,2003,Indianapolis Motor Speedway,270,6,9
+200316,2003,Suzuka Circuit,22,0,3
+200401,2004,Albert Park Grand Prix Circuit,274,0,10
+200402,2004,Sepang International Circuit,278,0,8
+200403,2004,Bahrain International Circuit,282,0,4
+200404,2004,Autodromo Enzo e Dino Ferrari,286,1,8
+200405,2004,Circuit de Barcelona-Catalunya,290,0,8
+200406,2004,Circuit de Monaco,0,0,18
+200407,2004,Nürburgring,294,0,6
+200408,2004,Circuit Gilles Villeneuve,298,5,10
+200409,2004,Indianapolis Motor Speedway,302,1,12
+200410,2004,Circuit de Nevers Magny-Cours,306,1,4
+200411,2004,Silverstone Circuit,310,3,8
+200412,2004,Hockenheimring,314,0,2
+200413,2004,Hungaroring,318,0,6
+200414,2004,Circuit de Spa-Francorchamps,4,9,12
+200415,2004,Autodromo Nazionale di Monza,26,0,6
+200416,2004,Shanghai International Circuit,30,0,6
+200417,2004,Suzuka Circuit,322,0,8
+200418,2004,Autódromo José Carlos Pace,12,1,6
+200501,2005,Albert Park Grand Prix Circuit,4,0,6
+200502,2005,Sepang International Circuit,4,0,14
+200503,2005,Bahrain International Circuit,8,0,12
+200504,2005,Autodromo Enzo e Dino Ferrari,12,1,10
+200505,2005,Circuit de Barcelona-Catalunya,8,0,10
+200506,2005,Circuit de Monaco,12,0,8
+200507,2005,Nürburgring,16,5,4
+200508,2005,Circuit Gilles Villeneuve,16,6,12
+200509,2005,Indianapolis Motor Speedway,326,4,0
+200510,2005,Circuit de Nevers Magny-Cours,20,0,8
+200511,2005,Silverstone Circuit,16,2,2
+200512,2005,Hockenheimring,24,2,2
+200513,2005,Hungaroring,20,3,4
+200514,2005,Istanbul Park,24,0,6
+200515,2005,Autodromo Nazionale di Monza,20,0,0
+200516,2005,Circuit de Spa-Francorchamps,28,1,14
+200517,2005,Autódromo José Carlos Pace,24,1,4
+200518,2005,Suzuka Circuit,32,16,4
+200519,2005,Shanghai International Circuit,28,0,8
+200601,2006,Bahrain International Circuit,32,3,6
+200602,2006,Sepang International Circuit,8,0,14
+200603,2006,Albert Park Grand Prix Circuit,36,2,12
+200604,2006,Autodromo Enzo e Dino Ferrari,330,0,8
+200605,2006,Nürburgring,334,1,16
+200606,2006,Circuit de Barcelona-Catalunya,40,0,8
+200607,2006,Circuit de Monaco,44,0,8
+200608,2006,Silverstone Circuit,48,0,1
+200609,2006,Circuit Gilles Villeneuve,52,0,11
+200610,2006,Indianapolis Motor Speedway,338,0,10
+200611,2006,Circuit de Nevers Magny-Cours,342,0,4
+200612,2006,Hockenheimring,346,1,7
+200613,2006,Hungaroring,0,13,15
+200614,2006,Istanbul Park,0,0,9
+200615,2006,Autodromo Nazionale di Monza,350,1,8
+200616,2006,Shanghai International Circuit,354,5,4
+200617,2006,Suzuka Circuit,56,4,8
+200618,2006,Autódromo José Carlos Pace,4,0,9
+200701,2007,Albert Park Grand Prix Circuit,36,0,10
+200702,2007,Sepang International Circuit,60,1,4
+200703,2007,Bahrain International Circuit,8,0,10
+200704,2007,Circuit de Barcelona-Catalunya,12,0,11
+200705,2007,Circuit de Monaco,64,0,9
+200706,2007,Circuit Gilles Villeneuve,0,0,12
+200707,2007,Indianapolis Motor Speedway,4,0,6
+200708,2007,Circuit de Nevers Magny-Cours,40,2,4
+200709,2007,Silverstone Circuit,44,1,10
+200710,2007,Nürburgring,68,1,16
+200711,2007,Hungaroring,8,0,6
+200712,2007,Istanbul Park,16,0,2
+200713,2007,Autodromo Nazionale di Monza,72,0,3
+200714,2007,Circuit de Spa-Francorchamps,48,0,5
+200715,2007,Fuji Speedway,12,0,14
+200716,2007,Shanghai International Circuit,52,1,8
+200717,2007,Autódromo José Carlos Pace,56,2,14
+200801,2008,Albert Park Grand Prix Circuit,16,0,20
+200802,2008,Sepang International Circuit,60,1,7
+200803,2008,Bahrain International Circuit,20,1,4
+200804,2008,Circuit de Barcelona-Catalunya,64,0,14
+200805,2008,Istanbul Park,24,0,3
+200806,2008,Circuit de Monaco,20,2,12
+200807,2008,Circuit Gilles Villeneuve,0,1,12
+200808,2008,Circuit de Nevers Magny-Cours,28,1,2
+200809,2008,Silverstone Circuit,24,3,10
+200810,2008,Hockenheimring,28,0,6
+200811,2008,Hungaroring,0,1,4
+200812,2008,Valencia Street Circuit,32,0,4
+200813,2008,Circuit de Spa-Francorchamps,36,1,8
+200814,2008,Autodromo Nazionale di Monza,0,0,2
+200815,2008,Marina Bay Street Circuit,76,14,12
+200816,2008,Fuji Speedway,80,3,8
+200817,2008,Shanghai International Circuit,32,0,6
+200818,2008,Autódromo José Carlos Pace,40,0,0
+200901,2009,Albert Park Grand Prix Circuit,4,0,12
+200902,2009,Sepang International Circuit,8,0,7
+200903,2009,Shanghai International Circuit,4,0,4
+200904,2009,Bahrain International Circuit,12,3,0
+200905,2009,Circuit de Barcelona-Catalunya,16,0,4
+200906,2009,Circuit de Monaco,20,0,10
+200907,2009,Istanbul Park,24,1,2
+200908,2009,Silverstone Circuit,8,0,4
+200909,2009,Nürburgring,0,0,4
+200910,2009,Hungaroring,36,3,3
+200911,2009,Valencia Street Circuit,34,2,2
+200912,2009,Circuit de Spa-Francorchamps,68,5,0
+200913,2009,Autodromo Nazionale di Monza,38,4,4
+200914,2009,Marina Bay Street Circuit,40,0,6
+200915,2009,Suzuka Circuit,12,0,4
+200916,2009,Autódromo José Carlos Pace,4,1,4
+200917,2009,Yas Marina Circuit,16,1,2
+201001,2010,Bahrain International Circuit,84,2,17
+201002,2010,Albert Park Grand Prix Circuit,28,3,10
+201003,2010,Sepang International Circuit,20,2,8
+201004,2010,Shanghai International Circuit,32,4,4
+201005,2010,Circuit de Barcelona-Catalunya,8,0,10
+201006,2010,Circuit de Monaco,12,0,14
+201007,2010,Istanbul Park,44,1,6
+201008,2010,Circuit Gilles Villeneuve,48,0,7
+201009,2010,Valencia Street Circuit,24,0,4
+201010,2010,Silverstone Circuit,16,1,6
+201011,2010,Hockenheimring,88,1,9
+201012,2010,Hungaroring,20,1,5
+201013,2010,Circuit de Spa-Francorchamps,52,1,4
+201014,2010,Autodromo Nazionale di Monza,92,0,2
+201015,2010,Marina Bay Street Circuit,96,0,17
+201016,2010,Suzuka Circuit,28,0,2
+201017,2010,Korean International Circuit,100,2,18
+201018,2010,Autódromo José Carlos Pace,32,1,2
+201019,2010,Yas Marina Circuit,36,0,2
+201101,2011,Albert Park Grand Prix Circuit,40,0,8
+201102,2011,Sepang International Circuit,44,0,10
+201103,2011,Shanghai International Circuit,56,2,0
+201104,2011,Istanbul Park,48,0,0
+201105,2011,Circuit de Barcelona-Catalunya,52,1,6
+201106,2011,Circuit de Monaco,56,0,12
+201107,2011,Circuit Gilles Villeneuve,36,6,12
+201108,2011,Valencia Street Circuit,60,0,0
+201109,2011,Silverstone Circuit,104,2,6
+201110,2011,Nürburgring,60,1,6
+201111,2011,Hungaroring,40,2,2
+201112,2011,Circuit de Spa-Francorchamps,64,0,6
+201113,2011,Autodromo Nazionale di Monza,68,0,9
+201114,2011,Marina Bay Street Circuit,72,0,8
+201115,2011,Suzuka Circuit,44,1,0
+201116,2011,Korean International Circuit,76,1,6
+201117,2011,Buddh International Circuit,80,0,8
+201118,2011,Yas Marina Circuit,64,1,5
+201119,2011,Autódromo José Carlos Pace,24,1,2
+201201,2012,Albert Park Grand Prix Circuit,48,1,11
+201202,2012,Sepang International Circuit,108,7,4
+201203,2012,Shanghai International Circuit,0,0,0
+201204,2012,Bahrain International Circuit,84,0,4
+201205,2012,Circuit de Barcelona-Catalunya,0,0,8
+201206,2012,Circuit de Monaco,28,0,6
+201207,2012,Circuit Gilles Villeneuve,68,1,4
+201208,2012,Valencia Street Circuit,112,10,8
+201209,2012,Silverstone Circuit,32,1,3
+201210,2012,Hockenheimring,116,0,0
+201211,2012,Hungaroring,72,0,2
+201212,2012,Circuit de Spa-Francorchamps,52,0,4
+201213,2012,Autodromo Nazionale di Monza,76,0,2
+201214,2012,Marina Bay Street Circuit,88,2,10
+201215,2012,Suzuka Circuit,92,0,4
+201216,2012,Korean International Circuit,96,1,1
+201217,2012,Buddh International Circuit,100,0,4
+201218,2012,Yas Marina Circuit,72,3,10
+201219,2012,Circuit of the Americas,80,1,2
+201220,2012,Autódromo José Carlos Pace,56,1,7
+201301,2013,Albert Park Grand Prix Circuit,76,6,6
+201302,2013,Sepang International Circuit,104,0,1
+201303,2013,Shanghai International Circuit,120,2,6
+201304,2013,Bahrain International Circuit,108,1,2
+201305,2013,Circuit de Barcelona-Catalunya,124,4,4
+201306,2013,Circuit de Monaco,4,0,12
+201307,2013,Circuit Gilles Villeneuve,112,0,6
+201308,2013,Silverstone Circuit,8,1,4
+201309,2013,Nürburgring,116,1,6
+201310,2013,Hungaroring,84,0,10
+201311,2013,Circuit de Spa-Francorchamps,120,1,2
+201312,2013,Autodromo Nazionale di Monza,124,0,2
+201313,2013,Marina Bay Street Circuit,128,0,4
+201314,2013,Korean International Circuit,132,0,6
+201315,2013,Suzuka Circuit,136,1,2
+201316,2013,Buddh International Circuit,140,0,5
+201317,2013,Yas Marina Circuit,144,1,0
+201318,2013,Circuit of the Americas,148,0,0
+201319,2013,Autódromo José Carlos Pace,152,0,6
+201401,2014,Albert Park Grand Prix Circuit,12,2,4
+201402,2014,Sepang International Circuit,88,0,6
+201403,2014,Bahrain International Circuit,92,1,8
+201404,2014,Shanghai International Circuit,96,0,4
+201405,2014,Circuit de Barcelona-Catalunya,100,0,0
+201406,2014,Circuit de Monaco,16,0,10
+201407,2014,Circuit Gilles Villeneuve,0,5,6
+201408,2014,Red Bull Ring,20,2,4
+201409,2014,Silverstone Circuit,104,5,6
+201410,2014,Hockenheimring,24,0,0
+201411,2014,Hungaroring,4,3,8
+201412,2014,Circuit de Spa-Francorchamps,8,4,3
+201413,2014,Autodromo Nazionale di Monza,108,0,4
+201414,2014,Marina Bay Street Circuit,112,0,4
+201415,2014,Suzuka Circuit,116,1,4
+201416,2014,Sochi Autodrom,120,0,2
+201417,2014,Circuit of the Americas,124,1,2
+201418,2014,Autódromo José Carlos Pace,28,0,2
+201419,2014,Yas Marina Circuit,128,1,0
+201501,2015,Albert Park Grand Prix Circuit,132,0,2
+201502,2015,Sepang International Circuit,156,1,2
+201503,2015,Shanghai International Circuit,136,0,4
+201504,2015,Bahrain International Circuit,140,0,4
+201505,2015,Circuit de Barcelona-Catalunya,32,0,2
+201506,2015,Circuit de Monaco,36,1,4
+201507,2015,Circuit Gilles Villeneuve,144,0,2
+201508,2015,Red Bull Ring,40,1,2
+201509,2015,Silverstone Circuit,148,0,6
+201510,2015,Hungaroring,160,2,4
+201511,2015,Circuit de Spa-Francorchamps,152,0,3
+201512,2015,Autodromo Nazionale di Monza,156,0,0
+201513,2015,Marina Bay Street Circuit,164,0,10
+201514,2015,Suzuka Circuit,160,1,0
+201515,2015,Sochi Autodrom,164,1,6
+201516,2015,Circuit of the Americas,168,1,4
+201517,2015,Autódromo Hermanos Rodríguez,44,0,4
+201518,2015,Autódromo José Carlos Pace,48,0,0
+201519,2015,Yas Marina Circuit,52,0,0
+201601,2016,Albert Park Grand Prix Circuit,56,1,10
+201602,2016,Bahrain International Circuit,60,1,0
+201603,2016,Shanghai International Circuit,64,0,0
+201604,2016,Sochi Autodrom,68,0,0
+201605,2016,Circuit de Barcelona-Catalunya,0,3,6
+201606,2016,Circuit de Monaco,172,2,8
+201607,2016,Circuit Gilles Villeneuve,176,0,0
+201608,2016,Baku City Circuit,72,0,6
+201609,2016,Red Bull Ring,180,0,2
+201610,2016,Silverstone Circuit,184,0,8
+201611,2016,Hungaroring,188,1,0
+201612,2016,Hockenheimring,192,1,2
+201613,2016,Circuit de Spa-Francorchamps,76,0,5
+201614,2016,Autodromo Nazionale di Monza,80,1,0
+201615,2016,Marina Bay Street Circuit,84,0,2
+201616,2016,Sepang International Circuit,12,3,2
+201617,2016,Suzuka Circuit,88,0,0
+201618,2016,Circuit of the Americas,196,0,3
+201619,2016,Autódromo Hermanos Rodríguez,200,0,0
+201620,2016,Autódromo José Carlos Pace,204,0,6
+201621,2016,Yas Marina Circuit,208,0,8
+201701,2017,Albert Park Grand Prix Circuit,168,1,4
+201702,2017,Shanghai International Circuit,212,0,5
+201703,2017,Bahrain International Circuit,172,2,8
+201704,2017,Sochi Autodrom,0,2,0
+201705,2017,Circuit de Barcelona-Catalunya,216,0,2
+201706,2017,Circuit de Monaco,176,1,8
+201707,2017,Circuit Gilles Villeneuve,220,0,2
+201708,2017,Baku City Circuit,16,9,4
+201709,2017,Red Bull Ring,4,0,4
+201710,2017,Silverstone Circuit,224,0,0
+201711,2017,Hungaroring,180,0,0
+201712,2017,Circuit de Spa-Francorchamps,228,0,7
+201713,2017,Autodromo Nazionale di Monza,232,0,8
+201714,2017,Marina Bay Street Circuit,236,4,8
+201715,2017,Sepang International Circuit,4,2,2
+201716,2017,Suzuka Circuit,240,0,2
+201717,2017,Circuit of the Americas,244,0,8
+201718,2017,Autódromo Hermanos Rodríguez,8,1,10
+201719,2017,Autódromo José Carlos Pace,184,1,2
+201720,2017,Yas Marina Circuit,8,0,2
+201801,2018,Albert Park Grand Prix Circuit,188,2,2
+201802,2018,Bahrain International Circuit,192,0,2
+201803,2018,Shanghai International Circuit,20,5,0
+201804,2018,Baku City Circuit,248,1,10
+201805,2018,Circuit de Barcelona-Catalunya,252,0,2
+201806,2018,Circuit de Monaco,24,0,6
+201807,2018,Circuit Gilles Villeneuve,196,0,0
+201808,2018,Circuit Paul Ricard,256,0,4
+201809,2018,Red Bull Ring,12,3,6
+201810,2018,Silverstone Circuit,200,1,8
+201811,2018,Hockenheimring,260,13,8
+201812,2018,Hungaroring,264,0,2
+201813,2018,Circuit de Spa-Francorchamps,204,1,0
+201814,2018,Autodromo Nazionale di Monza,268,2,4
+201815,2018,Marina Bay Street Circuit,272,0,0
+201816,2018,Sochi Autodrom,276,1,0
+201817,2018,Suzuka Circuit,280,0,4
+201818,2018,Circuit of the Americas,80,1,2
+201819,2018,Autódromo Hermanos Rodríguez,16,1,6
+201820,2018,Autódromo José Carlos Pace,284,0,4
+201821,2018,Yas Marina Circuit,288,0,4
+201901,2019,Albert Park Grand Prix Circuit,12,1,2
+201902,2019,Bahrain International Circuit,292,2,2
+201903,2019,Shanghai International Circuit,296,1,4
+201904,2019,Baku City Circuit,16,0,4
+201905,2019,Circuit de Barcelona-Catalunya,300,1,4
+201906,2019,Circuit de Monaco,304,0,2
+201907,2019,Circuit Gilles Villeneuve,308,1,2
+201908,2019,Circuit Paul Ricard,312,0,0
+201909,2019,Red Bull Ring,20,1,0
+201910,2019,Silverstone Circuit,316,1,6
+201911,2019,Hockenheimring,24,1,9
+201912,2019,Hungaroring,320,2,0
+201913,2019,Circuit de Spa-Francorchamps,0,0,4
+201914,2019,Autodromo Nazionale di Monza,4,0,4
+201915,2019,Marina Bay Street Circuit,208,2,6
+201916,2019,Sochi Autodrom,324,1,2
+201917,2019,Suzuka Circuit,20,2,0
