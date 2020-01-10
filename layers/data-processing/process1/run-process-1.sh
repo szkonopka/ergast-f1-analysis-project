@@ -18,25 +18,25 @@ hdfs dfs -text New_batch_data/driver* | hdfs dfs -put - New_batch_data/driver.cs
 hdfs dfs -rm New_batch_data/driver.csv.*
 
 echo "Step 2: processing status.csv"
-spark-submit --class Transformation --master local process1/statusTransform.jar hdfs://quickstart.cloudera:8020/user/cloudera/New_batch_data/status.csv hdfs://quickstart.cloudera:8020/user/cloudera/Data_source/status 
+spark-submit --class Transformation --master local transform.jar status status.csv status 
 
 echo "Step 3: processing drivers.csv"
-spark-submit --class Transformation --master local process1/driverTransform.jar hdfs://quickstart.cloudera:8020/user/cloudera/New_batch_data/driver.csv hdfs://quickstart.cloudera:8020/user/cloudera/Data_source/drivers 
+spark-submit --class Transformation --master local transform.jar driver driver.csv drivers 
 
 echo "Step 4: processing circuits.csv"
-spark-submit --class Transformation --master local process1/circuitsTransform.jar hdfs://quickstart.cloudera:8020/user/cloudera/New_batch_data/circuits.csv hdfs://quickstart.cloudera:8020/user/cloudera/Data_source/circuits 
+spark-submit --class Transformation --master local transform.jar circuit circuits.csv circuits 
 
 echo "Step 5: processing constructors.csv"
-spark-submit --class Transformation --master local process1/constructorsTransform.jar hdfs://quickstart.cloudera:8020/user/cloudera/New_batch_data/constructors.csv hdfs://quickstart.cloudera:8020/user/cloudera/Data_source/constructors 
+spark-submit --class Transformation --master local transform.jar constructor constructors.csv constructors 
 
 echo "Step 6: processing lap_times.csv"
-spark-submit --class Transformation --master local process1/lapTimesTransform.jar hdfs://quickstart.cloudera:8020/user/cloudera/New_batch_data/lap_times.csv hdfs://quickstart.cloudera:8020/user/cloudera/New_batch_data/races.csv hdfs://quickstart.cloudera:8020/user/cloudera/New_batch_data/driver.csv hdfs://quickstart.cloudera:8020/user/cloudera/Data_source/lap_times 
+spark-submit --class Transformation --master local transform.jar lapTime lap_times.csv races.csv driver.csv lap_times 
 
 echo "Step 7: processing races.csv"
-spark-submit --class Transformation --master local process1/racesTransform.jar hdfs://quickstart.cloudera:8020/user/cloudera/New_batch_data/races.csv hdfs://quickstart.cloudera:8020/user/cloudera/New_batch_data/circuits.csv hdfs://quickstart.cloudera:8020/user/cloudera/Data_source/races
+spark-submit --class Transformation --master local transform.jar race races.csv circuits.csv races
 
 echo "Step 8: processing results.csv"
-spark-submit --class Transformation --master local process1/resultsTransform.jar hdfs://quickstart.cloudera:8020/user/cloudera/New_batch_data/results.csv hdfs://quickstart.cloudera:8020/user/cloudera/New_batch_data/races.csv hdfs://quickstart.cloudera:8020/user/cloudera/New_batch_data/driver.csv hdfs://quickstart.cloudera:8020/user/cloudera/New_batch_data/constructors.csv hdfs://quickstart.cloudera:8020/user/cloudera/Data_source/results 
+spark-submit --class Transformation --master local transform.jar result results.csv races.csv driver.csv constructors.csv results 
 
 # Ustrukturyzowanie wynikow przetwarzania 1 
 echo "Step 9: structuring the results"
