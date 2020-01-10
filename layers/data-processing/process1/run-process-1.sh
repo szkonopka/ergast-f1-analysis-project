@@ -55,3 +55,5 @@ hdfs dfs -rm -r Data_source/races
 hdfs dfs -text Data_source/results/part* | hdfs dfs -put - Data_source/results.csv
 hdfs dfs -rm -r Data_source/results
 
+hdfs dfs -rm New_batch_data/*
+

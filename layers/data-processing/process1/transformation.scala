@@ -3,7 +3,7 @@ import org.apache.spark.{SparkConf, SparkContext}
 
 object Transformation {  
 	val NEW_BATCH_DATA_DIR = "hdfs://quickstart.cloudera:8020/user/cloudera/New_batch_data/"
-	val DATA_SOURCE_DIR = "hdfs://quickstart.cloudera:8020/user/cloudera/Data_source/status/"
+	val DATA_SOURCE_DIR = "hdfs://quickstart.cloudera:8020/user/cloudera/Data_source/"
 	
 	def time_standarization (value: String) : Double = {
 	   if(value == "\\N" || value == "\\n")
@@ -30,7 +30,6 @@ object Transformation {
 		val seconds = secondSplit(0)
 		var miliseconds = 0
 		if(secondSplit.length > 1){
-		  println(secondSplit(1))
 		  miliseconds += secondSplit(1).toInt
 		}	
 		return minutes.toInt * 60 + seconds.toInt + miliseconds/1000.toDouble
@@ -135,11 +134,11 @@ object Transformation {
 			.saveAsTextFile(DATA_SOURCE_DIR + args(2))
 	}
 	
-	def statusTransformation(target: String, source: String, sc: SparkContext, args: Array[String]): Unit = {
+	def statusTransformation(sc: SparkContext, args: Array[String]): Unit = {
 		checkArguments(args, 3)
 		sc.textFile(NEW_BATCH_DATA_DIR + args(1))      
 			.map(_.split(","))    
-			.map(rec => if (rec(1).contains("Laps")) rec(0) + "," + "Finished" else rec(0) + "," + rec(1))     
+			.map(rec => if (rec(1).contains("Lap")) rec(0) + "," + "Finished" else rec(0) + "," + rec(1))     
 			.saveAsTextFile(DATA_SOURCE_DIR + args(2))
 	}
 	
