@@ -1,0 +1,19 @@
+driver_race.driverraceid,driver_race.drivername,driver_race.constructor,driver_race.overtakecount,driver_race.positionorder,driver_race.status,driver_race.nationality,driver_race.fastestlaptime,driver_race.fastestlapspeed,driver_race.time,driver_race.points,driver_race.laps,driver_race.raceseasonid
+24386,Lewis Hamilton,mercedes,1,1,Finished,British,87.3690032959,242.73500061,4868.45214844,26,52,201910
+24387,Valtteri Bottas,mercedes,1,2,Finished,Finnish,87.40599823,242.632995605,4893.37988281,18,52,201910
+24388,Charles Leclerc,ferrari,4,3,Finished,Monegasque,89.31300354,237.45199585,4898.56884766,15,52,201910
+24389,Pierre Gasly,red_bull,9,4,Finished,French,89.5439987183,236.839004517,4903.14404297,12,52,201910
+24390,Max Verstappen,red_bull,4,5,Finished,Dutch,89.2720031738,237.561004639,4907.91015625,10,52,201910
+24391,Carlos Sainz,mclaren,6,6,Finished,Spanish,89.7570037842,236.276992798,4922.09082031,8,52,201910
+24392,Daniel Ricciardo,renault,11,7,Finished,Australian,89.6240005493,236.628005981,4922.85302734,6,52,201910
+24394,Daniil Kvyat,toro_rosso,13,9,Finished,Russian,89.9100036621,235.875,4935.171875,2,52,201910
+24395,Nico Hülkenberg,renault,10,10,Finished,German,89.9489974976,235.772994995,4941.18505859,1,52,201910
+24396,Lando Norris,mclaren,8,11,Finished,British,89.6360015869,236.595993042,4942.73291016,0,52,201910
+24397,Alexander Albon,toro_rosso,10,12,Finished,Thai,90.8720016479,233.378005981,4944.06884766,0,52,201910
+24398,Lance Stroll,racing_point,10,13,Finished,Canadian,89.3899993896,237.248001099,4949.53808594,0,52,201910
+24399,George Russell,williams,9,14,+1 Lap,British,91.0130004883,233.016998291,0.0,0,51,201910
+24400,Robert Kubica,williams,5,15,+1 Lap,Polish,91.5090026855,231.753997803,0.0,0,51,201910
+24401,Sebastian Vettel,ferrari,6,16,+1 Lap,German,88.733001709,239.003997803,0.0,0,51,201910
+24402,Sergio Pérez,racing_point,8,17,+1 Lap,Mexican,89.4560012817,237.072006226,0.0,0,51,201910
+24404,Romain Grosjean,haas,0,19,Collision,French,94.3499984741,224.774993896,0.0,0,9,201910
+24405,Kevin Magnussen,haas,0,20,Collision,Danish,93.4250030518,227.00100708,0.0,0,6,201910
