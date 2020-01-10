@@ -19,10 +19,10 @@ class Lap:
 		self.raceId = raceId
 		self.lap = lap
 		self.driverId = driverId
-        self.position = position
+		self.position = position
 
-    def get_csv_row():
-        return self.driverId + DELIM + self.position + DELIM + self.time
+	def get_csv_row():
+		return self.driverId + DELIM + self.position + DELIM + self.time
 
 class Race:
     def __init__(raceId, year, circuitId):
@@ -53,8 +53,7 @@ class Result:
         self.fastestLapSpeed = fastestLapSpeed
 
     def get_csv_row():
-        return self.raceId + DELIM + self.grid + DELIM + self.driverId + DELIM + self.positionorder  + DELIM +
-            self.statusId + DELIM + self.points + DELIM + self.fastestLap + DELIM + self.fastestLapSpeed
+        return self.raceId + DELIM + self.grid + DELIM + self.driverId + DELIM + self.positionorder  + DELIM + self.statusId + DELIM + self.points + DELIM + self.fastestLap + DELIM + self.fastestLapSpeed
 
 class Driver:
     def __init__(driverId, forename, surname, nationality):
@@ -120,12 +119,12 @@ def process_results(filename):
     constructors = []
     statuses = []
 
-	data = get_json(HDFS_NEW_INCREMENTAL_DATA + "/Results/" + filename)
+    data = get_json('New_incremental_data' + "/Results/" + filename)
     statusId = 0
     root = data["MRData"]["RaceTable"]
     season = root["season"]
-	for race in data["Races"]
-		roundId = race["round"]
+    for race in data["Races"]:
+        roundId = race["round"]
         year = race["season"]
         circuit = race["Circuit"]
         circuitId = circuit["circuitId"]
@@ -134,7 +133,7 @@ def process_results(filename):
         circuits.append(Circuit(circuitId, circuitName))
         races.append(Race((round + season) * RACE_ID_MULTIPLIER, year, circuitId))
 
-        for result in race["Results"]
+        for result in race["Results"]:
             position = result["position"]
             points = result["points"]
 
@@ -177,27 +176,27 @@ def process_results(filename):
     save_vector_to_csv(HDFS_DATA_SOURCE + "/status.csv", statuses)
 
 def process_laps(filename):
-	laps = []
-	data = get_json(HDFS_NEW_INCRMENTAL_DATA + "/Laps/" + filename)
+    laps = []
+    data = get_json('New_incremental_data' + "/Lap_times/" + filename)
 
     root = data["MRData"]["RaceTable"]
-	for race in root['Races']
-        raceId = (int(race["season"]) + int(race["round"])) * RACE_ID_MULTIPLIER
-        for lap in race["Laps"]
-            lap = lap["number"]
-            for timing in lap["Timings"]
-                laps.add(Lap(raceId, lap, timing["driverId"], timing["position"]))
+    for race in root['Races']:
+       raceId = (int(race["season"]) + int(race["round"])) * RACE_ID_MULTIPLIER
+       for lap in race["Laps"]:
+           lap = lap["number"]
+           for timing in lap["Timings"]:
+               laps.add(Lap(raceId, lap, timing["driverId"], timing["position"]))
 
     save_vector_to_csv(HDFS_DATA_SOURCE + "/laps.csv", laps)
 
 filename = sys.argv[1]
 
 results_pattern = r'results\_.*\_.*\.json*'
-lapTimes_pattern = r'lapTimes\_.*\_.*\.json*'
+lap_times_pattern = r'lapTimes\_.*\_.*\.json*'
 
-if (re.match(results_pattern, filename)):
+if ('results' in filename):
 	process_results(filename)
-else if (re.match(lap_times_pattern, filename)):
+elif ('lapTimes' in filename):
 	process_laps(filename)
 else:
 	print("Invalid argument")
