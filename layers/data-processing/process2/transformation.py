@@ -31,7 +31,7 @@ class Race:
         self.circuitId = circuitId
 
     def get_csv_row(self):
-        return self.raceId + DELIM + self.year + DELIM + self.circuitId
+        return str(self.raceId) + DELIM + str(self.year) + DELIM + str(self.circuitId)
 
 class Circuit:
     def __init__(self, circuitId, name):
@@ -39,7 +39,7 @@ class Circuit:
         self.name = name
 
     def get_csv_row(self):
-        return self.circuitId + DELIM + self.name
+        return str(self.circuitId) + DELIM + str(self.name)
 
 class Result:
     def __init__(self, raceId, grid, driverId, positionorder, statusId, points, fastestLap, fastestLapSpeed):
@@ -53,7 +53,7 @@ class Result:
         self.fastestLapSpeed = fastestLapSpeed
 
     def get_csv_row(self):
-        return self.raceId + DELIM + self.grid + DELIM + self.driverId + DELIM + self.positionorder  + DELIM + self.statusId + DELIM + self.points + DELIM + self.fastestLap + DELIM + self.fastestLapSpeed
+        return str(self.raceId) + DELIM + str(self.grid) + DELIM + str(self.driverId) + DELIM + str(self.positionorder) + DELIM + str(self.statusId) + DELIM + str(self.points) + DELIM + str(self.fastestLap) + DELIM + str(self.fastestLapSpeed)
 
 class Driver:
     def __init__(self, driverId, forename, surname, nationality):
@@ -63,7 +63,7 @@ class Driver:
         self.nationality = nationality
 
     def get_csv_row(self):
-        return self.driverId + DELIM + self.forename + self.surname + self.nationality
+        return str(self.driverId) + DELIM + str(self.forename) + DELIM + str(self.surname) + DELIM + str(self.nationality)
 
 class Status:
     def __init__(self, statusId, status):
@@ -71,7 +71,7 @@ class Status:
         self.status = status
 
     def get_csv_row(self):
-        return self.statusId + DELIM + self.status
+        return str(self.statusId) + DELIM + str(self.status)
 
 class Constructor:
     def __init__(self, constructorId, name, nationality):
@@ -80,7 +80,7 @@ class Constructor:
         self.nationality = nationality
 
     def get_csv_row(self):
-        return self.constructorId + DELIM + self.name + DELIM + self.nationality
+        return str(self.constructorId) + DELIM + str(self.name) + DELIM + str(self.nationality)
 
 # Logging
 client = InsecureClient(HDFS_ENDPOINT, user=HDFS_USER)
@@ -124,6 +124,7 @@ def save_to_csv(path, csv_row):
     with client.write(path, append=True) as write:
         writer.write(csv_row)
         writer.write('\n')
+    
 
 def process_results(filename):
     races = []
@@ -166,10 +167,11 @@ def process_results(filename):
             laps_param = result["laps"]
             grid = result["grid"]
 
-            time_obj = result["Time"]
+            fastestLap = result["FastestLap"]
+
+            time_obj = fastestLap["Time"]
             time = time_obj["time"]
 
-            fastestLap = result["FastestLap"]
             lap = fastestLap["lap"]
             average_speed = fastestLap["AverageSpeed"]
             speed = average_speed["speed"]
