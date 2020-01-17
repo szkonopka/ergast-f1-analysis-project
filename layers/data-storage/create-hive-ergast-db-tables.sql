@@ -37,7 +37,7 @@ CREATE TABLE IF NOT EXISTS ergast_results.results(
   statusId int,
   points int,
   fastestLap float,
-  fastestLatSpeed float,
+  fastestLapSpeed float,
   laps int,
   time float,
   driverId varchar(50),

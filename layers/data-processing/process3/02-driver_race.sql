@@ -47,6 +47,8 @@ INSERT INTO TABLE helper_overtake_counts
 -- Insert to final table
 --
 
+TRUNCATE TABLE driver_race;
+
 INSERT INTO TABLE driver_race
     SELECT
         res.resultid AS driverRaceID,
@@ -57,7 +59,7 @@ INSERT INTO TABLE driver_race
         MAX(s.status) AS status,
         MAX(d.nationality) AS nationality,
         MAX(res.fastestlap) AS fastestLapTime,
-        MAX(res.fastestlatspeed) AS fastestLapSpeed,
+        MAX(res.fastestlapspeed) AS fastestLapSpeed,
         MAX(res.time) AS time,
         MAX(res.points) AS points,
         MAX(res.laps) AS laps,

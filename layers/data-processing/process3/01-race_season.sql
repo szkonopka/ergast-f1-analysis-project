@@ -68,6 +68,8 @@ INSERT INTO TABLE helper_winnerdriverexperience
 -- Insert to final table
 --
 
+TRUNCATE TABLE race_season;
+
 INSERT INTO TABLE race_season
     SELECT 
         r.raceid AS raceseasonid, 
