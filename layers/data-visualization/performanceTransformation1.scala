@@ -89,25 +89,26 @@ object Transformation {
 	
 	def resultsTransformation(sc: SparkContext, args: Array[String]): Unit = {
 		checkArguments(args, 6)
+		val racesData = sc.textFile(NEW_BATCH_DATA_DIR + args(2))  
+		val driversData = sc.textFile(NEW_BATCH_DATA_DIR + args(3)) 
+		val constructorsData = sc.textFile(NEW_BATCH_DATA_DIR + args(4))  
+		val resultsData = sc.textFile(NEW_BATCH_DATA_DIR + args(1))  
+
 		val startTime = System.nanoTime()
-		val races = sc.textFile(NEW_BATCH_DATA_DIR + args(2))      
-				.map(_.split(","))    
+		val races = racesData.map(_.split(","))    
 				.map(rec => (rec(0).toInt, (rec(2).toInt + rec(1).toInt * 100).toString)) 
 
-		val drivers = sc.textFile(NEW_BATCH_DATA_DIR + args(3))      
-			.map(_.split(","))    
-			.map(rec => (rec(0).toInt, rec(1)))  
+		val drivers = driversData.map(_.split(","))    
+					.map(rec => (rec(0).toInt, rec(1)))  
 
-		val constructors = sc.textFile(NEW_BATCH_DATA_DIR + args(4))      
-			.map(_.split(","))    
-			.map(rec => (rec(0).toInt, rec(1))) 
+		val constructors = constructorsData.map(_.split(","))    
+						.map(rec => (rec(0).toInt, rec(1))) 
 
 		val manipulated_races = races.keyBy(t => t._1)
 		val manipulated_drivers = drivers.keyBy(t => t._1)
 		val manipulated_constructors = constructors.keyBy(t => t._1)
 
-		val results = sc.textFile(NEW_BATCH_DATA_DIR + args(1))      
-			.map(_.split(","))    
+		val results = resultsData.map(_.split(","))    
 			.filter(rec => (rec(5).toInt > 0 && rec(10).toInt > 0))
 			.map(rec => (rec(0), rec(1).toInt, rec(2).toInt, rec(3).toInt, rec(5), rec(8), rec(17), rec(9), rec(15), rec(16), rec(10), rec(12))) 
 
@@ -130,9 +131,10 @@ object Transformation {
 	
 	def circuitsTransformation(sc: SparkContext, args: Array[String]): Unit = {
 		checkArguments(args, 3)
+		val circuitsData = sc.textFile(NEW_BATCH_DATA_DIR + args(1)) 
+
 		val startTime = System.nanoTime()
-		val result = sc.textFile(NEW_BATCH_DATA_DIR + args(1))      
-				.map(_.split(","))    
+		val result = circuitsData.map(_.split(","))    
 				.map(rec => rec(1) + "," + rec(2)) 
 		val endTime = System.nanoTime()
 		val durationMiliseconds = (endTime - startTime) / 1000000
@@ -142,9 +144,10 @@ object Transformation {
 	
 	def constructorsTransformation(sc: SparkContext, args: Array[String]): Unit = {
 		checkArguments(args, 3)
+		val constructorsData = sc.textFile(NEW_BATCH_DATA_DIR + args(1)) 
+
 		val startTime = System.nanoTime()
-		val result = sc.textFile(NEW_BATCH_DATA_DIR + args(1))      
-				.map(_.split(","))    
+		val result = constructorsData.map(_.split(","))    
 				.map(rec => rec(1) + "," + rec(2) + "," + rec(3))    
 		val endTime = System.nanoTime()
 		val durationMiliseconds = (endTime - startTime) / 1000000
@@ -154,9 +157,10 @@ object Transformation {
 	
 	def driversTransformation(sc: SparkContext, args: Array[String]): Unit = {
 		checkArguments(args, 3)
+		val driversData = sc.textFile(NEW_BATCH_DATA_DIR + args(1)) 
+
 		val startTime = System.nanoTime()
-		val result = sc.textFile(NEW_BATCH_DATA_DIR + args(1))      
-			.map(_.split(","))    
+		val result = driversData.map(_.split(","))    
 			.map(rec => rec(1) + "," + rec(4) + "," + rec(5) + "," + rec(7))   
 		val endTime = System.nanoTime()
 		val durationMiliseconds = (endTime - startTime) / 1000000
@@ -166,9 +170,10 @@ object Transformation {
 	
 	def statusTransformation(sc: SparkContext, args: Array[String]): Unit = {
 		checkArguments(args, 3)
+		val statusData = sc.textFile(NEW_BATCH_DATA_DIR + args(1)) 
+
 		val startTime = System.nanoTime()
-		val result = sc.textFile(NEW_BATCH_DATA_DIR + args(1))      
-			.map(_.split(","))    
+		val result = statusData.map(_.split(","))    
 			.map(rec => if (rec(1).contains("Lap")) rec(0) + "," + "Finished" else rec(0) + "," + rec(1))    
 		val endTime = System.nanoTime()
 		val durationMiliseconds = (endTime - startTime) / 1000000
@@ -178,13 +183,14 @@ object Transformation {
 	
 	def racesTransformation(sc: SparkContext, args: Array[String]): Unit = {
 		checkArguments(args, 4)
+		val racesData = sc.textFile(NEW_BATCH_DATA_DIR + args(1)) 
+		val circuitsData = sc.textFile(NEW_BATCH_DATA_DIR + args(2)) 
+
 		val startTime = System.nanoTime()
-		val circuits = 	sc.textFile(NEW_BATCH_DATA_DIR + args(2))      
-					.map(_.split(","))    
+		val circuits = 	circuitsData.map(_.split(","))    
 					.map(rec => (rec(0).toInt, rec(1))) 
 
-		val races = sc.textFile(NEW_BATCH_DATA_DIR + args(1))      
-				.map(_.split(","))    
+		val races = racesData.map(_.split(","))    
 				.map(rec => ((rec(2).toInt + rec(1).toInt * 100).toString, rec(1), rec(3).toInt)) 
 
 		val manipulated_circuits = circuits.keyBy(t => t._1)
@@ -201,20 +207,21 @@ object Transformation {
 	
 	def lapTimesTransformation(sc: SparkContext, args: Array[String]): Unit = {
 		checkArguments(args, 5)
+		val lapTimesData = sc.textFile(NEW_BATCH_DATA_DIR + args(1))
+		val driversData = sc.textFile(NEW_BATCH_DATA_DIR + args(3))
+		val racesData = sc.textFile(NEW_BATCH_DATA_DIR + args(2))
+
 		val startTime = System.nanoTime()
-		val races = sc.textFile(NEW_BATCH_DATA_DIR + args(2))      
-				.map(_.split(","))    
+		val races = racesData.map(_.split(","))    
 				.map(rec => (rec(0).toInt, (rec(2).toInt + rec(1).toInt * 100).toString)) 
 
-		val drivers = sc.textFile(NEW_BATCH_DATA_DIR + args(3))      
-			.map(_.split(","))    
+		val drivers = driversData.map(_.split(","))    
 			.map(rec => (rec(0).toInt, rec(1)))  
 
 		val manipulated_races = races.keyBy(t => t._1)
 		val manipulated_drivers = drivers.keyBy(t => t._1)
 
-		val lapTimes = sc.textFile(NEW_BATCH_DATA_DIR + args(1))      
-			.map(_.split(","))    
+		val lapTimes = lapTimesData.map(_.split(","))    
 			.map(rec => (rec(0).toInt, rec(1).toInt, rec(2), rec(3))) 
 
 		val manipulated_lapTimes = lapTimes.keyBy(t => t._1)
