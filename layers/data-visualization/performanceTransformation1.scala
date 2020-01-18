@@ -6,6 +6,7 @@ object Transformation {
 	val NEW_BATCH_DATA_DIR = "hdfs://quickstart.cloudera:8020/user/cloudera/New_batch_data/"
 	val DATA_SOURCE_DIR = "hdfs://quickstart.cloudera:8020/user/cloudera/Data_source/"
 	val fileWithResultsPerformance = "/home/performanceScalaTransformation.txt"
+	val fileWithResultsPerformanceWithSaveToHDFS = "/home/performanceScalaWithSaveToHDFS.txt"
 	
 	def time_standarization (value: String) : Double = {
 	   if(value == "\\N" || value == "\\n")
@@ -49,6 +50,13 @@ object Transformation {
 		return 0.toDouble
 	  return newValue.toDouble
 	}
+	def write_performance_result (measurement: Long, nameTransformation:String, filePath:String): Unit ={
+		val textToAppend = nameTransformation + ": " + measurement.toString
+		val fileWriter = new FileWriter(filePath, true);
+		val printWriter = new PrintWriter(fileWriter);
+		printWriter.println(textToAppend);
+		printWriter.close();
+	}
 	
 	def main(args: Array[String]) {    
 		val conf = new SparkConf().setAppName("Transformation")    
@@ -76,16 +84,12 @@ object Transformation {
 		}
 		val endTime = System.nanoTime()
 		val durationMiliseconds = (endTime - startTime) / 1000000
-		
-		val textToAppend = args(0) + ": " + durationMiliseconds.toString
-		FileWriter fileWriter = new FileWriter(fileWithResultsPerformance, true);
-		PrintWriter printWriter = new PrintWriter(fileWriter);
-		printWriter.println(textToAppend);
-		printWriter.close();
+		write_performance_result(durationMiliseconds, args(0), fileWithResultsPerformanceWithSaveToHDFS)
 	} 
 	
 	def resultsTransformation(sc: SparkContext, args: Array[String]): Unit = {
 		checkArguments(args, 6)
+		val startTime = System.nanoTime()
 		val races = sc.textFile(NEW_BATCH_DATA_DIR + args(2))      
 				.map(_.split(","))    
 				.map(rec => (rec(0).toInt, (rec(2).toInt + rec(1).toInt * 100).toString)) 
@@ -109,7 +113,7 @@ object Transformation {
 
 		val manipulated_results = results.keyBy(t => t._2)
 
-		manipulated_results
+		val result = manipulated_results
 			.join(manipulated_races)
 			.map(t => (t._2._1._1, t._2._2._2, t._2._1._3.toInt, t._2._1._4.toInt, t._2._1._5, t._2._1._6, t._2._1._7, t._2._1._8, t._2._1._9, t._2._1._10, t._2._1._11, t._2._1._12))
 			.keyBy(t => t._3)
@@ -118,43 +122,63 @@ object Transformation {
 			.keyBy(t => t._4)
 			.join(manipulated_constructors)
 			.map(t => t._2._1._1 + "," + t._2._1._2 + "," + t._2._1._5 + "," + t._2._1._6 + "," + t._2._1._7 + "," + t._2._1._8 + "," + fastestTime_standarization(t._2._1._9.toString) + "," + speed_standarization(t._2._1._10) + "," + t._2._1._11 + "," + time_standarization(t._2._1._12.toString) + "," + t._2._1._3 + "," + t._2._2._2)
-			.saveAsTextFile(DATA_SOURCE_DIR + args(5))
+		val endTime = System.nanoTime()
+		val durationMiliseconds = (endTime - startTime) / 1000000
+		write_performance_result(durationMiliseconds, args(0), fileWithResultsPerformance)
+		result.saveAsTextFile(DATA_SOURCE_DIR + args(5))
 	}
 	
 	def circuitsTransformation(sc: SparkContext, args: Array[String]): Unit = {
 		checkArguments(args, 3)
-		sc.textFile(NEW_BATCH_DATA_DIR + args(1))      
-			.map(_.split(","))    
-			.map(rec => rec(1) + "," + rec(2))     
-			.saveAsTextFile(DATA_SOURCE_DIR + args(2))
+		val startTime = System.nanoTime()
+		val result = sc.textFile(NEW_BATCH_DATA_DIR + args(1))      
+				.map(_.split(","))    
+				.map(rec => rec(1) + "," + rec(2)) 
+		val endTime = System.nanoTime()
+		val durationMiliseconds = (endTime - startTime) / 1000000
+		write_performance_result(durationMiliseconds, args(0), fileWithResultsPerformance)
+		result.saveAsTextFile(DATA_SOURCE_DIR + args(2))
 	}
 	
 	def constructorsTransformation(sc: SparkContext, args: Array[String]): Unit = {
 		checkArguments(args, 3)
-		sc.textFile(NEW_BATCH_DATA_DIR + args(1))      
-			.map(_.split(","))    
-			.map(rec => rec(1) + "," + rec(2) + "," + rec(3))     
-			.saveAsTextFile(DATA_SOURCE_DIR + args(2))
+		val startTime = System.nanoTime()
+		val result = sc.textFile(NEW_BATCH_DATA_DIR + args(1))      
+				.map(_.split(","))    
+				.map(rec => rec(1) + "," + rec(2) + "," + rec(3))    
+		val endTime = System.nanoTime()
+		val durationMiliseconds = (endTime - startTime) / 1000000
+		write_performance_result(durationMiliseconds, args(0), fileWithResultsPerformance)
+		result.saveAsTextFile(DATA_SOURCE_DIR + args(2))
 	}
 	
 	def driversTransformation(sc: SparkContext, args: Array[String]): Unit = {
 		checkArguments(args, 3)
-		sc.textFile(NEW_BATCH_DATA_DIR + args(1))      
+		val startTime = System.nanoTime()
+		val result = sc.textFile(NEW_BATCH_DATA_DIR + args(1))      
 			.map(_.split(","))    
-			.map(rec => rec(1) + "," + rec(4) + "," + rec(5) + "," + rec(7))     
-			.saveAsTextFile(DATA_SOURCE_DIR + args(2))
+			.map(rec => rec(1) + "," + rec(4) + "," + rec(5) + "," + rec(7))   
+		val endTime = System.nanoTime()
+		val durationMiliseconds = (endTime - startTime) / 1000000
+		write_performance_result(durationMiliseconds, args(0), fileWithResultsPerformance)
+		result.saveAsTextFile(DATA_SOURCE_DIR + args(2))
 	}
 	
 	def statusTransformation(sc: SparkContext, args: Array[String]): Unit = {
 		checkArguments(args, 3)
-		sc.textFile(NEW_BATCH_DATA_DIR + args(1))      
+		val startTime = System.nanoTime()
+		val result = sc.textFile(NEW_BATCH_DATA_DIR + args(1))      
 			.map(_.split(","))    
-			.map(rec => if (rec(1).contains("Lap")) rec(0) + "," + "Finished" else rec(0) + "," + rec(1))     
-			.saveAsTextFile(DATA_SOURCE_DIR + args(2))
+			.map(rec => if (rec(1).contains("Lap")) rec(0) + "," + "Finished" else rec(0) + "," + rec(1))    
+		val endTime = System.nanoTime()
+		val durationMiliseconds = (endTime - startTime) / 1000000
+		write_performance_result(durationMiliseconds, args(0), fileWithResultsPerformance)
+		result.saveAsTextFile(DATA_SOURCE_DIR + args(2))
 	}
 	
 	def racesTransformation(sc: SparkContext, args: Array[String]): Unit = {
 		checkArguments(args, 4)
+		val startTime = System.nanoTime()
 		val circuits = 	sc.textFile(NEW_BATCH_DATA_DIR + args(2))      
 					.map(_.split(","))    
 					.map(rec => (rec(0).toInt, rec(1))) 
@@ -166,14 +190,18 @@ object Transformation {
 		val manipulated_circuits = circuits.keyBy(t => t._1)
 		val manipulated_races = races.keyBy(t => t._3)
 
-		manipulated_races
+		val result = manipulated_races
 			.join(manipulated_circuits)
 			.map(t => t._2._1._1 + "," + t._2._1._2 + "," + t._2._2._2)
-			.saveAsTextFile(DATA_SOURCE_DIR + args(3))
+		val endTime = System.nanoTime()
+		val durationMiliseconds = (endTime - startTime) / 1000000
+		write_performance_result(durationMiliseconds, args(0), fileWithResultsPerformance)
+		result.saveAsTextFile(DATA_SOURCE_DIR + args(3))
 	}
 	
 	def lapTimesTransformation(sc: SparkContext, args: Array[String]): Unit = {
 		checkArguments(args, 5)
+		val startTime = System.nanoTime()
 		val races = sc.textFile(NEW_BATCH_DATA_DIR + args(2))      
 				.map(_.split(","))    
 				.map(rec => (rec(0).toInt, (rec(2).toInt + rec(1).toInt * 100).toString)) 
@@ -191,13 +219,16 @@ object Transformation {
 
 		val manipulated_lapTimes = lapTimes.keyBy(t => t._1)
 
-		manipulated_lapTimes
+		val result = manipulated_lapTimes
 			.join(manipulated_races)
 			.map(t => (t._2._2._2, t._2._1._2.toInt, t._2._1._3, t._2._1._4))
 			.keyBy(t => t._2)
 			.join(manipulated_drivers)
 			.map(t => t._2._1._1 + "," + t._2._1._3 + "," + t._2._2._2 + "," + t._2._1._4)
-			.saveAsTextFile(DATA_SOURCE_DIR + args(4))
+		val endTime = System.nanoTime()
+		val durationMiliseconds = (endTime - startTime) / 1000000
+		write_performance_result(durationMiliseconds, args(0), fileWithResultsPerformance)
+		result.saveAsTextFile(DATA_SOURCE_DIR + args(4))
 	}
 	
 	def checkArguments(args: Array[String], expectedNumberArguments: Int){
