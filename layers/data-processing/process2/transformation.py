@@ -111,8 +111,13 @@ def get_json(path):
     return data
 
 def save_vector_to_csv(path, data):
-    for element in data:
-        save_to_csv(path, element.get_csv_row())
+    try:
+        for element in data:
+            save_to_csv(path, element.get_csv_row())
+        return True
+    except Exception as e:
+        print(f'Something went not well during csv saving: {e}')
+        return False
 
 def save_to_csv(path, csv_row):
     # This is just for local testing
@@ -183,13 +188,15 @@ def process_results(filename):
             results.append(Result(int(roundId) + int(season) * RACE_ID_MULTIPLIER, grid, driverId, position, statusId, points, lap, speed))
             drivers.append(Driver(driverId, forename, surname, driver_nationality))
             constructors.append(Constructor(constructorId, name, constructor_nationality))
-
-    save_vector_to_csv(HDFS_DATA_SOURCE + "/races.csv", races)
-    save_vector_to_csv(HDFS_DATA_SOURCE + "/circuits.csv", circuits)
-    save_vector_to_csv(HDFS_DATA_SOURCE + "/results.csv", results)
-    save_vector_to_csv(HDFS_DATA_SOURCE + "/driver.csv", drivers)
-    save_vector_to_csv(HDFS_DATA_SOURCE + "/constructors.csv", constructors)
-    save_vector_to_csv(HDFS_DATA_SOURCE + "/status.csv", statuses)
+    
+    processingResult = True
+    processingResult &= save_vector_to_csv(HDFS_DATA_SOURCE + "/races.csv", races)
+    processingResult &= save_vector_to_csv(HDFS_DATA_SOURCE + "/circuits.csv", circuits)
+    processingResult &= save_vector_to_csv(HDFS_DATA_SOURCE + "/results.csv", results)
+    processingResult &= save_vector_to_csv(HDFS_DATA_SOURCE + "/driver.csv", drivers)
+    processingResult &= save_vector_to_csv(HDFS_DATA_SOURCE + "/constructors.csv", constructors)
+    processingResult &= save_vector_to_csv(HDFS_DATA_SOURCE + "/status.csv", statuses)
+    return processingResult
 
 def process_laps(filename):
     laps = []
@@ -205,7 +212,9 @@ def process_laps(filename):
                driverId = timing["driverId"]
                laps.append(Lap(raceId, number, driverId, position))
 
-    save_vector_to_csv(HDFS_DATA_SOURCE + "/laps.csv", laps)
+    processingResult = True
+    processingResult &= save_vector_to_csv(HDFS_DATA_SOURCE + "/laps.csv", laps)
+    return processingResult
 
 filename = sys.argv[1]
 
@@ -213,8 +222,18 @@ results_pattern = r'results\_.*\_.*\.json*'
 lap_times_pattern = r'lapTimes\_.*\_.*\.json*'
 
 if ('results' in filename):
-    process_results(filename)
+    print("Processing results file: {}".format(filename))
+    if process_results(filename):
+        print(f'{filename} has been processed succesfully, remove it from system')
+        os.system("hdfs dfs -rm {}".format(HDFS_NEW_INCREMENTAL_DATA + "/Results/" + filename))
+    else:
+        print(f'{filename} has not been processed succesfully, check its format')
 elif ('lapTimes' in filename):
-    process_laps(filename)
+    print("Processing lapTimes file: {}".format(filename))
+    if process_laps(filename):
+        print(f'{filename} has been processed succesfully, remove it from system')
+        os.system("hdfs dfs -rm {}".format(HDFS_NEW_INCREMENTAL_DATA + "/Lap_times/" + filename))
+    else:
+        print(f'{filename} has not been processed succesfully, check its format')
 else:
     print("Invalid argument")
