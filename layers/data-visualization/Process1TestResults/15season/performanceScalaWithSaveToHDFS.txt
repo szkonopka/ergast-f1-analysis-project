@@ -1,0 +1,88 @@
+status: 4932
+driver: 4420
+circuit: 4152
+constructor: 3926
+race: 4927
+lapTime: 32698
+result: 9192
+
+
+status: 4910
+driver: 4989
+circuit: 4585
+constructor: 4512
+race: 4821
+lapTime: 25523
+result: 8994
+
+
+status: 4390
+driver: 4653
+circuit: 4406
+constructor: 5063
+race: 5472
+lapTime: 30523
+result: 9263
+
+
+status: 4048
+driver: 4381
+circuit: 4133
+constructor: 3992
+race: 4700
+lapTime: 35163
+result: 8827
+
+
+status: 4076
+driver: 4108
+circuit: 4239
+constructor: 4410
+race: 5146
+lapTime: 39939
+result: 9129
+
+
+status: 4591
+driver: 5238
+circuit: 4189
+constructor: 4338
+race: 4989
+lapTime: 29108
+result: 9697
+
+
+status: 4353
+driver: 4279
+circuit: 4461
+constructor: 4195
+race: 5227
+lapTime: 32219
+result: 9812
+
+
+status: 4346
+driver: 4199
+circuit: 4126
+constructor: 4223
+race: 5221
+lapTime: 29097
+result: 9635
+
+
+status: 4205
+driver: 4016
+circuit: 4593
+constructor: 4116
+race: 5470
+lapTime: 28934
+result: 8557
+
+
+status: 4712
+driver: 4101
+circuit: 4013
+constructor: 5207
+race: 4877
+lapTime: 29148
+result: 9179

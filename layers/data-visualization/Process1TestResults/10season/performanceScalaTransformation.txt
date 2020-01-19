@@ -1,0 +1,89 @@
+status: 16
+driver: 22
+circuit: 17
+constructor: 18
+race: 1301
+lapTime: 1428
+result: 1660
+
+
+status: 27
+driver: 22
+circuit: 16
+constructor: 23
+race: 1354
+lapTime: 1426
+result: 1506
+
+
+status: 20
+driver: 19
+circuit: 20
+constructor: 23
+race: 1476
+lapTime: 1427
+result: 1798
+
+
+status: 90
+driver: 19
+circuit: 25
+constructor: 17
+race: 1507
+lapTime: 1348
+result: 1459
+
+
+status: 19
+driver: 17
+circuit: 18
+constructor: 18
+race: 1242
+lapTime: 1784
+result: 1751
+
+
+status: 17
+driver: 14
+circuit: 20
+constructor: 16
+race: 1428
+lapTime: 1385
+result: 1469
+
+
+status: 22
+driver: 29
+circuit: 36
+constructor: 19
+race: 1336
+lapTime: 1402
+result: 1569
+
+
+status: 16
+driver: 33
+circuit: 22
+constructor: 16
+race: 1437
+lapTime: 1281
+result: 1475
+
+
+status: 19
+driver: 15
+circuit: 13
+constructor: 18
+race: 1297
+lapTime: 1501
+result: 1562
+
+
+status: 19
+driver: 21
+circuit: 20
+constructor: 15
+race: 1268
+lapTime: 1324
+result: 2051
+

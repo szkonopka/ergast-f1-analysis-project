@@ -1,21 +1,3 @@
-status: 6086
-driver: 5714
-circuit: 5720
-constructor: 5645
-race: 6252
-lapTime: 104245
-result: 10273
-
-
-status: 5329
-driver: 5691
-circuit: 5224
-constructor: 4511
-race: 5082
-lapTime: 72225
-result: 9791
-
-
 status: 4841
 driver: 4651
 circuit: 4523
@@ -61,3 +43,46 @@ lapTime: 32582
 result: 12201
 
 
+status: 4980
+driver: 4608
+circuit: 6223
+constructor: 4803
+race: 5790
+lapTime: 21706
+result: 9299
+
+
+status: 4659
+driver: 4853
+circuit: 4846
+constructor: 4800
+race: 5194
+lapTime: 22165
+result: 9383
+
+
+status: 4777
+driver: 5000
+circuit: 4761
+constructor: 4365
+race: 5918
+lapTime: 30837
+result: 9621
+
+
+status: 4572
+driver: 4041
+circuit: 4091
+constructor: 4612
+race: 5686
+lapTime: 31381
+result: 9001
+
+
+status: 4164
+driver: 4025
+circuit: 4200
+constructor: 4041
+race: 4749
+lapTime: 31560
+result: 8817

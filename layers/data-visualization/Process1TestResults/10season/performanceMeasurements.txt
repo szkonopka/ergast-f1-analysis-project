@@ -1,0 +1,90 @@
+Status:  23113
+Drivers:  28393
+Circuits:  24519
+Constructors:  24522
+Races:  26257
+Lap times:  40692
+Results:  29844
+Pomiar przetwazania 1 [ms] proba 1 :  197356 
+
+Status:  26030
+Drivers:  25198
+Circuits:  24142
+Constructors:  25150
+Races:  25349
+Lap times:  37186
+Results:  27940
+Pomiar przetwazania 1 [ms] proba 2 :  191009 
+
+Status:  24942
+Drivers:  24522
+Circuits:  25651
+Constructors:  24634
+Races:  26760
+Lap times:  37565
+Results:  30745
+Pomiar przetwazania 1 [ms] proba 3 :  194833 
+
+Status:  27321
+Drivers:  28273
+Circuits:  25982
+Constructors:  25181
+Races:  25409
+Lap times:  28253
+Results:  30894
+Pomiar przetwazania 1 [ms] proba 4 :  191329 
+
+Status:  25224
+Drivers:  24766
+Circuits:  25313
+Constructors:  25092
+Races:  25869
+Lap times:  28510
+Results:  28386
+Pomiar przetwazania 1 [ms] proba 5 :  183176 
+
+Status:  24243
+Drivers:  25878
+Circuits:  25134
+Constructors:  23792
+Races:  25394
+Lap times:  37759
+Results:  29435
+Pomiar przetwazania 1 [ms] proba 1 :  191653 
+
+Status:  24967
+Drivers:  23927
+Circuits:  25689
+Constructors:  24006
+Races:  25401
+Lap times:  35531
+Results:  29681
+Pomiar przetwazania 1 [ms] proba 7 :  189223 
+
+Status:  24990
+Drivers:  26885
+Circuits:  25465
+Constructors:  27101
+Races:  25328
+Lap times:  36368
+Results:  27765
+Pomiar przetwazania 1 [ms] proba 8 :  193918 
+
+Status:  26448
+Drivers:  24287
+Circuits:  24553
+Constructors:  24477
+Races:  25397
+Lap times:  37005
+Results:  29679
+Pomiar przetwazania 1 [ms] proba 9 :  191862 
+
+Status:  23553
+Drivers:  25045
+Circuits:  24161
+Constructors:  24754
+Races:  26314
+Lap times:  38424
+Results:  29283
+Pomiar przetwazania 1 [ms] proba 10 :  191550 
+
