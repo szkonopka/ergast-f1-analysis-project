@@ -174,7 +174,7 @@ object Transformation {
 
 		val startTime = System.nanoTime()
 		val result = statusData.map(_.split(","))    
-			.map(rec => if (rec(1).contains("Lap")) rec(0) + "," + "Finished" else rec(0) + "," + rec(1))    
+			.map(rec => if (rec(1).contains("Lap")) rec(0) + "," + "\"Finished\"" else rec(0) + "," + rec(1))    
 		val endTime = System.nanoTime()
 		val durationMiliseconds = (endTime - startTime) / 1000000
 		write_performance_result(durationMiliseconds, args(0), fileWithResultsPerformance)

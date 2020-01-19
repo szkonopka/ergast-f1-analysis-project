@@ -1,0 +1,117 @@
+Status:  27519
+Drivers:  24800
+Circuits:  25457
+Constructors:  24229
+Races:  25918
+Lap times:  40981
+Results:  30525
+Pomiar przetwazania 1 [ms] proba 1 :  199452 
+
+Status:  23113
+Drivers:  28393
+Circuits:  24519
+Constructors:  24522
+Races:  26257
+Lap times:  40692
+Results:  29844
+Pomiar przetwazania 1 [ms] proba 2 :  197356 
+
+Status:  25646
+Drivers:  24792
+Circuits:  26311
+Constructors:  25155
+Races:  24857
+Lap times:  40951
+Results:  30452
+Pomiar przetwazania 1 [ms] proba 3 :  198182 
+
+Status:  25168
+Drivers:  30368
+Circuits:  28463
+Constructors:  28222
+Races:  27725
+Lap times:  40628
+Results:  29013
+Pomiar przetwazania 1 [ms] proba 4 :  209602 
+
+Status:  25232
+Drivers:  24637
+Circuits:  25321
+Constructors:  24096
+Races:  27890
+Lap times:  40038
+Results:  30872
+Pomiar przetwazania 1 [ms] proba 5 :  198101 
+
+Status:  26030
+Drivers:  25198
+Circuits:  24142
+Constructors:  25150
+Races:  25349
+Lap times:  37186
+Results:  27940
+Pomiar przetwazania 1 [ms] proba 6 :  191009 
+
+Status:  25744
+Drivers:  24852
+Circuits:  24468
+Constructors:  23899
+Races:  24955
+Lap times:  27538
+Results:  27311
+Pomiar przetwazania 1 [ms] proba 7 :  178781 
+
+Status:  24942
+Drivers:  24522
+Circuits:  25651
+Constructors:  24634
+Races:  26760
+Lap times:  37565
+Results:  30745
+Pomiar przetwazania 1 [ms] proba 8 :  194833 
+
+Status:  27808
+Drivers:  25676
+Circuits:  26069
+Constructors:  25530
+Races:  25466
+Lap times:  39474
+Results:  28198
+Pomiar przetwazania 1 [ms] proba 9 :  198236 
+
+Status:  24630
+Drivers:  24885
+Circuits:  24308
+Constructors:  25274
+Races:  27701
+Lap times:  39322
+Results:  31217
+Pomiar przetwazania 1 [ms] proba 10 :  197353 
+
+Status:  27321
+Drivers:  28273
+Circuits:  25982
+Constructors:  25181
+Races:  25409
+Lap times:  28253
+Results:  30894
+Pomiar przetwazania 1 [ms] proba 11 :  191329 
+
+Status:  25224
+Drivers:  24766
+Circuits:  25313
+Constructors:  25092
+Races:  25869
+Lap times:  28510
+Results:  28386
+Pomiar przetwazania 1 [ms] proba 12 :  183176 
+
+Status:  24880
+Drivers:  24387
+Circuits:  25558
+Constructors:  24413
+Races:  27160
+Lap times:  39286
+Results:  31076
+Pomiar przetwazania 1 [ms] proba 1 :  196775 
+
