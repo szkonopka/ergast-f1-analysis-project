@@ -1,0 +1,3 @@
+DROP DATABASE ergast_results CASCADE;
+
+SHOW DATABASES;
