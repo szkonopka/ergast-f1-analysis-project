@@ -31,6 +31,7 @@ hive -f load-csv-files-to-hive.sql --database ergast_results
 hive -f process3/01-race_season.sql --database ergast_results
 hive -f process3/02-driver_race.sql --database ergast_results
 
+bash process2/init.sh
 python3.6 process2/transformation.py lapTimes_20_2019.json
 python3.6 process2/transformation.py results_20_2019.json
 

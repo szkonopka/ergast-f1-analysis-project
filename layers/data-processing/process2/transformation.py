@@ -118,12 +118,12 @@ def save_to_csv(path, csv_row):
     # This is just for local testing
     """
     with open(path, 'a') as writer:
-        writer.write(csv_row)
-        writer.write('\n')
+        writer.write(str.encode(csv_row))
+        writer.write(str.encode('\n'))
     """
-    with client.write(path, append=True) as write:
-        writer.write(csv_row)
-        writer.write('\n')
+    with client.write(path, append=True) as writer:
+        writer.write(str.encode(csv_row))
+        writer.write(str.encode('\n'))
     
 
 def process_results(filename):
@@ -197,7 +197,7 @@ def process_laps(filename):
 
     root = data["MRData"]["RaceTable"]
     for race in root['Races']:
-       raceId = (int(race["season"]) + int(race["round"])) * RACE_ID_MULTIPLIER
+       raceId = int(race["season"]) * RACE_ID_MULTIPLIER + int(race["round"])
        for lap in race["Laps"]:
            number = lap["number"]
            for timing in lap["Timings"]:
