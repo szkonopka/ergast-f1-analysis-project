@@ -1,0 +1,504 @@
+
+ 20 seasons 
+
+Status:  26564
+Drivers:  25871
+Circuits:  24548
+Constructors:  25430
+Races:  27900
+Lap times:  261161
+Results:  30215
+Pomiar przetwazania 1 [ms] proba 1 :  421704 
+
+Status:  25581
+Drivers:  23725
+Circuits:  28376
+Constructors:  25345
+Races:  25829
+Lap times:  43349
+Results:  29112
+Pomiar przetwazania 1 [ms] proba 2 :  201332 
+
+Status:  24057
+Drivers:  25699
+Circuits:  25059
+Constructors:  26375
+Races:  24908
+Lap times:  42342
+Results:  27688
+Pomiar przetwazania 1 [ms] proba 3 :  196141 
+
+Sredni czas przetwazania 1 [ms]:  273059 
+
+1 seasons 
+
+Status:  23763
+Drivers:  24902
+Circuits:  24307
+Constructors:  24058
+Races:  26186
+Lap times:  26959
+Results:  27369
+Pomiar przetwazania 1 [ms] proba 1 :  177557 
+
+Status:  24768
+Drivers:  27313
+Circuits:  24142
+Constructors:  25670
+Races:  25058
+Lap times:  30224
+Results:  26670
+Pomiar przetwazania 1 [ms] proba 2 :  183859 
+
+Sredni czas przetwazania 1 [ms]:  180708 
+
+10 seasons 
+
+Status:  24967
+Drivers:  23927
+Circuits:  25689
+Constructors:  24006
+Races:  25401
+Lap times:  35531
+Results:  29681
+Pomiar przetwazania 1 [ms] proba 1 :  189223 
+
+Status:  24990
+Drivers:  26885
+Circuits:  25465
+Constructors:  27101
+Races:  25328
+Lap times:  36368
+Results:  27765
+Pomiar przetwazania 1 [ms] proba 2 :  193918 
+
+Status:  26448
+Drivers:  24287
+Circuits:  24553
+Constructors:  24477
+Races:  25397
+Lap times:  37005
+Results:  29679
+Pomiar przetwazania 1 [ms] proba 3 :  191862 
+
+15 seasons 
+
+Status:  26882
+Drivers:  25046
+Circuits:  23440
+Constructors:  23011
+Races:  23283
+Lap times:  46739
+Results:  27366
+Pomiar przetwazania 1 [ms] proba 1 :  195783 
+
+Status:  22398
+Drivers:  22141
+Circuits:  22426
+Constructors:  22336
+Races:  22201
+Lap times:  38538
+Results:  26093
+Pomiar przetwazania 1 [ms] proba 2 :  176149 
+
+Status:  22023
+Drivers:  22166
+Circuits:  21769
+Constructors:  22241
+Races:  23089
+Lap times:  38815
+Results:  27172
+Pomiar przetwazania 1 [ms] proba 3 :  177292 
+
+Status:  21823
+Drivers:  22214
+Circuits:  22476
+Constructors:  21908
+Races:  22886
+Lap times:  38436
+Results:  27723
+Pomiar przetwazania 1 [ms] proba 4 :  177480 
+
+Status:  21823
+Drivers:  21671
+Circuits:  22225
+Constructors:  21824
+Races:  23794
+Lap times:  39645
+Results:  28359
+Pomiar przetwazania 1 [ms] proba 5 :  179356 
+
+Sredni czas przetwazania 1 [ms]:  181212 
+
+
+ 20 seasons 
+
+Status:  22857
+Drivers:  22634
+Circuits:  22185
+Constructors:  22681
+Races:  23438
+Lap times:  41072
+Results:  26773
+Pomiar przetwazania 1 [ms] proba 1 :  181656 
+
+Status:  22363
+Drivers:  21688
+Circuits:  22340
+Constructors:  22343
+Races:  22610
+Lap times:  40978
+Results:  27727
+Pomiar przetwazania 1 [ms] proba 2 :  180066 
+
+Sredni czas przetwazania 1 [ms]:  180861 
+
+1 seasons 
+
+Status:  22723
+Drivers:  23898
+Circuits:  23403
+Constructors:  22032
+Races:  22667
+Lap times:  24450
+Results:  24919
+Pomiar przetwazania 1 [ms] proba 1 :  164108 
+
+Status:  22824
+Drivers:  22162
+Circuits:  22047
+Constructors:  21841
+Races:  22975
+Lap times:  24835
+Results:  24035
+Pomiar przetwazania 1 [ms] proba 2 :  160733 
+
+Sredni czas przetwazania 1 [ms]:  162420 
+
+
+
+ 5 seasons 
+
+Status:  23622
+Drivers:  25341
+Circuits:  22664
+Constructors:  22503
+Races:  23839
+Lap times:  195859
+Results:  27296
+Pomiar przetwazania 1 [ms] proba 1 :  341144 
+
+Status:  22739
+Drivers:  22860
+Circuits:  21969
+Constructors:  23095
+Races:  22108
+Lap times:  31530
+Results:  25902
+Pomiar przetwazania 1 [ms] proba 2 :  170222 
+
+Status:  22256
+Drivers:  22083
+Circuits:  22251
+Constructors:  23665
+Races:  23638
+Lap times:  31992
+Results:  25663
+Pomiar przetwazania 1 [ms] proba 3 :  171563 
+
+Sredni czas przetwazania 1 [ms]:  227643 
+
+1 seasons 
+
+Status:  25177
+Drivers:  23045
+Circuits:  22824
+Constructors:  21888
+Races:  22329
+Lap times:  25531
+Results:  24468
+Pomiar przetwazania 1 [ms] proba 1 :  165277 
+
+Status:  22564
+Drivers:  22089
+Circuits:  23197
+Constructors:  22809
+Races:  22514
+Lap times:  26095
+Results:  23414
+Pomiar przetwazania 1 [ms] proba 2 :  162698 
+
+Status:  22782
+Drivers:  22226
+Circuits:  21985
+Constructors:  22743
+Races:  22752
+Lap times:  25692
+Results:  24500
+Pomiar przetwazania 1 [ms] proba 3 :  162695 
+
+Sredni czas przetwazania 1 [ms]:  163556 
+
+10 seasons 
+
+Status:  23110
+Drivers:  22460
+Circuits:  24826
+Constructors:  22339
+Races:  22545
+Lap times:  38026
+Results:  26539
+Pomiar przetwazania 1 [ms] proba 1 :  179863 
+
+Status:  22325
+Drivers:  21774
+Circuits:  22670
+Constructors:  22252
+Races:  23580
+Lap times:  42260
+Results:  28041
+Pomiar przetwazania 1 [ms] proba 2 :  182917 
+
+Status:  22404
+Drivers:  23635
+Circuits:  22277
+Constructors:  22171
+Races:  23377
+Lap times:  37549
+Results:  28734
+Pomiar przetwazania 1 [ms] proba 3 :  180164 
+
+Sredni czas przetwazania 1 [ms]:  180981 
+
+
+ 5 seasons 
+
+Status:  22032
+Drivers:  22838
+Circuits:  22266
+Constructors:  21626
+Races:  24233
+Lap times:  30574
+Results:  25401
+Pomiar przetwazania 1 [ms] proba 1 :  168987 
+
+Status:  21787
+Drivers:  22021
+Circuits:  22554
+Constructors:  22380
+Races:  22822
+Lap times:  31499
+Results:  25992
+Pomiar przetwazania 1 [ms] proba 2 :  169072 
+
+Sredni czas przetwazania 1 [ms]:  169029 
+
+1 seasons 
+
+Status:  22984
+Drivers:  22016
+Circuits:  22516
+Constructors:  23259
+Races:  23305
+Lap times:  29157
+Results:  26358
+Pomiar przetwazania 1 [ms] proba 1 :  169613 
+
+Status:  24584
+Drivers:  23825
+Circuits:  24870
+Constructors:  24532
+Races:  24468
+Lap times:  29003
+Results:  26668
+Pomiar przetwazania 1 [ms] proba 2 :  177965 
+
+Sredni czas przetwazania 1 [ms]:  173789 
+
+10 seasons 
+
+Status:  24243
+Drivers:  25878
+Circuits:  25134
+Constructors:  23792
+Races:  25394
+Lap times:  37759
+Results:  29435
+Pomiar przetwazania 1 [ms] proba 1 :  191653 
+
+Status:  25158
+Drivers:  23940
+Circuits:  24436
+Constructors:  27929
+Races:  25251
+Lap times:  39654
+Results:  31935
+Pomiar przetwazania 1 [ms] proba 2 :  198317 
+
+Sredni czas przetwazania 1 [ms]:  194985 
+
+
+ 5 seasons 
+
+Status:  24664
+Drivers:  26625
+Circuits:  26605
+Constructors:  26272
+Races:  27365
+Lap times:  33962
+Results:  28089
+Pomiar przetwazania 1 [ms] proba 1 :  193597 
+
+Sredni czas przetwazania 1 [ms]:  193597 
+
+1 seasons 
+
+Status:  25520
+Drivers:  24021
+Circuits:  24749
+Constructors:  24450
+Races:  24756
+Lap times:  28167
+Results:  26655
+Pomiar przetwazania 1 [ms] proba 1 :  178332 
+
+Sredni czas przetwazania 1 [ms]:  178332 
+
+10 seasons 
+
+Status:  23666
+Drivers:  25439
+Circuits:  23754
+Constructors:  24671
+Races:  24178
+Lap times:  27293
+Results:  27461
+Pomiar przetwazania 1 [ms] proba 1 :  176477 
+
+Sredni czas przetwazania 1 [ms]:  176477 
+
+
+ 5 seasons 
+
+Status:  26408
+Drivers:  23690
+Circuits:  23475
+Constructors:  24405
+Races:  24336
+Lap times:  32528
+Results:  26329
+Pomiar przetwazania 1 [ms] proba 1 :  181187 
+
+Status:  25183
+Drivers:  24437
+Circuits:  25620
+Constructors:  25258
+Races:  26066
+Lap times:  31298
+Results:  28070
+Pomiar przetwazania 1 [ms] proba 2 :  185946 
+
+Sredni czas przetwazania 1 [ms]:  183566 
+
+1 seasons 
+
+Status:  24331
+Drivers:  24466
+Circuits:  23901
+Constructors:  25018
+Races:  25027
+Lap times:  26546
+Results:  26530
+Pomiar przetwazania 1 [ms] proba 1 :  175831 
+
+Status:  24680
+Drivers:  24744
+Circuits:  23969
+Constructors:  26431
+Races:  25925
+Lap times:  29293
+Results:  26062
+Pomiar przetwazania 1 [ms] proba 2 :  181121 
+
+Sredni czas przetwazania 1 [ms]:  178476 
+
+10 seasons 
+
+Status:  26143
+Drivers:  24493
+Circuits:  26277
+Constructors:  24015
+Races:  25057
+Lap times:  36922
+Results:  28669
+Pomiar przetwazania 1 [ms] proba 1 :  191607 
+
+Sredni czas przetwazania 1 [ms]:  191607 
+
+
+ 20 seasons 
+
+Status:  23513
+Drivers:  25159
+Circuits:  23898
+Constructors:  23974
+Races:  25488
+Lap times:  58798
+Results:  29392
+Pomiar przetwazania 1 [ms] proba 1 :  210238 
+
+Sredni czas przetwazania 1 [ms]:  210238 
+
+10 seasons 
+
+Status:  23673
+Drivers:  25958
+Circuits:  23525
+Constructors:  24503
+Races:  28586
+Lap times:  39250
+Results:  28267
+Pomiar przetwazania 1 [ms] proba 1 :  193776 
+
+Status:  24577
+Drivers:  24861
+Circuits:  25325
+Constructors:  25157
+Races:  24469
+Lap times:  27300
+Results:  28069
+Pomiar przetwazania 1 [ms] proba 2 :  179771 
+
+Status:  23553
+Drivers:  25045
+Circuits:  24161
+Constructors:  24754
+Races:  26314
+Lap times:  38424
+Results:  29283
+Pomiar przetwazania 1 [ms] proba 3 :  191550 
+
+Sredni czas przetwazania 1 [ms]:  188365 
+
+15 seasons 
+
+Status:  24193
+Drivers:  24518
+Circuits:  23725
+Constructors:  25816
+Races:  25698
+Lap times:  29519
+Results:  29007
+Pomiar przetwazania 1 [ms] proba 1 :  182492 
+
+Status:  25218
+Drivers:  23471
+Circuits:  24403
+Constructors:  24325
+Races:  24633
+Lap times:  28533
+Results:  29106
+Pomiar przetwazania 1 [ms] proba 2 :  179706 
+
+Sredni czas przetwazania 1 [ms]:  181099 
+

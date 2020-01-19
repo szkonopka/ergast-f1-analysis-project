@@ -1,0 +1,476 @@
+
+ 20 seasons 
+
+status: 5277
+driver: 4918
+circuit: 4425
+constructor: 5034
+race: 5864
+lapTime: 237971
+result: 9771
+
+
+status: 4980
+driver: 4608
+circuit: 6223
+constructor: 4803
+race: 5790
+lapTime: 21706
+result: 9299
+
+
+status: 4659
+driver: 4853
+circuit: 4846
+constructor: 4800
+race: 5194
+lapTime: 22165
+result: 9383
+
+
+
+ 1 seasons 
+
+status: 4446
+driver: 4429
+circuit: 4414
+constructor: 4466
+race: 5092
+lapTime: 8234
+result: 7387
+
+
+status: 4531
+driver: 4688
+circuit: 4688
+constructor: 4973
+race: 5050
+lapTime: 8566
+result: 6580
+
+
+
+ 10 seasons 
+
+status: 4787
+driver: 4517
+circuit: 5044
+constructor: 4976
+race: 5104
+lapTime: 15808
+result: 9779
+
+
+status: 4590
+driver: 5718
+circuit: 5161
+constructor: 5251
+race: 5560
+lapTime: 16541
+result: 8405
+
+
+status: 5472
+driver: 4308
+circuit: 4716
+constructor: 4365
+race: 5240
+lapTime: 17370
+result: 9283
+
+
+
+ 15 seasons 
+
+status: 4910
+driver: 4989
+circuit: 4585
+constructor: 4512
+race: 4821
+lapTime: 25523
+result: 8994
+
+
+status: 4366
+driver: 4164
+circuit: 4371
+constructor: 4059
+race: 4660
+lapTime: 19558
+result: 8620
+
+
+status: 4150
+driver: 4314
+circuit: 4130
+constructor: 4077
+race: 4988
+lapTime: 19574
+result: 9412
+
+
+status: 4142
+driver: 4117
+circuit: 4691
+constructor: 4070
+race: 4826
+lapTime: 18541
+result: 8949
+
+
+status: 4128
+driver: 3973
+circuit: 4061
+constructor: 4107
+race: 4942
+lapTime: 19331
+result: 9421
+
+
+
+ 20 seasons 
+
+status: 4572
+driver: 4041
+circuit: 4091
+constructor: 4612
+race: 5686
+lapTime: 21381
+result: 9001
+
+
+status: 4164
+driver: 4025
+circuit: 4200
+constructor: 4041
+race: 4749
+lapTime: 21560
+result: 8817
+
+
+
+ 1 seasons 
+
+status: 4215
+driver: 4883
+circuit: 4925
+constructor: 4297
+race: 4637
+lapTime: 7066
+result: 6332
+
+
+status: 4305
+driver: 4152
+circuit: 4176
+constructor: 4115
+race: 4704
+lapTime: 7543
+result: 6014
+
+
+
+ 
+
+
+ 5 seasons 
+
+status: 4678
+driver: 5385
+circuit: 4627
+constructor: 4144
+race: 4979
+lapTime: 175945
+result: 7258
+
+
+status: 4441
+driver: 4052
+circuit: 4220
+constructor: 4638
+race: 4666
+lapTime: 12214
+result: 7291
+
+
+status: 4134
+driver: 4118
+circuit: 4298
+constructor: 4738
+race: 4702
+lapTime: 12483
+result: 7559
+
+
+
+ 1 seasons 
+
+status: 4773
+driver: 4103
+circuit: 4373
+constructor: 4036
+race: 4656
+lapTime: 7448
+result: 5934
+
+
+status: 4265
+driver: 4249
+circuit: 4250
+constructor: 4550
+race: 4585
+lapTime: 8378
+result: 5768
+
+
+status: 4232
+driver: 4057
+circuit: 4093
+constructor: 4123
+race: 4861
+lapTime: 7617
+result: 5878
+
+
+
+ 10 seasons 
+
+status: 4252
+driver: 4399
+circuit: 5351
+constructor: 4404
+race: 4677
+lapTime: 17531
+result: 8105
+
+
+status: 4470
+driver: 4033
+circuit: 4182
+constructor: 4144
+race: 4892
+lapTime: 21488
+result: 8891
+
+
+status: 4030
+driver: 5867
+circuit: 4014
+constructor: 4207
+race: 4742
+lapTime: 17960
+result: 9205
+
+
+
+ 5 seasons 
+
+status: 4133
+driver: 4135
+circuit: 4222
+constructor: 4090
+race: 4750
+lapTime: 11969
+result: 7622
+
+
+status: 4194
+driver: 4029
+circuit: 4350
+constructor: 4103
+race: 4585
+lapTime: 12787
+result: 7099
+
+
+
+ 1 seasons 
+
+status: 4921
+driver: 4218
+circuit: 4546
+constructor: 4790
+race: 4584
+lapTime: 8911
+result: 6424
+
+
+status: 4660
+driver: 4400
+circuit: 4539
+constructor: 4428
+race: 4939
+lapTime: 8502
+result: 6617
+
+
+
+ 10 seasons 
+
+status: 4450
+driver: 4707
+circuit: 4796
+constructor: 4376
+race: 5424
+lapTime: 16898
+result: 8888
+
+
+status: 4877
+driver: 4508
+circuit: 4619
+constructor: 6177
+race: 5275
+lapTime: 18730
+result: 10362
+
+
+
+ 5 seasons 
+
+status: 4533
+driver: 5725
+circuit: 5310
+constructor: 5153
+race: 5914
+lapTime: 13256
+result: 8653
+
+
+
+ 1 seasons 
+
+status: 4553
+driver: 4637
+circuit: 5277
+constructor: 5011
+race: 5005
+lapTime: 8221
+result: 6910
+
+
+
+ 10 seasons 
+
+status: 4560
+driver: 4962
+circuit: 4307
+constructor: 4235
+race: 5195
+result: 8092
+
+
+
+ 5 seasons 
+
+status: 5216
+driver: 4545
+circuit: 4263
+constructor: 4518
+race: 5097
+lapTime: 13437
+result: 7619
+
+
+status: 4613
+driver: 4686
+circuit: 5215
+constructor: 4789
+race: 5889
+lapTime: 12201
+result: 8368
+
+
+
+ 1 seasons 
+
+status: 4535
+driver: 4722
+circuit: 4605
+constructor: 4435
+race: 5285
+lapTime: 7708
+result: 6195
+
+
+status: 4490
+driver: 4780
+circuit: 4497
+constructor: 4914
+race: 5751
+lapTime: 8984
+result: 6236
+
+
+
+ 10 seasons 
+
+status: 4955
+driver: 4873
+circuit: 5141
+constructor: 4487
+race: 5428
+lapTime: 16965
+result: 8584
+
+
+
+ 20 seasons 
+
+status: 4777
+driver: 5000
+circuit: 4761
+constructor: 4365
+race: 5918
+lapTime: 32837
+result: 9621
+
+
+
+ 10 seasons 
+
+status: 4390
+driver: 5320
+circuit: 4327
+constructor: 4668
+race: 6266
+lapTime: 17298
+result: 8477
+
+
+status: 4759
+driver: 4708
+circuit: 4324
+constructor: 4920
+race: 5287
+result: 8836
+
+
+status: 4720
+driver: 4886
+circuit: 4480
+constructor: 4311
+race: 5077
+lapTime: 17500
+result: 9865
+
+
+
+ 15 seasons 
+
+status: 4390
+driver: 4653
+circuit: 4406
+constructor: 5063
+race: 5472
+result: 9263
+
+
+status: 4531
+driver: 4349
+circuit: 4883
+constructor: 4419
+race: 5327
+result: 9944
+
+
