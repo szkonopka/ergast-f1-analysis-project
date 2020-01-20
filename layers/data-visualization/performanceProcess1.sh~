@@ -1,8 +1,8 @@
 #!/bin/sh
 
-numberAttempts=1
+numberAttempts=5
 averageTime=0
-for i in {1..$numberAttempts}
+for i in $( seq 1 $numberAttempts )
 do
 start=$(date +%s%N)
 spark-submit --class Transformation --master local transformWithPerformanceMeasure.jar status status.csv status 
